@@ -1,0 +1,32 @@
+.alarmSelector {
+    $self: #{&};
+  .v-input >>> .v-input__control .v-input__slot {
+    border: solid 1px #5b6381;
+    min-height: auto !important;
+    display: flex !important;
+    align-items: center !important;
+    margin-bottom: 0px ;
+  }
+  .v-input >>> .v-input__control .v-text-field__details{
+    display: none;
+  }
+  .v-input >>> .v-input__control .v-input__slot .v-select__slot .v-select__selections{
+    padding-top: 0px;
+  }
+  .v-input >>> .v-input__control .v-input__slot .v-input__append-inner {
+    margin-top: 5px;
+  }
+}
+.v-select-list .v-list{
+  margin-top: 33px;
+  background-color: var(--listBackgroundColor);
+  color:  var(--multiSelectorColor);
+}
+
+.v-select-list {
+  >>> .v-list {
+    margin-top: 33px;
+    background-color: var(--listBackgroundColor) !important;
+  }
+}
+

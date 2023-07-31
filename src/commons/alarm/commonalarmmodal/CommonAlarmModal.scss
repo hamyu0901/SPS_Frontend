@@ -1,0 +1,20 @@
+.common-alarm-modal {
+  $self: #{&};
+  display: flex;
+  height: 100%;
+  &__contents {
+    display: flex;
+    flex-direction: column;
+    &-item {
+      &:first-child {
+        margin-bottom: 24px;
+      }
+      &__container {
+        height: 100%;
+        &-chart {
+         height: 360px !important;
+        }
+      }
+    }
+  }
+}

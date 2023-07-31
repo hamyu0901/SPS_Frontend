@@ -1,0 +1,37 @@
+.postHistorySelector {
+  height: 34px;
+  width: 100%;
+}
+
+.buttonItem {
+  background-color: var(--buttonBackgroundColor) !important;
+  color: var(--buttonColor);
+}
+.searchBtn {
+  height: 33px;
+  min-width: 0;
+  margin: 0;
+}
+.dialogBtn {
+  min-width: 80px;
+}
+.inputAlarmCode {
+  height: 34px;
+  width: 100%;
+  background-color: var(--inputBackgroundColor);
+  color: var(--inputColor);
+  border: solid 1px var(--inputBorderColor) !important;
+  text-align: center;
+  font-size: 15px;
+}
+
+.inputAlarmCode::placeholder {
+  color: var(--inputColor);
+}
+.actionReportDlgCard {
+  background-color: var(--actionReportDlgCardBackgroundColor) !important;
+}
+.actionReportDlgCardTitle { 
+  background-color: var(--actionReportDlgCardTitleBackgroundColor) !important;
+  color: var(--actionReportDlgCardTitleColor) !important; 
+}

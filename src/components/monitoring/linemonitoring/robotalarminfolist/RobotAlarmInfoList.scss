@@ -1,0 +1,42 @@
+.robot-alarm-info-list {
+    $self: #{&};
+    &__card{
+        width: 100%;
+        height: 100%;
+        font-size: 15px;
+        background-color: #313150 !important;
+        .v-expansion-panel__container {
+            background-color: #313150 !important
+        }  
+        &-chip{
+            width: 110px;
+            margin: 30px 15px 30px 15px;
+            font-size: 17px;
+            >>>.v-chip__content{
+                width : 100%;
+                justify-content: center;
+                font-size: 17px;
+                font-weight: bold;
+                border: 2px solid #2195F3
+            }
+        }
+        &__content{
+            color: white !important;
+            &-header {
+                max-width: 10%;
+            }
+        }
+    }
+    &__empty{
+        background-color: #313150;
+        min-height: 100px;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        line-height: 100px;
+
+    }
+    .line {
+        border-bottom: 1px solid #5C5A77 !important;
+    }
+}

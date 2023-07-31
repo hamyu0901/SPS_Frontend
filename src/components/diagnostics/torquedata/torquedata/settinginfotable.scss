@@ -1,0 +1,24 @@
+.settingInfoTableCard {
+  border: solid 1px var(--settingInfoTableCardBorderColor) !important;
+}
+.settingInfo_table {
+  width: 100%;
+}
+.settingInfo_table_row {
+  height: 100%;
+}
+.settingInfo_table_name {
+  height: 50.6px;
+  background-color: var(--settingInfoTableNameBackgroundColor); 
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-weight: bold;
+}
+.settingInfo_table_value {
+  height: 50.6px;
+  background-color: var(--settingInfoTableValueBackgroundColor); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 

@@ -1,0 +1,11 @@
+@import "src/commons/table";
+.valveCountTableCard {
+  border: solid 1px var(--valveCountTableCardBorderColor) !important;
+}
+.tdText { 
+  color: var(--tdTextColor);
+}
+.buttonItem {
+  background-color: var(--buttonBackgroundColor) !important;
+  color: var(--buttonColor);
+}

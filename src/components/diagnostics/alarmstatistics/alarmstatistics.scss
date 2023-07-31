@@ -1,0 +1,58 @@
+a {
+  pointer-events: none;
+  cursor: default;
+}
+
+.AlarmstatisticsSelector {
+  height: 34px;
+  width: 100%;
+}
+
+.FilterSelector {
+  height: 34px;
+  width: 100%;
+}
+// .alarmLevel{
+//   height: 34px;
+// } renew
+.alarmLevel{
+  height: 34px;
+  width: 200px;
+  margin-right: 10px;
+}
+.FilterInputMessage {
+  width: 50px;
+}
+
+.v-btn {
+  min-width: 0;
+  margin: 0;
+}
+
+.buttonItem {
+  background-color: var(--buttonBackgroundColor) !important;
+  color: var(--buttonColor) !important;
+}
+
+.searchBtn {
+  margin-top: 1px;
+  height: 33px;
+}
+// .priority {
+//   flex-basis: 50% !important;
+//   max-width: 50% !important;
+// } renew
+
+@media (min-width: 1264px) {
+  .priority{
+    flex-basis: 100% !important;
+    max-width: 100% !important;
+  }
+}
+@media (min-width: 1264px) {
+  .alarmInfoTable{
+    padding-top: 5px !important;
+    padding-left: 0px !important;
+  }
+}
+

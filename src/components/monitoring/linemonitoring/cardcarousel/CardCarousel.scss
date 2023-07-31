@@ -1,0 +1,45 @@
+.card-carousel-container {
+  $self: #{&};
+  max-height: 240px;
+  min-width: 1214px !important;
+  max-width: 1214px !important;
+  &__title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    min-height: 34px;
+    max-height: 34px;
+    background-color: #1E1F40;
+    > span {
+      padding: 0;
+    }
+    &-btn {
+      position: absolute !important;
+      right: 5px !important;
+      background-color: #3B3D6D !important;
+      border-radius: 12px;
+      height: 30px;
+    }
+  }
+  &__carousel {
+    background-color: #333A5F !important;
+    &-item-wrapper {
+      display: flex;
+      justify-content: space-around;
+      padding: 16px 50px;
+    }
+  }
+  &__empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 185px;
+    width: 100%;
+    background-color: #333A5F !important;
+    font-size: 24px;
+    font-weight: 700;
+  }
+}

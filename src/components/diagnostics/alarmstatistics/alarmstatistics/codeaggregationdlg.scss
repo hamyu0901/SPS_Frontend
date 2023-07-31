@@ -1,0 +1,18 @@
+.codeAggregationDlgCard {
+  background-color: var(--codeAggreagationDlgCardBackgroundColor) !important;
+}
+
+.codeAggregationDlgSubCard {
+  background-color: var(--codeAggregationDlgSubCardBackgroundColor);
+  border: solid 1px var(--cardItemBorderColor) !important;
+}
+
+.codeAggregationDlgSubCardTitle {
+  background-color: var(--codeAggreagationDlgSubCardTitleBackgroundColor);
+  color: var(--codeAggregationDlgSubCardTitleColor);
+}
+
+.exitBtn {
+  background-color: var(--buttonBackgroundColor) !important; 
+  color: var(--buttonColor) !important;
+}

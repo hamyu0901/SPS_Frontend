@@ -1,0 +1,4 @@
+    div.v-tabs__div /deep/ .v-tabs__item:not(.v-tabs__item--active) {
+        opacity: 1;
+        border-radius: 10px 10px 0 0 /  10px 10px 0 0;
+    }

@@ -1,0 +1,113 @@
+// @import "src/commons/table";
+
+.treeView {
+    font-size: 15px;
+}
+.treeView:hover {
+    cursor: pointer;
+}
+.zonename{
+    font-size: 30px;
+    color: #2DB67C
+}
+.treebox{
+    max-width: 13%;
+    flex-basis: 13%;
+    min-width: 250px;
+    background-color: rgb(33, 37, 51);
+
+}
+.zoneReport{
+    max-width: 87%;
+    flex-basis: 87%
+}
+.reportlist {
+    border: 2px solid #2DB67C;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    height: 50px;
+    padding-right: 5px;
+    padding-top: 5px;
+    flex-basis: 40% !important;
+    max-width: 40% !important;
+}
+.reportlist .v-input{
+    padding-top: 0px !important;
+    >>> .v-input__slot:before, >>> .v-input__slot:after {
+        display: none;
+    }
+}
+.value {
+    padding: 0px !important;
+}
+.reportlist .v-select{
+    padding-left: 20px !important;
+    font-size: 18px !important;
+}
+#tabMenuBox{
+    padding: 30px;
+    background-color: #272c42 !important;
+    height: 105px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.btnToggle {
+    display: flex;
+    justify-content: center !important;
+}
+.btntype {
+    width: 270px !important;
+    height: 45px;
+    border-radius: 5px !important;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 13px;
+    border: 2px solid #33CC33 !important;
+}
+.v-btn-toggle--selected {
+    box-shadow: none;
+}
+.treeItem {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px ;
+    font-family: sans-serif ;
+}
+.treeItemChildren {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-family: sans-serif ;
+}
+.zoneopinion {
+    flex-basis: 15% !important;
+    max-width: 15% !important;
+}
+.savebtn {
+    text-align: right;
+}
+
+.prevtext{
+    font-size: 18px;
+    margin: auto;
+    margin-right: 10px !important;
+    text-align: right;
+}
+.prevreportlist{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    border: 3px solid #5E7294;
+    height: 50px;
+}
+.prevreportlist .v-input{
+    padding-top: 0px !important;
+    >>> .v-input__slot:before, >>> .v-input__slot:after {
+        display: none;
+    }
+}
+.prevreportlist .v-select{
+    font-size: 18px !important;
+}

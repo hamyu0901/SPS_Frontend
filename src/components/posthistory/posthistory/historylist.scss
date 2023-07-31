@@ -1,0 +1,62 @@
+.historyListCard {
+  width: inherit;
+  height: 900px;
+  background-color: var(--historyListCardBackgroundColor) !important;
+  border: solid 1px var(--historyListCardBorderColor) !important;
+}
+
+.historyListCardTitle {
+  background-color: var(--historyListCardTitleBackgroundColor);
+  color: var(--historyListCardTitleColor) !important;
+}
+
+.historyList {
+  width: 100%;
+  max-height: 845px;
+  overflow-y: auto;
+  overflow-x: unset;
+}
+.historyListContents {
+  width: inherit;
+  background-color: var(--historyListContentsBackgroundColor) !important; // list background color
+}
+
+.actionListTitle {
+  margin-top: -10px;
+  max-width: 1200px;
+  display: block;
+  overflow: hidden;white-space: nowrap;
+  text-overflow:ellipsis;
+  font-size: 18px;
+}
+
+.chips {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.divider {
+  margin: 0;
+}
+
+.historyListItemDlgCard {
+  background-color: var(--historyListItemDlgBackgroundColor) !important;
+}
+
+.historyListItemDlgCardTitle {
+  background-color: var(--historyListItemDlgCardTitleBackgroundColor);
+  color: var(--historyListItemDlgCardTitleColor) !important;
+}
+
+.buttonItem {
+  background-color: var(--buttonBackgroundColor) !important;
+  color: var(--buttonColor) !important;
+}
+
+.dialogBtn {
+  min-width: 80px;
+}
+
+.tdText { 
+  color: var(--tdTextColor);
+}

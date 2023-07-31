@@ -1,0 +1,9 @@
+.btnStatus{
+    $self: #{&};
+    >>>.v-badge__badge{
+        background-color: unset !important;
+        padding-top: 5px;
+        padding-right: 5px;
+    }
+}
+

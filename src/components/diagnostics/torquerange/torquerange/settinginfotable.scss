@@ -1,0 +1,23 @@
+    .settingInfo_table {
+      width: 100%;
+    }
+    .settingInfo_table_row {
+      height: 100%;
+    }
+    .settingInfo_table_name {
+      height: 50.6px;
+      background-color: #21263a; 
+      color: #bdc2dc;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      
+    }
+    .settingInfo_table_value {
+      height: 50.6px;
+      background-color: #2a2f44;
+      color: #868ba7; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    } 

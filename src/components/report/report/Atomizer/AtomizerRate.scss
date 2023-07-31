@@ -1,0 +1,33 @@
+.atomizer-rate{
+    $self: #{&};
+    p{
+        font-size: 15px;
+        line-height: 35px;
+        color: #AFA3A3;
+        font-weight: 400;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    &__info {
+        text-align: center;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 33px;
+        &-sub{
+            opacity: 0.7;
+        }
+
+        &-arrow{
+            line-height: 40px;
+            margin-left: 5px;
+            margin-right: 5px;
+            img{
+                width: 15px;
+                height: 15px;
+            }
+        }
+    }
+}
+.alert{
+    color: #FF5252;
+}

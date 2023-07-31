@@ -1,0 +1,1878 @@
+﻿{
+    "common": {
+        "condition": {
+            "boothid": "[通知] 请选择喷房ID.",
+            "zoneid": "[通知] 请选择ZONE ID.",
+            "robotid": "[通知] 请选择ROBOT ID."
+        },
+        "loading": "载入中...",
+        "window": {
+            "save": "节省？",
+            "delete": "你想删除吗？",
+            "insert" : "你想注册吗？",
+            "saved" : "Saved.",
+            "noFile" : "The file does not exist."
+        },
+        "btn": {
+            "insert": "登记",
+            "close": "关"
+        },
+        "remedyItem": {
+            "title": {
+                "message": "Message",
+                "subCode": "Sub Code",
+                "cause": "Cause",
+                "solution": "Solution"
+            }
+        },
+        "chart": {
+            "title": {
+                "empty": "No Data"
+            }
+        },
+        "alarmInfoList": {
+            "header": {
+                "factory": "Factory",
+                "alarmType": "Alarm Type",
+                "subCode": "Sub Code",
+                "contents": "Alarm Contents",
+                "solution": "Solution"
+            }
+        },
+        "robotAlarmModal": {
+            "robotAlarmInfoTitle": "ROBOT ALARM INFORMATION",
+            "robotTorqueTrendChartTitle": "TORQUE DATA CHART",
+            "robotAccumTrendChartTitle": "ACCUM CHART",
+            "robotAccumGapChartCardTitle": "ACCUM GAP CHART",
+            "robotAccumGapChartTitle": "Average accumulation from a month ago -> Average of the last 5 accumulations",
+            "robotTemperatureTrendChartTitle": "TEMPERATURE CHART",
+            "robotTemperatureGapChartCardTitle": "TEMPERATURE GAP CHART",
+            "robotTemperatureGapChartTitle": "Average temperature from a month ago -> Average temperature of the last 5"
+        },
+        "atomizerAlarmModal": {
+            "atomizerAlarmInfoTitle": "ATOMIZER ALARM INFORMATION",
+            "atomizerChartTitle": "Command/Feedback CHART",
+            "atomizerHVChartTitle": "HV/HVC CHART",
+            "atomizerAlarmListTitle": "History before and after the occurrence alarm",
+            "atomizerListHeaderItems": {
+                "date": "DATE",
+                "type": "TYPE",
+                "code": "CODE",
+                "job_name": "JOB",
+                "contents": "CONTENTS",
+                "level": "LEVEL"
+            }
+        },
+        "commonAlarmModal": {
+            "commonAlarmInfoTitle": "ALARM INFORMATION",
+            "commonAlarmChartTitle": "Number of alarm occurrences",
+            "commonAlarmChartAxisYTitle": "ALARM COUNT",
+            "commonAlarmChartItems": {
+                "alarmCountTitle": "ALARM COUNT"
+            }
+        }
+    },
+
+    "tabtitle": {
+        "home": "主界面",
+        "monitoring": "LINE监测",
+        "torquemonitoring": "PREDICT监测",
+        "review": "评论",
+        "diagnostics": "诊断",
+        "realtime": "实时",
+        "maintenance": "维修",
+        "alarm": "警报",
+        "posthistory": "履历",
+        "sparepart": "备件",
+        "manual": "说明书",
+        "backupview": "备份",
+        "reportview": "报告",
+        "extra": "Add-on"
+    },
+
+    "actionReport": {
+        "titleText": "标题",
+        "userIdText": "用户ID",
+        "typeText": "分类",
+        "typeHintText": "改善事项分类",
+        "actionTypeDatas": {
+            "generalAction": "一般改善",
+            "robotAlarmAction": "ROBOT报警改善",
+            "maintenanceAction": "维修改善",
+            "predictAlarmAction": "预知报警改善",
+            "faultReport": "故障报告书"
+        },
+        "FaultReportActionContents": {
+            "processInfoText": "工艺信息",
+            "selectorBoothHintText": "选择喷房",
+            "selectorZoneHinttext": "选择ZONE",
+            "selectorRobotHintText": "选择ROBOT",
+            "alarmCodeText": "警报代码",
+            "failurePeriodText": "故障期",
+            "failureTimeText": "故障时间（分）",
+            "contentsText": "内容",
+            "remedyText": "解决方法",
+            "tagText": "标签"
+        },
+        "FaultReport": {
+            "processInfoText": "工艺信息",
+            "selectorBoothHintText": "选择喷房",
+            "selectorZoneHinttext": "选择ZONE",
+            "selectorRobotHintText": "选择ROBOT",
+            "alarmCodeText": "警报代码",
+            "failurePeriodText": "故障期",
+            "failureTimeText": "故障时间（分）",
+            "contentsText": "内容",
+            "remedyText": "解决方法",
+            "tagText": "标签",
+            "titleText": "标题",
+            "userIdText": "用户ID",
+            "typeText": "分类",
+            "typeHintText": "改善事项分类"
+        },
+        "GeneralMaintenanceActionContents": {
+            "contentsText": "内容",
+            "tagText": "标签"
+        },
+        "GeneralMaintenanceReport": {
+            "contentsText": "内容",
+            "tagText": "标签",
+            "titleText": "标题",
+            "userIdText": "用户ID",
+            "typeText": "分类",
+            "typeHintText": "改善事项分类"
+        },
+        "RobotPrecautionActionContents": {
+            "alarmCodeText": "警报代码",
+            "contentsText": "内容",
+            "tagText": "标签"
+        },
+        "RobotPrecautionReport": {
+            "alarmCodeText": "警报代码",
+            "contentsText": "内容",
+            "tagText": "标签",
+            "titleText": "标题",
+            "userIdText": "用户ID",
+            "typeText": "分类",
+            "typeHintText": "改善事项分类"
+        }
+    },
+
+    "selector": {
+        "booth": "选择喷房",
+        "zone": "选择ZONE",
+        "robot": "选择ROBOT",
+        "job": "选择JOB",
+        "model": "范本",
+        "color": "颜色",
+        "alarm": "警钟式"
+    },
+
+    "datepicker": {
+        "lang": {
+            "days": ["星期日","星期一","星期二","星期三","星期四","星期五","星期六"],
+            "months": ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"]
+        }
+    },
+
+    "dateTypes": {
+        "day": "日",
+        "week": "周",
+        "month": "月"
+    },
+
+    "treeview": {
+        "title": "工程信息",
+        "popmsg" : {
+            "processInfoError": "[通知] 没有工艺信息."
+        }
+    },
+
+    "pdfview": {
+        "popmsg" : {
+            "manualError": "[通知]没有Manual",
+            "overSizeMessage": "[通知] 因PDF Manual文件过大 已下载"
+        }
+    },
+
+    "comfirmDlg" : {
+        "comfirmDlgSaveTitle" : "确定要保存吗？",
+        "comfirmDlgDeleteTitle": "确定要删除吗？",
+        "comfirmDlgUpdateTitle": "确定要应用吗？",
+        "comfirmDlgChangeTitle": "数据已变更。 确定要保存吗？",
+        "comfirmDlgJobUpdateTitle": "确定要更新JOB吗？",
+        "comfirmDlgComfirmSaveText": "保存",
+        "comfirmDlgComfirmDeleteText": "删除",
+        "comfirmDlgComfirmUpdateText": "应用",
+        "comfirmDlgComfirmJobUpdateText": "应用",
+        "comfirmDlgCloseText": "关闭",
+        "comfirmDlgComfirmUnCheck": {
+            "Title": "个别作业不能比较",
+            "unCheckText": "好",
+            "renderMessage": {
+                "processTitle": "工程信息: ",
+                "conditionalTitle": " 番禺条件 ",
+                "robotTypeTitle": " 机器人的类型是 ",
+                "IsTitle": ".",
+                "contentsTitle": "内容: ",
+                "dxControlText": "该功能只能在DX控制器上运行. ",
+                "releaseTitle": "确定要解除个别作业比较选择吗?"
+            }
+        }
+    },
+
+    "multySelector": {
+        "title": "除外报警代码选择"
+    },
+
+    "settingDlg" : {
+        "settingCardTitle": "环境设定",
+        "saveText": "贮藏",
+        "closeText": "关闭",
+        "settingLanguageText": "多语种设置",
+        "settingThemeText": "Theme设置",
+        "ui": {
+            "text": {
+                "save": "储存",
+                "close": "关闭"
+            }
+        },
+        "datas": {
+            "listItems": {
+                "language": "语言设定",
+                "theme": "主题设定",
+                "accum": "累积警告设定",
+                "range": "距离警告设定",
+                "applicatordata": "应用程式数据设定",
+                "process": "工序设置",
+                "menu": "功能設定",
+                "alarm": "警报设定"
+            },
+            "languageItems": {
+                "kr": "朝鲜语",
+                "en": "英语",
+                "cn": "汉语"
+            },
+            "themeItems": {
+                "dark": "DARK",
+                "light": "LIGHT"
+            },
+            "historyAccumHeaders": {
+                "boothname": "Booth",
+                "zonename": "Zone",
+                "robotname": "Robot",
+                "axis": "Axis",
+                "jobname": "Job",
+                "maxsum": "Maximum",
+                "minsum": "Minimum",
+                "avgsum": "Average",
+                "avgcycle": "Average Cycle",
+                "maxwarning": "Maximum Warning",
+                "minwarning": "Minimum Warning",
+                "cyclewarning": "Warning Cycle"
+            },
+            "historyRangeHeaders": {
+                "boothname": "Booth",
+                "zonename": "Zone",
+                "robotname": "Robot",
+                "axis":"Axis",
+                "jobname":"Job",
+                "violationstep": "Violation Step Count"
+            },
+            "historyRangeDetailHeaders": {
+                "stepno": "Step",
+                "max": "Maximum",
+                "min": "Minimum",
+                "maxwarning":"Maximum Warning",
+                "minwarning":"Minimum Warning"
+            },
+            "reportItems": {
+                "title": "按区域设置警报",
+                "alarmLevel" : ["上","中","下"],
+                "zoneAlarmType" : ["系统","涂装机","约翰机器人","Vision","Etc"],
+                "robotAlarmType" : "机器人",
+                "addAlarm" : "请把警报清单给我",
+                "exportAlarm" : "你想导出excel吗?"
+            }
+        }
+    },
+
+    "warningSetView": {
+        "ui": {
+            "text": {
+                "maxRate": "最高费率(+) %",
+                "minRate": "最低利率(-) %",
+                "startDate": "开始日期",
+                "endDate": "截止日期"
+            }
+        }
+    },
+
+    "menuSetView": {
+        "ui": {
+            "text": {
+                "title": "配置標籤功能",
+                "mainMenuTitle": "配置全部功能",
+                "diagnosticsMenuTitle": "診斷功能設置"
+            }
+        }
+    },
+
+    "login": {
+        "admin": "管理员账号.",
+        "basicFunction": "仅提供基本功能.",
+        "loginerror": "请再次确认ID或密码.",
+        "resolution": {
+            "possible": "最佳分辨率 1920 X 1080",
+            "impossible": " 不是最佳分辨率. (最佳 1920 X 1080)"
+        }
+    },
+
+    "home": {
+        "boothMonitoring": "喷房监测",
+        "showDetailPage": "显示细节",
+        "robotStatus": {
+            "action": "动作",
+            "ready": "待机",
+            "alarm": "报警",
+            "offline": "脱机",
+            "error": "通信错误"
+        },
+        "alarmColumn": {
+            "processInformation": "工艺信息",
+            "occurTime": "发生时间",
+            "alarmCode": "报警代码",
+            "alarmCase": "报警名称",
+            "alarmDesc": "报警内容"
+        },
+        "maintenanceColumn": {
+            "unit": "UNIT",
+            "inspectionSite": "检修部位",
+            "managementCategory": "管理项目",
+            "status": "现状 (%)"
+        },
+        "popMsg": {
+            "statusInfo": "[通知] 没有喷房的数据.",
+            "alarmChart": "[通知] 没有报警图的数据.",
+            "alarmList": "[通知] 没有报警目录的数据.",
+            "maintenanceList": "[通知] 没有维修数据.",
+            "predictList": "[通知] 没有预知报警的数据."
+        },
+        "child": {
+            "alarmChart": {
+                "alarmChartTitle": "今天发生的报警项及停止时间",
+                "deadtime": "静止时间（分）",
+                "count": "发生项",
+                "deadtimeLabel": "静止时间",
+                "countLabel": "发生项",
+                "hour": "时",
+                "defaultTextMessage": "有关发生闹钟的信息不存在"
+            },
+            "alarmListTable": {
+                "alarmListTableTitle": "今日发生报警目录"
+            },
+            "maintenanceInfoTable": {
+                "maintenanceInfoTableTitle": "维修现状"
+            },
+            "processStatusTable": {
+                "processStatusTableTitle": "预知报警发生现状",
+                "normal": "正常",
+                "alarm": "警报",
+                "notSet": "未设定",
+                "p001": "扭矩范围警告",
+                "p002": "温度限制警告",
+                "p003": "扭矩周平均警告",
+                "p004": "扭矩相似度警告",
+                "p005": "扭矩作业适产警告"
+            },
+            "alarmInfoDlg": {
+                "aggregateByDate": "按日期统计",
+                "alarmRatio": "工艺期间警报发生率",
+                "alarmInfo": "报警信息",
+                "alarmStopTime": "各报警种类的停止时间",
+                "confirm": "确认",
+                "noDesc": "没有内容."
+            }
+        },
+        "main": {
+            "axis": "轴",
+            "count": "件",
+            "empty": "NO DATA",
+            "statisticsAlarmItems": {
+                "zoneAlarmStatisticsResult": {
+                    "title": "ZONE闹钟发生分析（危险度中/上）",
+                    "totalCountTitle": "ZONE 警报发生",
+                    "codeTitle": "ZONE 警报发生频率",
+                    "chartTitle": "按闹钟类型分类的ZONE闹钟发生件"
+                },
+                "robotAlarmStatisticsResult": {
+                    "title": "ROBOT 闹钟发生分析",
+                    "totalCountTitle": "ROBOT 警报发生",
+                    "codeTitle": "ROBOT 报警发生频率",
+                    "chartTitle": "ROBOT 警报发生"
+                }
+            },
+            "predictAnalysisItems": {
+                "predictAnalysisAccumResult": {
+                    "title": "累积报警分析",
+                    "totalCountTitle": "累积警报发生",
+                    "chartTitle": "轴基准积算警告发生件"
+                },
+                "predictAnalysisTemperatureResult": {
+                    "title": "温度警报分析",
+                    "totalCountTitle": "温度警报发生",
+                    "chartTitle": "轴基准温度警告事件"
+                },
+                "predictAnalysisPMTorqueResult": {
+                    "title": "平均警报分析",
+                    "totalCountTitle": "平均警报发生",
+                    "chartTitle": "轴基准平均警告事件"
+                },
+                "predictAnalysisAtomizerResult": {
+                    "title": "雾化报警分析",
+                    "totalCountTitle": "雾化报警器",
+                    "chartTitle": "机器人雾化报警"
+                }
+            },
+            "statisticsTop": {
+                "title": "发生件数"
+            },
+            "stackedBarChart": {
+                "emptyText": "无警报"
+            },
+            "pieChart": {
+                "emptyText": "无警报"
+            },
+            "barChart": {
+                "statistics": {
+                    "emptyText": "无警报"
+                },
+                "predict": {
+                    "emptyText": {
+                        "accum": "没有基于轴的累计提醒",
+                        "temperature": "没有基于轴的温度提醒",
+                        "pm-torque": "没有基于轴的平均提醒",
+                        "atomizer": "机器人无雾化报警"
+                    }
+                }
+            },
+            "predictTotalCount": {
+                "emptyText": "无警报"
+            },
+            "predictTop": {
+                "checkType": {
+                    "normal": "无异常",
+                    "check": "要求确认"
+                }
+            },
+            "zoneAlarmType": {
+                "system": "SYSTEM",
+                "sprayers": "ATOMIZER",
+                "zone": "ZONE-ROBOT",
+                "vision": "VISION"
+            },
+            "modal": {
+                "lineInfo": "生产线信息",
+                "remedy": "措施事项",
+                "inspection": "Inspection",
+                "chart": {
+                    "empty": "No Chart Info"
+                },
+                "title": {
+                    "robot": "Robot Alarm Occur Info",
+                    "zone": "Zone Alarm Occur Info"
+                },
+                "table": {
+                    "header": {
+                        "date": "Date",
+                        "type": "Type",
+                        "code": "Code",
+                        "subCode": "SubCode",
+                        "contents": "Contents",
+                        "robot": "Robot",
+                        "level": "Level"
+                    }
+                }
+            }
+        }
+    },
+
+    "monitoring": {
+        "allMonitoring": {
+            "selectBoothPage": "选择喷房画面 ▽",
+            "selectZonePage": "选择ZONE目录 ▽",
+            "selectRobotPage": "选择ROBOT目录 ▽",
+            "page": "画面",
+            "closeBtnText": "关闭",
+            "robotStatusTitle": "ROBOT状态",
+            "robotStatus": {
+                "action": "动作",
+                "ready": "待机",
+                "alarm": "报警",
+                "offline": "脱机",
+                "error": "通信错误"
+            },
+            "predictStatusTitle": "预知保存状态",
+            "predictStatusItems": {
+                "range": "范围",
+                "motor_temperature": "温度",
+                "accum": "积算"
+            },
+            "predictStatusTypes": {
+                "normal": "正常",
+                "alarm": "报警"
+            },
+            "popMsg": {
+                "boothList": "[通知] 没有喷房目录的数据.",
+                "zoneList": "[通知] 没有ZONE目录的数据.",
+                "zoneRobotList": "[通知] 没有ROBOT目录的数据.",
+                "zoneInfo": "[通知] 没有ZONE信息的数据.",
+                "zoneData": "[通知] 没有ZONE数据.",
+                "zoneConfig": "[通知] 没有ZONE的设定数据."
+            }
+        },
+        "zoneMonitoring": {
+            "selectRobot": "选择ROBOT",
+            "vinNumber": "车辆号码",
+            "modelInfo": "款式信息",
+            "color": "颜色",
+            "option": "选配",
+            "popMsg": {
+                "bodyUpdate": "[通知] 没有车辆跟踪数据."
+            }
+        },
+        "miniZone": {
+            "logMsg": {
+                "zoneConfig": "没有ZONE数据.",
+                "zoneData": "没有PLC数据."
+            }
+        },
+        "child": {
+            "selectOptionDlg": {
+                "moveZoneText": "Zone移动",
+                "movePredictText": "Predict移动"
+            },
+            "robotDetail": {
+                "moveZone": "ZONE移动",
+                "booth": "喷房画面",
+                "zone": "ZONE目录",
+                "robot": "ROBOT目录",
+                "popMsg": {
+                    "zoneRobotList": "[通知] 没有ROBOT目录的数据.",
+                    "zoneData": "[通知] 没有ROBOT状态的数据."
+                },
+                "child": {
+                    "atomizerRealtimeChart": {
+                        "defaultTextMessage": "无实时Applicator信息。",
+                        "dataPointName": {
+                            "cmd": "Command",
+                            "feedback": "Feedback"
+                        }
+                    }
+                }
+            },
+            "currentRobotStateCount": {
+                "title": "现在ROBOT动作状态",
+                "robotStatus": {
+                    "action": "动作",
+                    "ready": "待机",
+                    "alarm": "报警",
+                    "offline": "脱机",
+                    "error": "通信错误"
+                }
+            },
+            "pastRobotStateTime": {
+                "title": "过去24小时ROBOT动作状态（分）",
+                "noDataTitle": "机器人动作状态信息不存在。"
+            },
+            "robotAlarm": {
+                "title": "报警目录",
+                "col": {
+                    "occurTime": "发生时间",
+                    "alarmName": "报警",
+                    "robotName": "ROBOT",
+                    "alarmCode": "报警代码",
+                    "desc": "内容"
+                }
+            },
+            "robotInfo": {
+                "robotModel": "ROBOT型号",
+                "rcModel": "控制器型号",
+                "atomModel": "涂装机型号",
+                "installDate": "安装日期",
+                "ip": "ROBOT IP地址"
+            }
+        },
+        "line": {
+            "title" : {
+                "emptyTitle": "No Data",
+                "carouselTitle": "实时警报历史",
+                "alarmTableTitle": "Today Alarm List",
+                "alarmInfo" : "通知细节",
+                "cause" : "原因",
+                "remedy" : "解决办法"
+            },
+            "count": "件",
+            "cardCarousel": {
+                "emptyText": "没有发生通知。",
+                "modal": {
+                    "btn": {
+                        "occurAlarm": "Current Occur Alarm",
+                        "nonOccurAlarm": " Alarm turned off"
+                    }
+                }
+            },
+            "robotItem": {
+                "dialogCardItems": {
+                    "title": {
+                        "zone": "ZONE详细移动",
+                        "predict": "预知保全移动",
+                        "maintenance": "维护移动"
+                    }
+                },
+                "robotInfo" : {
+                    "title" : "机器人信息",
+                    "empty" : "无信息"
+                },
+                "modalTitle": "查看详情"
+            },
+            "zoneItem": {
+                "emptyTitle": "No alarms are currently raised.."
+            }
+        },
+        "detail": {
+            "zoneAlarmItemsTitle": "ZONE 闹钟列表",
+            "productionItemsTitle": "生产历史表",
+            "zoneAlarmHeaderItems": {
+                "text": {
+                    "typeName": "警报类型",
+                    "levelName": "水准仪",
+                    "contents": "内容",
+                    "updateTime": "发生时间"
+                }
+            },
+            "productionHeaderItems": {
+                "text": {
+                    "vinNo": "VIN_NO",
+                    "updateTime": "发生时间",
+                    "parameter": "PARAMETER"
+                }
+            },
+            "robotDetailItem": {
+                "robotInfoTitleType": {
+                    "zoneName" : "Zone 名称",
+                    "robotName": "ROBOT名称",
+                    "robotModelName": "ROBOT模特",
+                    "rcModelName": "控制器",
+                    "robotIp": "ROBOT IP"
+                },
+                "robotModeType": {
+                    "teach": "TEACH",
+                    "play": "PLAY",
+                    "remote": "REMOTE"
+                },
+                "robotMode": "ROBOT模式",
+                "etc": "等。"
+            }
+        }
+    },
+
+    "torqueMonitoring": {
+        "torqueAllMonitoring": {
+            "functionTitle": "监控类型",
+            "accumFunction": "扭矩负载系数集成",
+            "violationTime": "违规时间",
+            "violationType": "违规类型",
+            "violationValue": "违规值",
+            "cumulativeWarningValue": "累积警告值"
+        }
+    },
+
+    "diagnostics": {
+        "drawertitle": {
+            "predict": "预防保全",
+            "torquedata": "扭矩数据",
+            "atomizerdata": "涂装机数据",
+            "alarmstatistics": "报警统计",
+            "torquerange": "扭矩范围分析",
+            "torquesimilarity": "扭矩相似度分析",
+            "torqueloadfactor": "对扭矩负载率的累计分析",
+            "torquetemperature": "电机温度分析",
+            "torquerealtime": "扭矩实时数据",
+            "report": "報告書",
+            "atomizer": "涂装机数据",
+            "statistics": "报警统计"
+        },
+        "report":{
+
+        },
+        "predict": {
+            "predictCodeSumChartTitle": "最近一个月内发生的预知报警个数",
+            "processInfo": "工艺信息",
+            "predictStatusHeaderDatas": {
+                "P001": "扭矩范围警告",
+                "P002": "温度限制警告",
+                "P003": "扭矩周平均警告",
+                "P004": "扭矩相似度警告",
+                "P005": "扭矩作业适产警告"
+            },
+            "processInfoHeaderDatas": {
+                "startTime": "开始时间",
+                "endTime": "结束时间",
+                "code": "编码",
+                "content": "预知报警种类",
+                "jobName": "JOB名称",
+                "axis": "轴",
+                "edit": "编辑"
+            },
+            "violationInfos": {
+                "P001": "扭矩范围警告",
+                "P002": "温度限制警告",
+                "P003": "扭矩周平均警告",
+                "P004": "扭矩相似度警告",
+                "P005": "扭矩作业适产警告",
+                "total": "整体警告合计"
+            },
+            "popMsg": {
+                "predictList": "[通知] 没有预知报警发生现状的数据.",
+                "predictListDetail": "[通知] 没有详细工艺数据.",
+                "predictChart": "[通知] 没有违规信息.",
+                "predictDataDisable": "[通知] 已解除.",
+                "predictTrend": "[通知] 无法知道最近一个月发生的趋势."
+            },
+            "child": {
+                "predictStatusTable": {
+                    "predictStatusTableTitle": "预知报警发生现状",
+                    "release": "解除",
+                    "disable": "V",
+                    "predictStdInfos": {
+                        "normal": "正常",
+                        "alarm": "警报",
+                        "notSet": "未设定"
+                    },
+                    "popMsg": {
+                        "releaseMsg": "[通知] 警报已被清除掉",
+                        "normalMsg": "[通知] 警报已经解除了",
+                        "notSetMsg": "[通知] 警报没有设定。"
+                    }
+                },
+                "processInfoTable": {
+                    "processInfoTableTitle": "预知报警目录"
+                },
+                "predictCodeSumChart": {
+                    "defaultTextMessage": "无最近一个月发生的预知闹钟"
+                },
+                "violationChart": {
+                    "weeksAgo1": "1周前",
+                    "weeksAgo2": "2周前",
+                    "settingValue": "设定值",
+                    "violationValue": "违规值",
+                    "torqueAvgValue":"扭矩平均值",
+                    "maxSettingValue": "最大设定值",
+                    "minSettingValue": "最小设定值",
+                    "torqueRangeValue": "扭矩负荷率值",
+                    "torqueAccumulateValue": "扭矩负荷系数累加值",
+                    "torqueRangeWarningMaxValue": "扭矩最大警告范围值",
+                    "torqueRangeWarningMinValue": "扭矩最小警告范围值",
+                    "standardTorqueWeekAverageValue": "扭矩周基准平均值",
+                    "addTorqueWeekAverageValue": "扭矩周平均增加值",
+                    "tempSettingValue": "警告设定值",
+                    "tempValue": "推测温度值",
+                    "defaultTextMessage": {
+                        "p001": "选择的预测报警列表中无扭矩范围警告信息",
+                        "p002": "选择的预测警报列表中没有温度限制警告信息",
+                        "p003": "已选择的预知闹钟目录的扭矩周平均警告信息不存在",
+                        "p004": "",
+                        "p005": "在所选的预测报警列表中,没有扭矩操作累积警告信息"
+                    }
+                }
+            },
+            "main": {
+                "axis": "轴",
+                "alarmStatusInfos": {
+                    "normal": "正常",
+                    "alarm": "警告",
+                    "default": "未设定"
+                },
+                "predictBoard": {
+                    "predictTableHeaderItems": {
+                        "robotName": "ROBOT",
+                        "accumAlarmStatus": "扭矩累积报警器",
+                        "pmTorqueAlarmStatus": "转矩平均报警",
+                        "temperatureAlarmStatus": "电动机温度报警器",
+                        "atomizerAlarmStatus": "喷漆器状态警告"
+                    }
+                },
+                "predictModal": {
+                    "emptyText": "数据不可用。"
+                },
+                "predictLineChart": {
+                    "chart": "图表",
+                    "axisYTitle": {
+                        "torque": "Torque(%)",
+                        "temperature": "Temperature(℃)"
+                    },
+                    "axisY2Title": {
+                        "alarmCount": "ALARM COUNT(件数)"
+                    },
+                    "config": "CONFIG",
+                    "value": "VALUE",
+                    "atomizerValueName": {
+                        "CMD-FEEDBACK-UPPER-AVG": "误码率超标",
+                        "CMD-FEEDBACK-UPPER-CONFIG": "错误率超过警告",
+                        "CMD-FEEDBACK-UNDER-AVG": "错误率小",
+                        "CMD-FEEDBACK-UNDER-CONFIG": "错误率降低警告"
+                    }
+                }
+            }
+        },
+        "torquedata": {
+            "search": "查找",
+            "axisXOutputTitle": "X轴单位",
+            "worktimetable": {
+                "jobname": "JOB名称",
+                "starttime": "作业开始时间",
+                "endtime": "作业结束时间",
+                "worktime": "作业时间"
+            },
+            "settinginfotable": {
+                "robotname": "ROBOT名称",
+                "modelname": "控制器型号",
+                "robotmodel": "ROBOT型号",
+                "atomizermodel": "涂装机型号",
+                "ipaddress": "IP地址",
+                "installdate": "安装日期"
+            },
+            "loadfactorbyaxis": {
+                "title": "扭矩数据",
+                "1axis": "1轴",
+                "2axis": "2轴",
+                "3axis": "3轴",
+                "4axis": "4轴",
+                "5axis": "5轴",
+                "6axis": "6轴",
+                "7axis": "7轴"
+            },
+            "child": {
+                "loadFactorByAxis": {
+                    "legend": "扭矩负载率",
+                    "defaultTextMessage": "已搜索的扭矩负载率信息不存在"
+                }
+            },
+            "popMsg": {
+                "torqueDataGridTable": "[通知] 作业明细不存在。",
+                "settingInfoTable": "[通知] ROBOT详细信息不存在。",
+                "chartDatas": "[通知] 没有排行榜信息。",
+                "checkDate": "[通知] 请确认日期.",
+                "checkSearchData": "[通知] 请确认查找条件."
+            }
+        },
+        "atomizerdata": {
+            "atomizerdatatable": {
+                "model": "型号",
+                "color": "颜色",
+                "time_stamp": "作业完成时间",
+                "flow": "吐出(cc)",
+                "gunon": "枪动作(ms)",
+                "hvolt": "高压(Kvolt)",
+                "robotmovingtime": "ROBOT移动时间(ms)",
+                "spraycycle": "spray周期(ms)",
+                "conveyorofftime": "传送带停止时间(ms)"
+            },
+            "aotomizerTrendType": {
+                "flow": "吐出(cc)",
+                "hv": "高压(kVolt)",
+                "sa_s": "成形空气[s]",
+                "sa_v": "成形空气[v]",
+                "turbine_speed": "涡轮速度"
+            },
+            "atomizerTrend" : {
+                "title": "涂装机数据",
+                "axisXTitle": "X轴单位",
+                "label" : {
+                    "flowCommand": "流量命令",
+                    "flowFeedback": "流量反馈",
+                    "hvCommand": "高压命令",
+                    "hvFeedback": "高压反馈",
+                    "sa_sCommand": "成形空气[s]命令",
+                    "sa_sFeedback": "成形空气[s]反馈",
+                    "sa_vCommand": "成形空气[v]命令",
+                    "sa_vFeedback": "成形空气[v]反馈",
+                    "turbineSpeedCommand": "涡轮转速指令",
+                    "turbineSpeedFeedback": "涡轮转速反馈"
+                }
+            },
+            "child": {
+                "atomizerDataChart": {
+                    "defaultTextMessage": "没有喷涂机数据。",
+                    "dataPointName": {
+                        "cmd": "Command",
+                        "feedback": "Feedback"
+                    }
+                }
+            },
+            "popmsg": {
+                "atomizerDataGridTable": "[通知] 没有涂装机数据.",
+                "checkDate": "[通知] 请确认日期.",
+                "checkData": "[通知] 请确认查找条件."
+            }
+        },
+        "alarmstatistics": {
+            "search": "查找",
+            "alarmstatistics": {
+                "alarminfotable": {
+                    "date": "日期",
+                    "alarmtypename": "報警類型",
+                    "alarmcode": "報警代碼",
+                    "alarmname": "報警內容",
+                    "zonename": "區",
+                    "jobname" : "JOB名",
+                    "robotname": "机器人",
+                    "level": "風險",
+                    "sum" : "和",
+                    "step" : "step"
+                }
+            },
+            "multiSelectorTitle": "除外报警代码选择",
+            "alarmType": "报警种类选择",
+            "overOption": "以上",
+            "belowOption": "以下",
+            "level" : {
+                "high" : "上",
+                "middle" : "中",
+                "lower" : "下"
+            },
+            "alarmContents" : {
+                "flag" : {
+                    "zoneAlarmNameFlag" : "防区报警发生名称",
+                    "robotAlarmNameFlag" : "机器人报警发生名称"
+                },
+                "title" : {
+                    "multiSelectorTitle" : "警报风险",
+                    "alarmListTitle" : "选择的报警列表",
+                    "zoneAlarmNameHeader" : {
+                        "list" : "添加列表",
+                        "alarmtypename" : "报警类型",
+                        "alarmname" : "报警内容",
+                        "zonename" : "区",
+                        "sum" : "报警数量",
+                        "level" : "风险"
+                    },
+                    "robotAlarmNameHeader" : {
+                        "list" : "添加列表",
+                        "alarmcode" : "报警代码",
+                        "alarmtypename" : "报警类型",
+                        "alarmname" : "报警内容",
+                        "robotname" : "机器人",
+                        "sum" : "报警数量"
+                    }
+                }
+            },
+            "priorityContents": {
+                "maxAlarmDateFlag": "最多报警发生日",
+                "maxAlarmLevelFlag": "最高風險（高）警報名稱",
+                "maxAlarmNameFlag": "发生报警名称",
+                "maxStopDateFlag": "最长静止发生日",
+                "maxStopAlarmFlag": "最长静止发生名"
+            },
+            "alarmStatisticsTrend": "区域警报统计趋势",
+            "popMsg": {
+                "alarmStatisticsData": "[通知] 没有报警数据.",
+                "checkDate": "[通知] 请确认日期.",
+                "alarmStatisticsCodeAlarm": "[通知] 没有代码报警数据.",
+                "alarmStatisticsCodeStop": "[通知] 没有停止报警数据.",
+                "alarmStatisticsAlarmEvent": "[通知] 没有报警发生数据.",
+                "alarmStatisticsAlarmStop": "[通知] 没有报警停止数据.",
+                "alarmStatisticsAlarmName": "[通知] 没有报警名称数据.",
+                "alarmStatisticsAlarmCode": "[通知] 没有报警代码数据.",
+                "alarmStatisticsDetailChart": "[通知] 没有详细Chart数据.",
+                "alarmStatisticsDataChart": "[通知] 没有Chart数据."
+            },
+            "child": {
+                "alarmMixedChart": {
+                    "deadtime": "dead time (分)",
+                    "count": "count (次数)",
+                    "deadtimeLabel": "静止时间",
+                    "countLabel": "发生项",
+                    "defaultTextMessage": "已搜索到的闹钟统计信息不存在。"
+                },
+                "codeAggregationDlg": {
+                    "totalCode": "各代码统计",
+                    "codeAlarmEvent": "各代码报警发生",
+                    "codeStopTime": "各代码停止时间",
+                    "alarmTypeEvent": "各报警种类的报警发生",
+                    "alarmTypeStopTime": "各报警种类的停止时间",
+                    "confirm": "确认",
+                    "codeAggregationChart": {
+                        "defaultTextMessage": "搜索到的代码各统计信息不存在。"
+                    }
+                },
+                "dateAggregationDlg": {
+                    "totalDate": "按日期统计",
+                    "processAlarmEventRatio": "工艺期间警报发生率",
+                    "alarmInfo": "报警内容",
+                    "alarmTypeStopTime": "按类型划分的警报数量",
+                    "confirm": "确认",
+                    "deadtime": "dead time (分)",
+                    "count": "count (次数)",
+                    "alarmDescription" : {
+                        "alarmCode": "报警代码 : ",
+                        "alarmName": "报警名称 : ",
+                        "alarmDesc": "报警内容 : ",
+                        "alarmMean": "意义 : ",
+                        "alarmNoData": "没有数据."
+                    },
+                    "dateAggregationPieChart" : {
+                        "defaultTextMessage": "工序间警报发生比率信息不存在"
+                    }
+                }
+            }
+        },
+        "torqueRange": {
+            "jobUpdate": "JOB更新",
+            "dayAnalysis": "工作分析",
+            "severalAnalysis": "状态分析",
+            "selectJobFile": "JOB文件选择",
+            "torqueRange": "扭矩范围",
+            "jobExecutionText": " 次随行",
+            "warningValue": "警告值",
+            "warningValueOffset": "警告值OFFset",
+            "warningValueAccept": "警告值应用",
+            "warningValueSave": "警告值保存",
+            "jobInfoTableHeaderDatas": {
+                "jobName": "JOB名",
+                "startTime": "作业开始时间",
+                "endTime": "作业结束时间",
+                "cycleTime": "作业时间"
+            },
+            "popMsg": {
+                "jobUpdate": "[通知] JOB更新已完毕.",
+                "jobNotUpdate": "[通知] JOB 不能更新。",
+                "jobFile": "[通知] 没有扭矩范围数据.",
+                "checkDate": "[通知] 请确认日期.",
+                "trendData": "[通知] 没有扭矩范围趋势数据.",
+                "warningFrom": "[通知] 没有警告值.",
+                "warningTo": "[通知] 没有保存扭矩范围数据.",
+                "checkSearchData": "[通知] 请确认查找条件.",
+                "warnNoSave": "[通知]无法储存警告值"
+            },
+            "child": {
+                "torqueRangeChart": {
+                    "defaultTextMessage": "已搜索到的扭矩负载率范围信息不存在。"
+                },
+                "settingInfoTable": {
+                    "popMsg": {
+                        "torqueData": "[通知] 没有扭矩数据.",
+                        "checkDate": "[通知] 请确认日期."
+                    }
+                },
+                "torqueRangeTable": {
+                    "stepNumber": "步骤号",
+                    "changeWarningValue": "更改详细警告值",
+                    "currentWarningMinValue": "当前警告最小值",
+                    "currentWarningMaxValue": "当前警告最大值",
+                    "changeWarningMinValue": "更改警告最小值",
+                    "changeWarningMaxValue": "更改警告的最大值",
+                    "accept": "输入",
+                    "cancel": "取消",
+                    "popMsg": {
+                        "normalizedText": "已应用",
+                        "notNormalizedText": "无效的输入"
+                    }
+                }
+            },
+            "excel": {
+                "date": "制定日期",
+                "booth": "选择喷房",
+                "zone": "选择ZONE",
+                "robot": "选择ROBOT",
+                "jobname": "Job",
+                "axis": "轴",
+                "step": "Step",
+                "torqueMin": "最小值",
+                "torqueMax": "最大值",
+                "torqueWarnMin": "最小警告值",
+                "torqueWarnMax": "最大警告值"
+            }
+        },
+        "torqueSimilarity": {
+            "searchDate1": " 搜索期间 1",
+            "searchDate2": " 搜索期间 2",
+            "searchText": "搜寻",
+            "detailSearchText": "详细查册",
+            "searchDate1Time": "输入时间",
+            "searchDate2Time": "输入时间",
+            "selectJobFile": "选择JOB文件",
+            "chartTitle": "扭矩相似度分析",
+            "compareJobsTitle": "个别作业比较",
+            "workInfoTableHeaderData": {
+                "jobFile": "JOB文件",
+                "startTime": "作业开始时间",
+                "endTime": "作业结束时间",
+                "cycleTime": "作业时间"
+            },
+            "popMsg": {
+                "jobListEmpty": "没有JOB文件目录.",
+                "search1NoFilterData": "[通知]查找期间1没有与条件相符的数据",
+                "search2NoFilterData": "[通知]查找期间2没有与条件相符的数据",
+                "firstJobListEmpty": "[通知] 搜索时间 1 没有符合条件的 JOB目录。",
+                "secondJobListEmpty": "[通知] 搜索时间 2 没有符合条件的 JOB目录。",
+                "noFilterData": "[通知]没有与条件相符的数据",
+                "checkSearchData": "[通知] 请确认查找条件."
+            },
+            "excel": {
+                "booth": "选择喷房",
+                "zone": "选择ZONE",
+                "robot": "选择ROBOT",
+                "jobname": "Job",
+                "axis": "轴",
+                "loadfactor": "扭矩负荷率数据",
+                "second": "第二姿势",
+                "step": "Step"
+            },
+            "child": {
+                "torqueSimilarityChart": {
+                    "defaultTextMessage": "已搜索的 Torque 相似度信息不存在"
+                }
+            }
+        },
+        "torqueLoadFactor": {
+            "jobUpdate": "JOB更新",
+            "selectJobFile": "选择JOB文件",
+            "selectAxis": "选择轴",
+            "exception": "查看例外作业",
+            "abnormalStandardSettingTableHeaderDatas": {
+                "category": "项目",
+                "standard": "基准",
+                "abnormalMeasuredValue": "异常测定值",
+                "abnormalMeasuredDate": "异常测定日期",
+                "currentWorkingValue": "近期作业值",
+                "update": "全部更换",
+                "disable": "全部解除",
+                "value": "设定值"
+            },
+            "violationRecordTableHeaderDatas": {
+                "timestamp": "时间",
+                "acmtype": "违反项目",
+                "vltvalue": "设定值",
+                "cfgvalue": "违反值"
+            },
+            "workListTableHeaderDatas": {
+                "timestamp": "时间",
+                "sum": "积产值",
+                "avg": "平均值",
+                "cycle": "作业时间（秒）"
+            },
+            "popMsg": {
+                "jobUpdate": "[通知] JOB更新已完毕.",
+                "jobNotUpdate": "[通知] [通知] JOB 不能更新。",
+                "checkSearchData": "[通知] 请确认查找条件.",
+                "abnormalRefData": "[通知] 没有异常基准设定数据.",
+                "currentData": "[通知] 没有作业目录数据.",
+                "violationrecordData": "[通知] 没有违反纪律数据.",
+                "trendData": "[通知] 没有扭矩负荷率数据."
+            },
+            "child": {
+                "abnormalStandardSettingTable": {
+                    "setAbnormalStandard": "累积警告值列表",
+                    "initData": "设定警告值",
+                    "setAllWarningData": "全局设置警告值",
+                    "setStandardData": "设定警告值",
+                    "accept": "应用",
+                    "allModify": "零钱",
+                    "close": "关闭",
+                    "typeDatas": {
+                        "acmmax": "最大泄露",
+                        "acmmmv": "最小泄露",
+                        "summxv": "最大积产值",
+                        "summmv": "最小积产值",
+                        "cycle": "作业时间"
+                    },
+                    "initDataTable": {
+                        "update": "变更",
+                        "disable": "解除"
+                    },
+                    "setAllDataTable": {
+                        "booth": "喷房",
+                        "zone": "Zone",
+                        "robot": "Robot",
+                        "job": "Job",
+                        "axis": "轴",
+                        "maxsum": "最大值",
+                        "minsum": "最低值",
+                        "avgcycle": "平均工作时间(s)",
+                        "avgvalue": "平均值",
+                        "updatemaxsum": "最大警告值",
+                        "updateminsum": "最小警告值",
+                        "updatecycle": "工作时间",
+                        "modify": "改变",
+                        "cantmodify": "您无法更改",
+                        "canmodify": "变了",
+                        "dataavailable": "没有数据",
+                        "onlynumber": "只能输入数字"
+                    },
+                    "warningData": {
+                        "setAllAvgWarningData": "基于应用平均值的总变化",
+                        "setAllAvgCycleData": "基于平均工作时间的总变化",
+                        "setAllWarningDataAccept": "申请"
+                    },
+                    "popMsg": {
+                        "initStdBtnClicked": "[通知] 请先输入查找信息."
+                    }
+                },
+                "violationRecordTable": {
+                    "violationRecord": "违反记录",
+                    "searchViolationRecord": "违反记录查找",
+                    "searchCondition": "查找条件",
+                    "finish": "结束"
+                },
+                "workListTable": {
+                    "workTitle": "作业目录"
+                },
+                "loadFactorByAxis": {
+                    "sumChartTitle": "扭矩负荷率积产值",
+                    "yAxisTitle": "扭矩负荷率(%)",
+                    "xAxisTitle": "时间(YYYY-MM-DD HH:MM)",
+                    "torqueAccumLabel": "积产值",
+                    "torqueWarningMaxLabel": "最大警告范围设定值",
+                    "torqueWarningMinLabel": "最小警告范围设定值",
+                    "defaultTextMessage": "已搜索的扭矩负载率信息不存在",
+                    "accumAvgText" : "综合平均",
+                    "showAlert" : "Show Alert Only",
+                    "dailyAccumAvgText" : "日平均积算"
+                },
+                "initDataSettingDlg": {
+                    "items": {
+                        "acmmax": "最大泄露",
+                        "acmmmv": "最小泄露",
+                        "summxv": "最大积产值",
+                        "summmv": "最小积产值",
+                        "cycle": "作业时间"
+                    },
+                    "popMsg": {
+                        "accept": "[通知] 应用完毕",
+                        "checkInputData": "[通知] 请确认输入值."
+                    }
+                }
+            }
+        },
+        "torqueTemperature" : {
+            "chartTitle": "电机温度分析",
+            "settingDlgTitle": "设定警告值",
+            "outputTypeName": "输出类型",
+            "accept": "保存",
+            "close": "关闭",
+            "datasByAxis": {
+                "1axis": "1轴",
+                "2axis": "2轴",
+                "3axis": "3轴",
+                "4axis": "4轴",
+                "5axis": "5轴",
+                "6axis": "6轴",
+                "7axis": "7轴",
+                "8axis": "8轴"
+            },
+            "popMsg": {
+                "checkSearchData": "[通知] 请确认查找条件.",
+                "noTorqueTemperatureData": "[通知]没有力矩温度的数据",
+                "noReferenceTempData": "[通知] 探测机器人/轴的基准温度不设定。"
+            },
+            "window" : {
+                "select" : "单击该项目的复选框"
+            },
+            "child": {
+                "outputTypes": {
+                    "outputTypes": {
+                        "hour": "时间",
+                        "day": "日",
+                        "week": "周",
+                        "month": "月"
+                    }
+                },
+                "temperatureCharts": {
+                    "max": "最高温度",
+                    "average": "平均温度",
+                    "standard": "标准温度",
+                    "defaultTextMessage": "已搜索到的马达温度信息不存在。"
+                },
+                "tempSettingDlg": {
+                    "items": {
+                        "label": "标准温度(°C)"
+                    }
+                }
+            }
+        },
+        "atomizer": {
+            "title": {
+                "chart": "Atomizer Data Chart",
+                "table": "Atomizer Valid Alarm List"
+            },
+            "atomizerAlarmListHeaderItems": {
+                "update_time": "Date",
+                "code": "Alarm Code",
+                "name": "Alarm Contents",
+                "job_name": "JOB",
+                "step_no": "Step No",
+                "level": "Level"
+            },
+            "alertText": "Check the search conditions."
+        },
+        "statistics": {
+            "statisticsChartTitle": "Alarm Statistics Chart",
+            "statisticsChartAxisYTitle": "ALARM COUNT",
+            "zoneAlarmTableTitle": "Zone Alarm List",
+            "robotAlarmTableTitle": "Robot Alarm List",
+            "entireAlarmTableTitle": "Entire Alarm List",
+            "atomizerAlarmDlgTitle": "ATOMIZER ALARM",
+            "robotAlarmDlgTitle": "ROBOT ALARM",
+            "statisticsChartItems": {
+                "zoneAlarmCountTitle": "ZONE ALARM COUNT",
+                "robotAlarmCountTitle": "ROBOT ALARM COUNT"
+            }
+        }
+    },
+    "report" : {
+        "main" : {
+            "btn" : {
+                "move" : "移动",
+                "setReport" : "报告查询",
+                "add" : "添加"
+            },
+            "reportListTable" : {
+                "header" : "报告查询",
+                "report_name" : "列表",
+                "report_time" : "报告期",
+                "update_time" : "注册日期",
+                "delete" : "删除",
+                "auto" : "自动报告"
+            },
+            "reportTitle" : {
+                "alert" : "需要确认",
+                "default": "良好的条件"
+            }
+        },
+        "common": {
+            "window": {
+                "selectReport": "请选择报告",
+                "confirmDate" : "请检查日期e",
+                "addReport" : "请添加报告",
+                "noData" : "没有数据."
+            },
+            "btn": {
+                "save" : "节省"
+            }
+        },
+        "hardware": {
+            "title": {
+                "prevReport": "以前的报告",
+                "hardware": "硬件综合分析",
+                "alarm" : "告警分析",
+                "atomizer": "涂装机 分析",
+                "analysis": "分析",
+                "reportName": "报告名称",
+                "wargingValue": "警告阈值",
+                "dataAvg": "数据平均",
+                "alertCounting": "警告数",
+                "opinion" : "综合意见",
+                "avgData" : "平均数据"
+            },
+            "btn" : {
+                "confirmAlert" : "检查警告值"
+            },
+            "tableHeader": {
+                "title": "综合风险评估",
+                "header": {
+                    "robot": "机器人",
+                    "axis": "轴",
+                    "accum": "扭矩积分",
+                    "temperature": "电机温度",
+                    "accumAvg": "平均扭矩",
+                    "motorLife": "电机寿命",
+                    "accumDailyAvg" : "日积平均",
+                    "settingJob": "设置作业"
+                }
+            }
+        },
+        "alarm": {
+            "title": {
+                "selectedAlarmList": "选择的报警列表"
+            }
+        }
+    },
+
+    "realtime": {
+        "searchErrorText": "请选择机器人。",
+        "legends": {
+            "warning": "警告值",
+            "violation": "违规值",
+            "forwardWarning": "上边闹钟",
+            "forwardViolation": "上边警告",
+            "reverseWarning": "下边闹钟",
+            "reverseViolation": "下级警告"
+        },
+        "tabItems": {
+            "title": {
+                "realTimeTorque": "实时扭矩负荷率"
+            }
+        },
+        "popMsg": {
+            "selectedError": "[通知] 没有选择机器人。 请选择机器人。"
+        },
+        "child": {
+            "realTimeTorque": {
+                "chartTitle": "实时扭矩负荷率",
+                "currRobotController": "控制器: ",
+                "currJobName": "现在Job File: ",
+                "warningSetButtonTitle": "设定警告价格",
+                "multiSelectorPlaceHolder": "Data Points 选择",
+                "allAxisButtonTitle": "全部轴",
+                "datasByAxis": {
+                    "1axis": "1 轴",
+                    "2axis": "2 轴",
+                    "3axis": "3 轴",
+                    "4axis": "4 轴",
+                    "5axis": "5 轴",
+                    "6axis": "6 轴",
+                    "7axis": "7 轴"
+                },
+                "popMsg": {
+                    "saveWarningValues": "[通知] 警告及违反价格已设定。"
+                },
+                "child": {
+                    "warningSettingDlg": {
+                        "dlgTitle": "设定警告价格",
+                        "saveText": "保存",
+                        "closeText": "关闭",
+                        "popMsg": {
+                            "inputError": "[通知] 请确认输入价格。"
+                        }
+                    }
+                }
+            },
+            "realTimeLogList": {
+                "logItemInfo": {
+                    "warning": "{robotName} 机器人系列{timeStamp}, 摆脱警告值。 扭矩负荷率值为{warning}。",
+                    "violation": "{robotName} 机器人系列{timeStamp}, 脱离违规值。 扭矩负荷率值为{violation}。"
+                }
+            }
+        }
+    },
+
+    "maintenance": {
+        "treeViewTitle": "检修对象目录",
+        "checkListTableTitle": "检修检修项目",
+        "checkListInputHint": "检修内容",
+        "detailCheckListTableTitle": "[选择的] 检修项目",
+        "close": "关闭",
+        "save": "维修检查保存",
+        "addMaintItem": "增加检修项目",
+        "maintenanceCheckSelectorDatas": {
+            "unit": "UNIT",
+            "maintPoint": "检修部位"
+        },
+        "maintenanceTitle": "Hardware Lifetime Analysis",
+        "maintenanceTabNames": {
+            "hardwareLifeMaintenanceTabName" : "Hardware 检修",
+            "robotMaintenanceTabName": "ROBOT检修",
+            "valveCountMaintenanceTabName": "阀门计数"
+        },
+        "maintenanceCheckListTableHeaderDatas": {
+            "maintName": "项目",
+            "unit": "UNIT",
+            "maintPoint": "部位",
+            "progress": "现状(%)",
+            "maintDesc": "说明",
+            "maintCycle": "周期(月)",
+            "etc": "其他",
+            "details": "说明书"
+        },
+        "valveCountTableHeaderDatas": {
+            "valveName": "项目",
+            "progress": "现状(%)",
+            "valveMaintCount": "检修基准",
+            "currentValveCount": "目前计数",
+            "details": "说明书"
+        },
+        "detailMaintenanceCheckListTableHeaderDatas": {
+            "booth": "喷房",
+            "zone": "ZONE",
+            "robot": "ROBOT",
+            "lastCheck": "最后一次检修的日期",
+            "lastComment": "最后一次检修的结果",
+            "actionType": "有无检修",
+            "history": "履历"
+        },
+        "getSelectedCheckData": "检修对象",
+        "popMsg": {
+            "inspectionList": "[通知] 没有检修项目的数据.",
+            "robotInspectionList": "[通知] 没有ROBOT检修项目的数据.",
+            "valveInspectionList": "[通知] 没有阀门计数检修项目的数据.",
+            "inspectionDetailList": "[通知] 没有详细检修项目的数据.",
+            "save": "[通知] 已保存.",
+            "topItemClick": "[通知] 请点击上面的项目.",
+            "checkSearchData": "[通知] 请确认查找条件."
+        },
+        "child": {
+            "detailMaintenanceCheckListTable": {
+                "view": "示例"
+            },
+            "maintenanceCheckListTable": {
+                "view": "示例"
+            }
+        }
+    },
+
+    "alarm": {
+        "listDatas" : {
+            "alarmView": "报警发生履历",
+            "predictAlarm": "预想警告发生履历",
+            "alarmInfos": "查询报警手册",
+            "alarmManual": "增加报警手册"
+        },
+        "child" : {
+            "predictAlarm": {
+                "ui": {
+                    "alarmType": "警报类型选择",
+                    "closeBtnText": "关闭",
+                    "date": {
+                        "start": "选择开始日期",
+                        "end": "选择终止日期"
+                    }
+                },
+                "datas": {
+                    "predictTypes": {
+                        "p001": "扭矩范围警告",
+                        "p002": "电机温度警告",
+                        "p005": "扭矩累积警告"
+                    }
+                }
+            },
+            "alarmInfos": {
+                "inputPlaceHolder": "报警代码输入",
+                "noManualText": "没有手册文件",
+                "alarmSearchPhrase": "请输入报警代码",
+                "alarmNonePhrase": "没有所查找的代码",
+                "alarmTitle": "报警",
+                "robotAlarmTitleInfos": {
+                    "alarmcode": "报警代码",
+                    "subcode": "子代码",
+                    "alarmtype": "报警种类",
+                    "alarmname": "报警名称",
+                    "contents": "报警内容",
+                    "meaning": "报警意义",
+                    "causecount": "原因个数"
+                },
+                "robotAlarmDetailTitleInfos": {
+                    "cause": "发生原因",
+                    "remedy": "解决方法"
+                },
+                "plcAlarmTitleInfos": {
+                    "alarm_code": "报警代码",
+                    "alarm_type": "报警种类",
+                    "message": "报警内容"
+                }
+            },
+            "alarmManual": {
+                "inputPlaceHolder": "报警代码输入",
+                "searchErrorText": "请确认警报代码",
+                "noManualText": "没有Manual",
+                "alarmTitleInfos": {
+                    "alarm_code": "报警代码",
+                    "alarmname": "报警名称",
+                    "alarm_type": "报警种类"
+                },
+                "alarmBtnTitles": {
+                    "search": "查找",
+                    "save": "保存",
+                    "delete": "删除",
+                    "show": "示例"
+                },
+                "popMsg": {
+                    "inputFileErrorMsg": "请确认文件大小（10MB以下）"
+                }
+            }
+        }
+    },
+
+    "alarmView": {
+        "prevDate": "选择以前的日期",
+        "currDate": "选择最近的日期",
+        "booth": "选择喷房",
+        "zone": "选择ZONE",
+        "robot": "选择ROBOT",
+        "alarmType": "报警种类",
+        "alarmStatus": "报警状态",
+        "selectAlarmCode": "选择排除报警代码",
+        "useAlarmCode": "使用报警代码",
+        "alarmCode": "报警代码",
+        "infoTableHeaderData": {
+            "booth": "喷房",
+            "zone": "ZONE",
+            "robot": "ROBOT",
+            "alarmCode": "报警代码",
+            "alarm": "报警",
+            "occurTime": "发生时间",
+            "manual": "说明书"
+        },
+        "popMsg": {
+            "alarmData": "[通知] 条件数据不符.",
+            "noSearchDatas": "[通知] 没有找到任何数据。"
+        },
+        "child": {
+            "GridTableWithDialog": {
+                "title": "报警目录",
+                "close": "关闭",
+                "popMsg": {
+                    "alarmDataChart": "[通知] 没能带来Chart内容.",
+                    "alarmDataInfo": "[通知] 没能带来报警内容.",
+                    "alarmManual": "[通知] 相应的说明书不存在.",
+                    "reqBoothId": "[通知] 没能带来喷房内容.",
+                    "reqZoneId": "[通知] 没能带来ZONE内容.",
+                    "alarmStop": "[通知] 没能带来报警停止内容.",
+                    "alarmCompareTime": "[通知] 条件数据不符.",
+                    "alarmCompareFile": "[通知] 条件数据不符."
+                }
+            },
+            "alarmViewData": {
+                "title": "报警",
+                "close": "关闭",
+                "booth": "喷房",
+                "zone": "ZONE",
+                "robot": "ROBOT",
+                "alarmPieChart": "工艺前警报发生比率",
+                "alarmDescTitle": "报警内容",
+                "alarmMixedChart": "报警静止时间（已解除的报警）",
+                "actionReportTitle": "改善事项报告书",
+                "save": "保存",
+                "none": "无",
+                "alarmDescription": {
+                    "alarmCode": "报警代码",
+                    "alarmName": "报警名称",
+                    "alarmContents": "报警内容",
+                    "cause": "原因",
+                    "contents": "内容",
+                    "meaning": "意义",
+                    "remedy": "解决方案",
+                    "subcode": "子代码",
+                    "subcodeinfo": "子代码信息",
+                    "processinfo": "工艺信息",
+                    "occurtime": "发生时间",
+                    "endtime": "结束时间",
+                    "jobname": "JOB名",
+                    "lineno":  "LINE号码",
+                    "stepno":  "step号码"
+                },
+                "deadtime": "dead time (分)",
+                "count": "count (次数)",
+                "emptyDesc": "没有内容.",
+                "popMsg": {
+                    "getSaveActionContentDatas": "[通知] 请选择分类.",
+                    "getComfirmFlag": "[通知] 请确认数据."
+                }
+            },
+            "B001AlarmDlg": {
+                "workFile": "作业文件",
+                "deleteWorkFile": "已删除的作业文件",
+                "addWorkFile": "已增加的作业文件"
+            },
+            "B002AlarmDlg": {
+                "beforeModify": "修改前",
+                "afterModify": "修改后"
+            },
+            "actionList": {
+                "title": "改善事项List",
+                "add": "增加"
+            },
+            "alarmViewDataMixedChart": {
+                "defaultTextMessage": "已搜索的闹钟停止时间(已解除的闹钟)信息不存在。"
+            },
+            "alarmViewDataPieChart": {
+                "defaultTextMessage": "工序间警报发生比率信息不存在"
+            }
+        }
+    },
+
+    "postHistory": {
+        "prevDate": "选择以前的日期",
+        "currDate": "최选择最近的日期",
+        "booth": "选择喷房",
+        "zone": "选择ZONE",
+        "robot": "选择ROBOT",
+        "alarmCode": "选择报警种类",
+        "codeSearch": "输入代码搜索",
+        "searchHintText": "选择搜索条件",
+        "inputHintText": "输入条件搜索",
+        "selectTypeHintText": "选择类型",
+        "actionReportTitle": "改善事项报告书",
+        "saveText": "保存",
+        "closeText": "关闭",
+        "infoTableHeaderData": {
+            "occurDate": "发生日期",
+            "occurTime": "发生时间",
+            "actionTime": "改善时间",
+            "booth": "喷房",
+            "zone": "ZONE",
+            "robot": "ROBOT",
+            "alarmDesc": "报警内容",
+            "actionDesc": "改善内容",
+            "alarmCode": "报警代码",
+            "deadTime": "空载时间",
+            "delete": "删除"
+        },
+        "searchTypes": {
+            "alarmcode": "报警代码",
+            "typename": "报警类型",
+            "title": "改善项目",
+            "tag": "措施标签",
+            "userid": "制定者"
+        },
+        "createBtnClick": "[通知] 无法选择 喷房 / ZONE / ROBOT / 报警种类.",
+        "popMsg": {
+            "dataList": "[通知] 条件数据不符.",
+            "checkDataList": "[通知] 请再次确认数据.",
+            "checkTagDatas": "[通知] 不能使用重复的标签。"
+        },
+        "child": {
+            "HistoryList": {
+                "title": "改善履历目录",
+                "postReportTitle": "改善事项报告书",
+                "comfirmText": "确认",
+                "closeText": "关闭",
+                "acceptText": "应用",
+                "deleteText": "删除",
+                "writer": "制定者",
+                "date": "制定日期",
+                "popMsg": {
+                    "checkDataList": "[通知] 请再次确认数据.",
+                    "checkTagDatas": "[通知] 不能使用重复的标签。",
+                    "deleteDataList": "[通知] 仅能删除自己制定的改善事项.",
+                    "acceptDataList": "[通知] 仅能修改自己制定的改善事项."
+                }
+            },
+            "GridTableWithDialog": {
+                "title": "履历显示",
+                "close": "关闭",
+                "popMsg": {
+                    "deleteDate": "[通知] 已删除."
+                }
+            },
+            "PostHistoryData": {
+                "title": "履历",
+                "close": "关闭",
+                "date": "日期",
+                "occurTime": "发生时间",
+                "actionTime": "改善时间",
+                "dt": "DT",
+                "booth": "喷房",
+                "zone": "ZONE",
+                "robot": "ROBOT",
+                "alarmCode": "报警代码",
+                "causeDesc": "原因内容",
+                "actionDesc": "改善内容",
+                "userid": "用户ID",
+                "create": "生产",
+                "modify": "变更",
+                "popMsg": {
+                    "createData": "[通知] 已生成.",
+                    "modifyData": "[通知] 已变更."
+                }
+             }
+        }
+    },
+
+    "manual": {
+        "infoTableHeaderData": {
+            "manualName": "说明书名称",
+            "fileName": "文件名称",
+            "fileFormat": "文件格式"
+        },
+        "child": {
+            "GridTableWithPdf": {
+                "close": "关闭",
+                "robotManual": "ROBOT说明书",
+                "maintenanceManual": "维保手册",
+                "troubleShootingManual": "troubleShooting手册"
+            },
+            "GridTableWithVideo": {
+                "close": "关闭",
+                "videoManual": "视频说明书"
+            }
+        }
+    },
+
+    "backupview": {
+        "timestamp": "时间",
+        "booth": "喷房",
+        "zone": "ZONE",
+        "robot": "ROBOT",
+        "save": "保存",
+        "popMsg": {
+            "backupData": "[通知] 没有符合条件的备份数据."
+        },
+        "child": {
+            "backupDataTable": {
+                "title": "备份",
+                "close": "关闭"
+            },
+            "backupDetail": {
+                "fileDownload": "文件个别下载"
+            }
+        },
+        "search": "查找",
+        "backupdatatable": {
+            "title": "备份",
+            "time": "时间",
+            "booth": "喷房",
+            "zone": "ZONE",
+            "robot": "ROBOT",
+            "detail": "详细",
+            "save": "保存",
+            "backupdetail": {
+                "backuphistory": {
+                    "title": "历史",
+                    "filename": "文件名",
+                    "datetime": "时间"
+                },
+                "downloadtitle": "JOB文件下载",
+                "downloadlink": "文件下载",
+                "close": "关闭"
+            }
+        }
+    },
+    "extra": {
+        "drawerTitle": {
+            "manual": "手册",
+            "production": "生产履历",
+            "vin-no-production-history": "VIN NO",
+            "backup": "BackUp"
+        },
+        "child": {
+            "production": {
+                "title": "Production History",
+                "chart-title": "Production History Chart",
+                "result-title": "Production History Result",
+                "msg": {
+                    "noData": "No Production History Data"
+                }
+            },
+            "vin-no-production-history": {
+                "dateTitle": "Search Date",
+                "searchTitle": "VIN NO",
+                "chartTitle": "Production Data Chart",
+                "summaryTitle": "Total Production Data Information",
+                "contentsTitle": "Production Data Information",
+                "emptyTitle": "No Production Data Information",
+                "alertText": "Check the search conditions."
+            },
+            "backup": {
+                "title": "BackUp List",
+                "empty": "No Backup History",
+                "tableHeader": {
+                    "date": "Date",
+                    "fileName": "File Name",
+                    "download": "Download"
+                }
+            }
+        }
+    }
+}

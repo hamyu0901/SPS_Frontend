@@ -1,0 +1,44 @@
+.detail-monitoring {
+    $self: #{&};
+
+    &__filters {
+        &-process {
+            &-booth {
+                font-size: 24px;
+                min-width: 200px;
+                max-width: 200px;
+                margin-right: 16px;
+
+                >>> .v-input__slot {
+                    color: unset;
+                }
+            }
+            &-zone {
+                max-width: 300px;
+                min-width: 300px;
+                font-size: 22px;
+            }
+        }
+    }
+
+    &__zone-layout {
+        border: 4px solid #1E1F40;;
+        overflow-x: auto;
+    }
+
+    &__zone-information {
+        margin-top: 16px;
+        &-alarm {
+            &-title {
+                font-size: 24px;
+            }
+            margin-right: 16px;
+        }
+        &-production {
+            &-title {
+                font-size: 24px;
+            }
+            margin-left: 16px;
+        }
+    }
+}

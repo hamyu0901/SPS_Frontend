@@ -1,0 +1,11 @@
+.statusBox{
+    background-color: #393b58 !important;
+    >>> span{
+        font-size: 14px;
+    }
+    >>> p {
+        padding-left: 10px;
+        padding-top: 10px;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,7 @@
+@import "src/commons/table";
+.workListTableCard {
+  border: solid 1px var(--workListTableCardBorderColor) !important;
+}
+.tdText { 
+  color: var(--tdTextColor);
+}

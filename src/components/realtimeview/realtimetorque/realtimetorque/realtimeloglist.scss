@@ -1,0 +1,11 @@
+.realTimeLogList {
+  height: 300px;
+  width: 100%;
+  overflow: scroll;
+  background-color: var(--realTimeLogListBackgroundColor);
+  border: solid 1px var(--realTimeLogListBorderColor);
+}
+
+.logList {
+    background-color: var(--logListBackgroundColor);
+}

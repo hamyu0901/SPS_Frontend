@@ -1,0 +1,38 @@
+.predict-total-count {
+  $self: #{&};
+
+  background-color: #222a3e !important;
+  width: 100%;
+  hegiht: 100%;
+  position: relative;
+  &-title {
+    display: flex;
+    justify-content: center;
+    color: #81838a;
+    font-size: 20px;
+    padding: 4px 0;
+    font-weight: bold;
+  }
+  &__contents {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-value {
+      display: flex;
+      justify-content: center;
+      color: #ffffff;
+      font-weight: bold;
+    }
+    &-image {
+      position: absolute;
+      flex: none;
+    }
+  }
+  .value-number {
+    font-size: 23px;
+  }
+  .value-text {
+    font-size: 30px;
+  }
+}

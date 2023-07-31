@@ -1,0 +1,102 @@
+.titleBox{
+    margin-top: 20px;
+    .title{
+        color: #928C8C;
+        font-size: 18px !important;
+        font-weight: bold;
+    }
+    .v-input {
+        >>> .v-input__control {
+            .v-input__slot{
+               height: 275px;
+            }
+            .v-label{
+                color: #928C8C;
+                font-size: 18px;
+            }
+            .v-text-field__details{
+                display: none;
+            }
+            .v-text-field__slot textarea{
+                color: black;
+                margin-top: 0px;
+                overflow: hidden;
+                resize: none;
+            }
+        }
+    }
+    .filteredinputBox{
+        height: 280px;
+        border: 2px solid #928C8C;
+        border-radius: 5px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 7px;
+        p{
+            white-space: pre-line;
+            color: black;
+            font-size: 15px;
+            margin-bottom: 0px;
+        }
+    }
+
+}
+/**/
+.contentBox{
+    border-top: 2px solid #928C8C;
+    border-left: 2px solid #928C8C;
+    border-right: 2px solid #928C8C;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+.line_bottom{
+    border-bottom: 2px solid #928C8C;
+}
+.contentTitle{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #928C8C;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    img{
+        height: 40px;
+        width: 40px;
+        margin-top: 3px;
+    }
+    p{
+        color: #928C8C;
+        margin-bottom: 0px;
+        vertical-align: center;
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+.statusBtn{
+    font-size: 15px;
+    color: white;
+    width: 120px;
+    height: 35px;
+    padding-top: 6px;
+    margin-left: 5px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.flex_half{
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.line_right{
+    border-right: 1px solid #928C8C;
+}
+.title-page{
+    text-align: right;
+    color: black;
+}
+
+.after {
+    page-break-after: always;
+}

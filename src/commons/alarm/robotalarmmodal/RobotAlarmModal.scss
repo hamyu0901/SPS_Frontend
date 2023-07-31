@@ -1,0 +1,29 @@
+.robot-alarm-modal {
+  $self: #{&};
+  &__contents {
+    &-infos {
+      margin-bottom: 24px;
+    }
+    &-torque {
+      margin-bottom: 24px;
+    }
+    &-accum {
+      &-line {
+        padding-right: 11px;
+      }
+      &-bar {
+        padding-left: 11px;
+      }
+      margin-bottom: 24px;
+    }
+    &-temperature {
+      &-line {
+        padding-right: 11px;
+      }
+      &-bar {
+        padding-left: 11px;
+      }
+    }
+  }
+
+}

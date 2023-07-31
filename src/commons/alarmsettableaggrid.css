@@ -1,0 +1,55 @@
+.ag-grid-container .ag-header-viewport{
+    background-color: white;
+}
+.ag-grid-container .ag-header-cell-label{
+    justify-content: center;
+}
+.ag-grid-container .ag-cell{
+    text-align: center;
+    background-color: #373953;
+    color: white;
+}
+.ag-grid-container .ag-row-selected{
+    border: solid 2px #2597f3 !important;
+}
+.ag-grid-container {
+    padding-left: 24px;
+    padding-right: 24px;
+    border: solid 1px #171a29;
+}
+.ag-grid-container .ag-root-wrapper{
+    border: none !important;
+}
+.ag-grid-container {
+    border: none;
+}
+.ag-grid-container .ag-center-cols-viewport{
+    background-color: #373953;
+}
+.ag-grid-container .ag-cell-range-selected {
+    background-color:  #39436d!important;
+    border-style: dashed !important;
+}
+.ag-grid-container .ag-input-field-input{
+    background-color: #2D2E53  !important;
+    color: white !important;
+}
+.ag-grid-container .ag-list-item{
+    background-color: rgb(111, 111, 154);
+}
+.ag-grid-container .ag-active-item {
+    background-color: #2D2E53!important;
+}
+.ag-grid-container .ag-select-list-item {
+    color: white;
+    background-color: #373953;
+}
+.ag-grid-container .ag-wrapper {
+    background-color: #2D2E53 !important;
+}
+.ag-grid-container .ag-picker-field-wrapper{
+    border: none !important;
+}
+.ag-grid-container .ag-cell-inline-editing{
+    box-shadow: none;
+}

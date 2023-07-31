@@ -1,0 +1,28 @@
+.predict {
+  $self: #{&};
+  max-height: calc(100vh - 125px);
+  &__info {
+    &-alarm-status {
+      display: flex;
+      justify-content: right;
+      [class*='alarm-status-container'] {
+        margin-right: 8px;
+      }
+    }
+    &-date {
+      display: flex;
+      justify-content: right;
+      [class*='datepicker'] {
+        max-width: 210px;
+        margin-right: 6px;
+        >>> input[name="date"] {
+          text-align: center !important;
+          font-size: 24px !important;
+        }
+      }
+      > span {
+        font-size: 24px;
+      }
+    }
+  }
+}

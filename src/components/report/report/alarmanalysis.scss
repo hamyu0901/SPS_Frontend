@@ -1,0 +1,41 @@
+.box {
+    margin-bottom: 20px;
+}
+.calendarbox {
+    max-width: 20%;
+    margin-left: 10px;
+    margin-top: 10px;
+    .v-input >>> .v-input__control .v-input__slot {
+        border: solid 1px #5b6381;
+        min-height: auto !important;
+        display: flex !important;
+        align-items: center !important;
+    }
+    .v-input >>> .v-input__control .v-input__slot input{
+        margin: auto;
+    }
+    .v-input >>> .v-input__control .v-input__slot .v-input__append-inner {
+        margin-top: 5px;
+    }
+}
+.selectbox{
+    padding-top: 10px;
+    max-width: 15%;
+}
+.middleCard{
+    height: 40px;
+    background-color: #2DB67C !important;
+}
+.middleCardTitle{
+    height: 100% ;
+    text-align: right;
+    font-size: 19px;
+    font-weight: bold;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.middleCardIcon{
+    height: 100% ;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}

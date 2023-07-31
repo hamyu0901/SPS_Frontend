@@ -1,0 +1,55 @@
+.base-alarm-info-list {
+  $self: #{&};
+  display: flex;
+  flex-direction: column;
+  background-color: #313150 !important;
+  padding: 0;
+  &__title {
+    padding: 16px 8px 8px 48px;
+    &-chip {
+      font-size: 24px;
+      padding: 8px !important;
+      font-weight: bold;
+      border: 2px solid #2195F3 !important;
+      color: #2195F3 !important;
+      background: none !important;
+    }
+    &-button {
+      background-color: #3B3C55 ;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      color: #FFFFFF;
+      font-size: 15px;
+    }
+  }
+  &__contents {
+    display: flex;
+    flex-direction: column;
+    &-item {
+      display: flex;
+      flex-direction: column;
+      background-color: #313150 !important;
+      color: #FFFFFF !important;
+      &-title {
+        display: flex;
+        font-size: 18px;
+        span {
+          flex: 1;
+          display: flex;
+          justify-content: center;
+        }
+        p {
+          flex: 6;
+          margin-bottom: 0;
+        }
+      }
+      &-expand {
+        display: flex;
+        flex-direction: column;
+        background-color: #45456C !important;
+        padding: 0 40px;
+        max-height: 400px;
+        overflow-y: auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.extra {
+  $self: #{&};
+  &__navigation-drawer {
+    &-list {
+      &-group {
+        &-main {
+          &-tile-title {
+            color: #858CAF;
+          }
+        }
+        &-sub {
+          >>>.v-list__tile__title {
+            width: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            padding-left: 20px;
+          }
+          >>>.v-list__tile__action{
+            display: none;
+          }
+          &-tile-title {
+            color: #858CAF;
+          }
+        }
+      }
+      &-item {}
+    }
+  }
+}

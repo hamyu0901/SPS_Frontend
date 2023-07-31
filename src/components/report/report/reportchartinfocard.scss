@@ -1,0 +1,105 @@
+.chartContainer{
+    background-color: #2D2E53;
+    justify-content: center;
+    padding-top: 20px;
+}
+.chartBox{
+    max-width: 100%;
+    flex-basis: 100%;
+}
+.chartLayout{
+    margin-left: 5px;
+    margin-right: 5px;
+    border: solid #85baa4 1px;
+    max-height: 225px;
+}
+.chartInfo{
+    box-shadow: none;
+    max-width: 100%;
+    flex-basis: 100%;
+    background-color: #2D2E53 !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    border-right: solid 1px #44455d;
+    .listDetailBox{
+        border-bottom: dashed 1px #44455d;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .listTitle{
+        max-width: 30%;
+        flex-basis: 30%;
+        text-align: right;
+    }
+    .listBetween{
+        max-width: 5%;
+        flex-basis: 5%;
+    }
+    .listContents{
+        text-align: center;
+        color: #58C497;
+        span{
+            color: white;
+            font-size: 14px;
+        }
+    }
+    .prevlistContents{
+        text-align: center;
+        color: #5CB0F4
+    }
+}
+.prevchartLayout{
+    margin-left: 5px;
+    margin-right: 5px;
+    border: solid #70a0c8 1px;
+    max-height: 225px;
+}
+
+.currCircleBox{
+    max-width: 100%;
+    flex-basis: 100%;
+    text-align: center;
+    position: relative;
+    .circleText{
+        position: absolute;
+        top: 6px;
+        left: 20px;
+        font-size: 15px;
+    }
+    .v-progress-circular{
+        height: 100% !important;
+        width: 40%;
+    }
+    >>>.v-progress-circular__underlay{
+        stroke: #58C497;
+    }
+    >>>.v-progress-circular__info{
+        font-size: 17px;
+    }
+}
+
+.prevCircleBox{
+    max-width: 100%;
+    flex-basis: 100%;
+    text-align: center;
+    position: relative;
+    .circleText{
+        position: absolute;
+        top: 6px;
+        left: 20px;
+        font-size: 15px;
+    }
+    .v-progress-circular{
+        height: 100% !important;
+        width: 40%;
+    }
+    >>>.v-progress-circular__underlay{
+        stroke: #5CB0F4;
+    }
+    >>>.v-progress-circular__info{
+        font-size: 17px;
+    }
+}

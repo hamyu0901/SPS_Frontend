@@ -1,0 +1,36 @@
+.line-monitoring {
+    $self: #{&};
+    &-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+    &__information {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 12px;
+        &-image {
+            >>> .v-image__image {
+                background-size: 100% 100%;
+            }
+        }
+    }
+    &-table {
+        >>>.v-table__overflow {
+            overflow-y : auto !important;
+            max-height: 1000px !important;
+            table {
+                thead {
+                    position: sticky;
+                    top: 0;
+                    z-index: 1;
+                }
+            }
+
+        }
+    }
+
+    &__layout {
+        height: 100%;
+    }
+}

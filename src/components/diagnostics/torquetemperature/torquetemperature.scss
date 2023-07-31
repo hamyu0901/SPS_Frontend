@@ -1,0 +1,40 @@
+    .v-btn {
+      min-width: 0;
+      margin: 0;
+    }
+    .processSelector {
+      height: 34px;
+      width: 100%;
+    }
+    .searchBtn {
+      height: 33px;
+    }
+
+    .buttonItem {
+      background-color: var(--buttonBackgroundColor) !important;
+      color: var(--buttonColor) !important;
+    }
+
+    .settingBtn {
+      height: 40px;
+    }
+
+    button.axisBtn {
+      margin: 0px;
+      height: 40px;
+      width: 71px;
+      border: solid 2px var(--btnAxisBorderColor);
+      border-radius: 20px;
+    }
+    .axisBtn:hover, .axisBtn:active {
+      background-color: var(--axisBtnHoverBackgroundColor) !important;
+      color: var(--axisBtnHoverColor) !important;
+      border: 0;
+    }
+    .chartCard {
+      background-color: var(--chartCardColor) !important;  
+      border: 1px solid var(--cartCardBorderColor);
+    }
+    .dialogContent {
+      background-color: var(--dialogContentBackgroundColor) !important;
+    }

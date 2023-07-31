@@ -1,0 +1,41 @@
+.cardTitle {
+  background-color: var(--tableCardTopColor);
+  font-size: 17px;
+}
+.dataTable {
+  border-bottom: 1px solid var(--dataTableBorderBottomColor);
+}
+table.v-table thead th{
+  padding: 0 0 !important;
+}
+table.v-table thead tr {
+  height: 40px;
+  background-color: var(--tableTheadBackgroundColor);
+  border-bottom-color: var(--tableTheadBorderBottomColor) !important;
+}
+table.v-table thead tr th {
+  font-size: 14px;
+}
+table.v-table tbody tr {
+  height: 40px; 
+}
+table.v-table tbody td {
+  height: 20px;
+}
+table.v-table tbody tr:nth-of-type(odd) {
+  background-color: var(--tableTBodyTrOddBackgroundColor);
+  border-bottom-color: var(--tableTBodyTrOddBorderBottomColor);
+}
+table.v-table tbody tr:nth-of-type(even) {
+  background-color: var(--tableTBodyTrEvenBackgroundColor);
+  border-bottom-color: var(--tableTBodyTrEvenBorderBottomColor);
+}
+table.v-table tbody tr:hover {
+  background-color: var(--tableTBodyTrBackgroundColor) !important;
+}
+.layout /deep/ .v-pagination__item {
+  background: var(--tableTBodyPaginationItem) !important;
+}
+.layout /deep/ .v-pagination__navigation {
+  background: var(--tableTBodyPaginationItem) !important;
+}

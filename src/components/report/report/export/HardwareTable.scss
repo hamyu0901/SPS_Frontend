@@ -1,0 +1,25 @@
+@import "src/commons/table";
+.statusBtn{
+    height: 100%;
+    pointer-events: none;
+}
+.hardware_box{
+    border: 2px solid #f3f2f2;
+    background-color: #FCFCFC;
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.hardware_detail_title{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.hardware_table{
+    background-color: #333A58;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 20px;
+}

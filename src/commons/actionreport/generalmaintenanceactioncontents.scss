@@ -1,0 +1,30 @@
+    .subHeader {
+      margin-bottom: -5px;
+      margin-left: -13px;
+      margin-right: 0;
+      width: 100px;
+    }
+    .actionType {
+      width: 100%;
+      height: 48px;
+    }
+    .inputField {
+      padding-left: 8px;
+      height: 48px;
+      width: 100%;
+      color: var(--inputFieldColor) !important;
+      background-color: var(--inputFieldBackgroundColor);
+      font-size: 15px;
+      border-radius: 3px;
+      border: solid 1px var(--inputFieldBorderColor) !important;
+    }
+    .inputContentField {
+      padding-left: 8px;
+      height: 378px;
+      width: 100%;
+      color: var(--inputContentFieldColor) !important;
+      background-color: var(--inputContentFieldBackgroundColor); 
+      font-size: 15px;
+      border-radius: 3px;
+      border: solid 1px var(--inputContentFieldBorderColor) !important;
+    }

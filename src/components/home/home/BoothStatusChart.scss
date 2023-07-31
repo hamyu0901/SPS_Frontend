@@ -1,0 +1,18 @@
+.boothMonitoringCard {
+  height: 100%;
+  background-color: var(--boothMonitoringCardBackgroundColor) !important;
+  border: 1px solid var(--boothMonitoringCardBorderColor) !important;
+  margin-bottom: 10px;
+}
+.loading{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+.boothStatusChartTitle {
+  color: var(--boothStatusChartTitleColor);
+  font-size: 20px;
+  margin-bottom: 0px;
+  padding: 5px;
+  padding-bottom: 0px;
+}

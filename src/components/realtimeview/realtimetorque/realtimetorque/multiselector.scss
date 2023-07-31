@@ -1,0 +1,38 @@
+.multiSelector ::-webkit-input-placeholder {
+  color: var(--multiSelectorPlaceHolderColor) !important; 
+}
+.multiSelector {
+  max-width: 207px;
+  width: inherit;
+  height: inherit;
+}
+.multiSelector /deep/ .v-text-field--box .v-input__slot,
+.multiSelector /deep/ .v-text-field--outline .v-input__slot {
+  min-height: auto !important;
+  align-items: center !important;
+  border: 1px solid var(--multiSelectorBorderColor) !important; 
+  background: url('../../../../images/selector_arrow.png') no-repeat 95% 50%; 
+}
+
+.multiSelector /deep/ .v-input__icon .v-icon {
+  display: none;
+}
+
+.multiSelector /deep/ .v-select__selections {
+  padding-top: 0px !important;
+  color:  var(--multiSelectorColor) !important; 
+  font-size: 15px;
+  flex-wrap: unset !important;
+  overflow:hidden;
+}
+
+.multiSelector /deep/ .v-input__icon{  
+  background: url('../../../../images/selector_arrow.png') no-repeat 80% 15%; 
+}
+
+.v-select-list /deep/ .v-list{ 
+  margin-top: 33px;
+  background-color: var(--listBackgroundColor) !important; 
+  color:  var(--multiSelectorColor);
+  border: 1px solid var(--listBorderColor); 
+}

@@ -1,0 +1,41 @@
+@import "src/commons/table";
+.priorityListCard {
+    border: solid 1px var(--priorityListCardBorderColor) !important;
+    >>> .v-table tbody td {
+        background-color: #21263a;
+        text-align: center !important;
+        height: 40px;
+      }
+      >>> .v-table tbody td {
+        font-size: 12px;
+      }
+}
+.sortBtn{
+    margin: 0px;
+    color: rgba(107, 107, 103, 0.833);
+}
+.priorityListTitle {
+    font-size: 17px;
+    height: 40px;
+    background-color:  var(--priorityListTitleBackgroundColor) !important;
+    text-align: center;
+}
+.priority-list-header{
+    font-size: 14px !important;
+}
+.priority_page_content{
+    background-color: #21263a;
+}
+.layout /deep/ .v-pagination__item {
+    background: var(--tableTBodyPaginationItem) !important;
+    min-width: 25px !important;
+}
+.layout /deep/ .v-pagination__navigation {
+    background: var(--tableTBodyPaginationItem) !important;
+}
+
+.tdText {
+    color: var(--tdTextColor);
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }

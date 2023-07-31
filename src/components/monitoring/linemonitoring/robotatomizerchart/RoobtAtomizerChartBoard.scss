@@ -1,0 +1,34 @@
+.atomizer-chart-board{
+    $self: #{&};
+    margin-top: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    min-height: 400px;
+    &-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    &__btn-items {
+        max-height: 35px;
+        &-toggle {
+            height: 100%;
+            background-color: #2A2E42 !important;
+            .v-btn--active {
+              background-color: #4F5070;
+            }
+          }
+          margin-bottom: 16px;
+    }
+    &__layout {
+        height: 100%;
+        &-table {
+            min-height: 200px;
+            max-height: 200px;
+            overflow-y: auto;
+            margin-bottom: 20px;
+        }
+        &-alarm-chart-box {
+            height: 250px;
+        }
+    }
+}

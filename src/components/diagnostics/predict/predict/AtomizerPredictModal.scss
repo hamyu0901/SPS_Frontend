@@ -1,0 +1,53 @@
+.atomizer-predict-modal {
+    $self: #{&};
+    &__contents {
+        height: 100%;
+        &-data {
+            height: 100%;
+            &__btn-items {
+                &-toggle {
+                    background-color: #2A2E42 !important;
+                }
+                &-print{
+                    cursor: pointer;
+                    position: absolute;
+                    top: 65px;
+                    right: 50px;
+                }
+                margin-bottom: 16px;
+            }
+            &__chart {
+                height: 100%;
+                &__box {
+                    height: 450px;
+                }
+                &__alarm-box {
+                    height: 250px;
+                }
+                &-table {
+                  min-height: 200px;
+                  max-height: 200px;
+                  overflow-y: auto;
+                  margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+.main{
+    margin: 15px;
+    flex-basis: 50%;
+    >>>.mix-chart-container{
+        border: 1.5px solid #85baa4;
+        padding: 6px;
+    }
+}
+.sub{
+    margin: 15px;
+    flex-basis: 50%;
+    >>>.mix-chart-container{
+        border: 1.5px solid #70a0c8;
+        padding: 6px;
+
+    }
+}

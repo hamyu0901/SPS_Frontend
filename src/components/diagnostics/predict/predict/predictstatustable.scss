@@ -1,0 +1,26 @@
+@import "src/commons/table";
+.predictStatusTableCard {
+  border: solid 1px var(--predictStatusTableCardBorderColor)!important;
+}
+
+.titleText {
+  font-size: 14px;
+}
+
+.predictStdImg {
+  cursor: unset;
+}
+
+.disableBtn {
+  margin: 0;
+  min-width: 0;
+  width: 30px !important;
+}
+
+.headerOptions {
+  white-space: normal;
+}
+
+.tdText { 
+  color: var(--tdTextColor);
+}

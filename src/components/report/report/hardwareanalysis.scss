@@ -1,0 +1,30 @@
+@import "src/commons/table";
+.report_table{
+    width: 100%;
+    >>>.v-datatable__expand-content{
+        padding: 20px;
+        background: #222A3E;
+        td{
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+        >div{
+            margin: auto;
+            width: 85%;
+            .v-card__title{
+                background-color: #222A3E;
+                font-size: 16px;
+            }
+        }
+    }
+    >>>div{
+        .v-table__overflow{
+            .v-datatable {
+                background-color: #222A3E;
+            }
+        }
+    }
+}
+.statusBtn{
+    height: 100%;
+}

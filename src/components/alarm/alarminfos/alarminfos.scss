@@ -1,0 +1,29 @@
+    .alarmInfoInput {
+      height: 34px;
+      width: 100%;
+      text-align: center;
+      background-color: var(--inputBackgroundColor);
+      border: var(--inputBorder);
+    }
+    .searchBtn {
+      height: 33px;
+    }
+    .alarmIcons, .alarmPhrases {
+      pointer-events: none;
+    }
+    .v-btn {
+      min-width: 0;
+      margin: 0;
+    }
+    .manualBtn:hover:before {
+      background-color: transparent !important;
+    }
+    .alarmInfoList {
+      background-color: var(--alarmInfoListBackgroundColor) !important;
+    }
+    .alarmTitle {
+      pointer-events: none
+    }
+    .alarmDetailList {
+      background-color: var(--alarmDetailListBackgroundColor);
+    }

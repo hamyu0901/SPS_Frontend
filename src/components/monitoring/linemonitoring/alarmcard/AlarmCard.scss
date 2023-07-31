@@ -1,0 +1,56 @@
+.alarm-card {
+  $self: #{&};
+
+  min-width: 350px;
+  border-radius: 15px 10px 10px 15px;
+  border-left: 7px solid #E74F4F !important;
+  &__contents {
+    border-radius: 10px !important;
+    background-color: #1E1F40 !important;
+
+    &-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px dashed #75769C !important;
+      padding: 2px 12px 0 12px;
+      max-height: 40px;
+      min-height: 0;
+      height: 100%;
+      font-size: 18px;
+      font-weight: 700;
+      &-icon {
+        padding: 4px 11px;
+        border: 2px solid #2F3151 !important;
+        margin-bottom: 2px;
+        border-radius: 10px;
+      }
+    }
+
+    &-info {
+      &__container {
+        &:first-child {
+          padding-top: 8px;
+        }
+        &:last-child {
+          padding-bottom: 8px;
+        }
+        display: flex;
+        align-items: center;
+        padding: 2px 12px;
+        font-size: 14px;
+        font-weight: 700;
+        &-icon {
+          padding: 4px;
+          border: 2px solid #2F3151;
+          margin-right: 12px;
+          border-radius: 10px;
+          background: #2F3151 !important;
+        }
+      }
+    }
+  }
+}
+.hover{
+  cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.maintenance {
+  $self: #{&};
+  &-title {
+    margin: 40px 0 25px 20px;
+    font-weight: bold;
+    font-size: 23px;
+  }
+}

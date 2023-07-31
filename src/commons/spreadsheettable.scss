@@ -1,0 +1,32 @@
+  .spreadSheetTable {
+    // background-color: #171A29 !important;
+    background-color: var(--spreadSheetTableBackgroundColor) !important;
+    overflow-y: auto;
+    overflow-x: unset;
+  }
+  div.v-table__overflow {
+    overflow-y: auto;
+    overflow-x: unset;
+  }
+  table.v-table thead tr {
+    height: 45px;
+    background-color: var(--theadBackgroundColor);
+    border-bottom-color: var(--theadBackgroundColor) !important;
+  }
+  table.v-table tbody tr:nth-of-type(odd) {
+    background-color: var(--oddBackgroundColor);
+    border-bottom-color: var(--oddBackgroundColor);
+  }
+  table.v-table tbody tr:nth-of-type(even) {
+    background-color: var(--evenBackgroundColor);
+    border-bottom-color: var(--evenBackgroundColor);
+  }
+  table.v-table tbody tr:hover {
+    background-color: #203556 !important;
+  }
+  table.v-table tbody td {
+    height: 29px;
+  }
+  .tdText { 
+    color: var(--tdTextColor);
+  }

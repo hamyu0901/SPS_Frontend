@@ -1,0 +1,28 @@
+::-webkit-scrollbar {
+    display: none;
+}
+a {
+    pointer-events: none;
+    cursor: default;
+}
+.v-btn {
+  min-width: 0;
+  margin: 0;
+}
+.searchBtn {
+  height: 33px;
+}
+.torqueLoadFactorSelector {
+  height: 34px;
+  width: 100%;
+}
+.excptCheckBox {
+  margin-top: -7px;
+}
+.smallBtn {
+margin-left: 5px;
+}
+.alertBtn {
+  margin-left: 5px;
+  margin-right: 5px;
+}

@@ -1,0 +1,28 @@
+.subHeader {
+  margin-bottom: -5px;
+  margin-left: -13px;
+  margin-right: 0;
+  width: 100px;
+}
+
+.textField {
+  padding-left: 8px;
+  height: 48px;
+  width: 100%;
+  color: var(--textFieldColor) !important;
+  background-color: var(--textFieldBackgroundColor);
+  font-size: 15px;
+  border-radius: 3px;
+  border: solid 1px var(--textFieldBorderColor) !important;
+}
+
+.textContentField {
+  padding-left: 8px;
+  height: 378px;
+  width: 100%;
+  color: var(--textContentFieldColor) !important;
+  background-color: var(--textContentFieldBackgroundColor); 
+  font-size: 15px;
+  border-radius: 3px;
+  border: solid 1px var(--textContentFieldBorderColor) !important;
+}

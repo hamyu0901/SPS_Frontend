@@ -1,0 +1,68 @@
+.horiz-scroll {
+  overflow-x: scroll;
+}
+
+a {
+  pointer-events: none;
+  cursor: default;
+}
+
+.v-btn {
+  min-width: 0;
+  margin: 0;
+}
+
+.TorqueRangeSelector {
+  height: 34px;
+  width: 100%;
+}
+
+.subTitle p{
+  color: var(--subTitleColor);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.smallBtn {
+  height: 33px;
+  color: var(--buttonColor) !important;
+  background-color: var(--buttonBackgroundColor) !important;
+}
+
+.violationBtn {
+  height: 34px;
+  color: var(--buttonColor) !important;
+  border-radius: 3px;
+}
+
+.warningValueBtn {
+  min-width: 71px;
+  width: 100% !important;
+}
+
+button.axisBtn {
+  margin: 0px;
+  height: 40px;
+  width: 71px;
+  border: solid 2px var(--btnAxisBorderColor);
+  border-radius: 20px;
+}
+
+.axisBtn:hover, .axisBtn:active {
+  background-color: var(--axisBtnHoverBackgroundColor)!important;
+  color: var(--axisBtnHoverColor) !important;
+  border: 0;
+}
+
+.WVOffsetText {
+  position: relative;
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 15px;
+  color: var(--violationOffSetTextColor);
+}
+
+.infoArea /deep/ p{
+  color: var(--infoTextColor);
+  margin-bottom: 0;
+}

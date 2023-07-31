@@ -1,0 +1,20 @@
+.base-modal {
+  $self: #{&};
+  z-index: 1000;
+  &__contents {
+    background-color: #26233E !important;
+    &-card-title {
+      display: flex;
+      padding: 2px 16px;
+      width: 100%;
+      max-height: 50px;
+      justify-content: space-between;
+      font-size: 24px;
+      font-weight: 700;
+      background-color: #3B3C55 !important;
+    }
+    &-card-contents {
+      padding: 24px;
+    }
+  }
+}

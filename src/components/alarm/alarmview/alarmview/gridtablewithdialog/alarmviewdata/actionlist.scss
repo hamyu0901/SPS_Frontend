@@ -1,0 +1,47 @@
+    .actionReportAddBtn {
+      margin: -5px;
+      min-width: 80px;
+    }
+    .buttonItem {
+      background-color: var(--buttonItemBackgroundColor)  !important;
+      color: var(--buttonItemColor);
+    }
+    .actionListCard {
+      height: 382x;
+      background-color: var(--cardBackgroundColor) !important;
+      border: solid 1px var(--cardItemBorderColor) !important;
+    }
+    .cardTitle {
+      height: 55px;
+      background-color: var(--cardTitleBackgroundColor) !important;
+      color: white;
+      font-size: 17px;
+    }
+    .actionList {
+        max-height: 325px;
+        overflow-y: auto;
+        overflow-x: unset;
+    }
+    .actionListTitle {
+      max-width: 550px;
+      display: block;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow:ellipsis;
+      font-weight: bold;
+    }
+    .actionListSubTitle {
+      color: var(--expansionPanelSubTitleColor);
+    }
+    .expansionPanelTitle {
+      background-color: var(--expansionPanelTitleBackgroundColor) !important;
+      border-top: 0 !important;
+      border-bottom: 1px solid var(--expansionPanelBorderBottomColor);
+    }
+    .expansionPanelContent {
+      background-color: var(--expansionPanelContentBackgroundColor) !important;
+    }
+    .chips {
+      margin-top: 0;
+      margin-bottom: 0;
+    }

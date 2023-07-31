@@ -1,0 +1,104 @@
+.vin-no-production-history {
+  $self: #{&};
+  display: flex;
+  flex-direction: column;
+  &__filter {
+    &-search {
+      display: flex;
+      align-items: center;
+      &-title {
+        font-size: 15px;
+        margin: 0 15px;
+        width: 130px;
+        &::after {
+          content: ' :';
+        }
+      }
+      &-item {
+        width: 100%;
+        >>> .inputMessage {
+          padding: 0 16px;
+          text-align: left;
+          font-size: 14px;
+        }
+      }
+      &-button {
+        margin: 0 16px;
+      }
+    }
+  }
+  &__chart {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    max-height: 400px;
+    margin: 15px 0 15px 0;
+    &-title {
+      font-size: 23px;
+      font-weight: bold;
+      padding: 30px 0 15px 0;
+    }
+  }
+  &__contents {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    &-summary {
+      background-color: #171a29 !important;
+      margin: 8px 0;
+      &-title {
+        font-size: 23px;
+        font-weight: bold;
+        padding: 30px 0 15px 0;
+      }
+      &-empty {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        border: 1px solid #2C2F44 !important;
+      }
+    }
+    &-card {
+      background-color: #171a29 !important;
+      margin: 8px 0;
+      &-title {
+        font-size: 23px;
+        font-weight: bold;
+        padding: 30px 0 15px 0;
+      }
+      &-empty {
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        border: 1px solid #2C2F44 !important;
+      }
+      &-items {
+        max-height:500px;
+        overflow-y: auto;
+        padding: 0;
+        &-item {
+          display: flex;
+          flex-direction: column;
+          &-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 8px 0 8px 0;
+            align-items: center;
+            text-align: center;
+            max-width: 100px;
+            height: 35px;
+            background-color: #646375 !important;
+            border: 2px solid #9797A1 !important;
+            border-radius: 20px;
+          }
+        }
+      }
+    }
+  }
+}

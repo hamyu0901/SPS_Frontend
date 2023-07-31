@@ -1,0 +1,35 @@
+.alarmDlg {
+  background-color: var(--alarmDlgBackgroundColor) !important;
+}
+.listArea {
+  background-color: var(--listAreaBackgroundColor) !important;
+  overflow-y: auto;
+  overflow-x: unset;
+}
+.listTile {
+  background-color: var(--listTileBackgroundColor) !important;
+  overflow-y: auto;
+  overflow-x: unset;
+}
+.tile {
+  margin: 5px;
+  border-radius: 4px;
+}
+.listContent {
+  align-content: center;
+  justify-content: center;
+}
+.codeTable {
+  width: 100%;
+  max-height: 627px;
+  overflow-y: auto;
+  overflow-x: unset;
+}
+.tdText { 
+  color: var(--tdTextColor);
+}
+
+.buttonItem {
+  background-color: var(--buttonItemBackgroundColor) !important;
+  color: var(--buttonItemColor);
+}

@@ -1,0 +1,108 @@
+.statistics {
+  $self: #{&};
+  display: flex;
+  flex-direction: column;
+  &__filter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    &-item {
+      margin: 0 8px;
+      &:first-child {
+        margin-left: 0;
+      }
+      >>> .selector {
+        height: 36px;
+        width: 100%;
+      }
+    }
+    &-button {
+      min-width: 0;
+    }
+  }
+  &-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  &__chart {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    &-item {
+      height:460px !important;
+      border: 1px solid #393E55;
+    }
+  }
+  &__summary-alarm {
+    margin-bottom: 8px;
+    &-table {
+      display: flex;
+      flex-direction: column;
+      &:first-child {
+        margin-right: 8px;
+      }
+      &:last-child {
+        margin-left: 8px;
+      }
+      &-item {
+        >>> .v-datatable {
+          thead {
+            tr {
+              background-color: #21263a !important;
+              border-bottom: unset !important;
+              th{
+                color: #FFFFFF;
+                font-weight: bold;
+                font-size: 14px !important;
+              }
+            }
+          }
+          tbody {
+            td {
+              background-color: #2C2F44 !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  &__entire-alarm {
+    display: flex;
+    flex-direction: column;
+    &-table {
+      max-height: 500px;
+      >>> .v-table__overflow {
+        overflow-y: auto;
+        max-height: inherit !important;
+        table {
+          thead {
+            position: sticky;
+            top: 0;
+            z-index: 1;
+            background-color: #21263a !important;
+            tr.v-datatable__progress {
+              display: none !important;
+            }
+            tr {
+              height: 40px !important;
+              th{
+                min-width: 150px;
+                color: #FFFFFF;
+                font-weight: bold;
+                font-size: 14px;
+              }
+            }
+          }
+          tbody {
+            tr {
+              td {
+                background-color: #2C2F44 !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

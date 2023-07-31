@@ -1,0 +1,10 @@
+.predict-line-chart {
+    $self: #{&};
+    width: 100%;
+    min-height: 280px;
+    height: 100%;
+    margin: 0 0 8px 0;
+    &:last-child {
+        margin: 0;
+    }
+}

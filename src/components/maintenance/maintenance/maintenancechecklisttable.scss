@@ -1,0 +1,11 @@
+@import "src/commons/table";
+.maintenanceCheckListTableCard {
+  border: solid 1px var(--maintenanceCheckListTableCardBorderColor) !important;
+}
+.tdText { 
+  color: var(--tdTextColor);
+}
+.buttonItem {
+  background-color: var(--buttonBackgroundColor) !important;
+  color: var(--buttonColor);
+}

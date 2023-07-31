@@ -1,0 +1,43 @@
+.torqueRangeTableCard {
+  width: 100%;
+  border: solid 1px var(--tableBorderColor) !important;
+}
+table.v-table {
+  overflow-x: auto;
+}
+table.v-table thead tr {
+  height: 30px;
+  background-color: var(--tableHeadBackgroundColor); 
+}
+table.v-table tbody tr {
+  background-color: var(--tableRowBackgroundColor); 
+  border-bottom-color: var(--tableRowBorderBottomColor) !important; 
+}
+table.v-table tbody tr:hover {
+  background-color: var(--hoverBackgroundColor) !important; 
+}
+table.v-table thead tr th {
+  padding: 4px;
+  color: var(--headerColTextColor); 
+  border-right: 1px solid var(--headerColBorderRightColor);
+  border-bottom: 1px solid var(--headerColBorderBottomColor); 
+}
+table.v-table tbody tr td {
+  padding: 4px;
+  height: 30px;
+  color: var(--headerColTextColor); 
+  border-right: 1px solid var(--rowColBorderRightColor); 
+}
+
+.detailSetDlg {
+  background-color: var(--detailSetDlgBackgroundColor);
+  color: var(--detailSetDlgColor);
+  border: solid 1px var(--detailSetDlgBorderColor);
+
+}
+.tableInput {
+  width: 70px;
+  background-color: var(--detailSetDlgInputBackgroundColor);
+  color: var(--detailSetDlgInputColor);
+  border: 1px solid var(--detailSetDlgInputBorderColor);
+}

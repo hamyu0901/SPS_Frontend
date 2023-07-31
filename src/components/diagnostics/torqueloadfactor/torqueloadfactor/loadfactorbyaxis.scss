@@ -1,0 +1,34 @@
+@import "src/commons/table";
+.loadFactorByAxis {
+  width: 100%;
+}
+.masterJobName{
+  margin-left: 5px;
+  color: rgb(31, 192, 82);
+  font-size: 0.8em;
+}
+.jobText{
+  margin-left: 20px;
+  color: darkgrey;
+  font-size: 0.9em;
+}
+.accumAVG {
+  margin-left: 5px;
+  color: rgb(69, 114, 205);
+}
+.dailyAvgBtn{
+  font-size: 12px;
+  .v-icon {
+    padding-right: 5px;
+  }
+}
+.toggleBtn{
+  background-color: #303758 !important;
+  >>>.v-btn--active{
+    border: 2px solid #2195F3 !important;
+    background-color: #0f1328 !important;
+  }
+  .v-btn{
+    font-size: 12px;
+  }
+}

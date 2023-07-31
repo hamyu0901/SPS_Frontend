@@ -1,0 +1,43 @@
+.home {
+  $self: #{&};
+  height: 100%;
+  &__statistics {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__analysis {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &-container {
+      &__sub-predict {
+        >>> .predict-analysis-container__result-predict-top {
+          margin-top: 12px !important;
+        }
+        >>> .predict-total-count-title {
+          font-size: 14px !important;
+        }
+        >>> .predict-total-count__contents-value {
+          font-size: 24px !important;
+        }
+        >>> .predict-top__title-value-count {
+          font-size: 24px !important;
+        }
+        >>> .predict-top__check {
+          padding: 0 4px 4px 24px !important;
+        }
+        >>> .bar-chart-container-empty {
+          padding:16px 24px 16px 24px;
+          > p {
+            font-size: 1.25rem;
+          }
+        }
+        >>> .bar-chart-container-empty-image {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}

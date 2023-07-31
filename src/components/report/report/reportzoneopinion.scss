@@ -1,0 +1,29 @@
+.opinionBox{
+    height: 250px;
+    >>> .v-card__text {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    >>> .v-text-field{
+        textarea {
+            height: 80px;
+        }
+    }
+    .opinionBox-export{
+        div {
+            text-align: left;
+            font-size: 13px;
+            color: #B2AEAE;
+        }
+        p{
+            white-space: pre-line;
+            font-size: 16px;
+            color: #c5c2c2;
+            text-align: left;
+            min-height: 30px;
+            border-bottom: dashed 1px #B2AEAE;
+            padding-bottom: 5px;
+        }
+    }
+
+}

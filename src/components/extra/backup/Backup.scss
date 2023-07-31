@@ -1,0 +1,56 @@
+.backup {
+  $self: #{&};
+  padding: 20px;
+  width: 100%;
+  &-title {
+    width: 100%;
+    font-size: 23px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #3B3C55;
+  }
+  &-table {
+    height: 770px;
+    .v-table__overflow{
+      overflow-y: auto !important;
+      max-height: 100% !important;
+      .v-table thead {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+      }
+    }
+    table.v-table thead tr {
+      background-color: #21263a !important;
+      border-bottom-color: #21263a !important;
+    }
+    table.v-table thead tr th{
+      font-size: 15px;
+      color: #FFFFFF !important;
+      font-weight: bold;
+    }
+
+    table.v-table tbody tr {
+      height: 44px;
+      color: #EEEEEE;
+      background-color: #2C2F44 !important;
+    }
+    table.v-table tbody tr:hover {
+      background-color: #4F5070 !important;
+    }
+
+    table.v-table tbody tr td{
+      font-size: 14px;
+    }
+  }
+  &-empty {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border: 1px solid #2C2F44;
+  }
+}

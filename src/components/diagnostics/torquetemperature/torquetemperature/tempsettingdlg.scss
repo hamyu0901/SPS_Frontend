@@ -1,0 +1,18 @@
+.tempSettingDlg {
+  background-color: var(--dlgBackgroundColor);
+}
+.subHeader {
+  margin-bottom: -5px;
+  margin-left: -13px;
+  width: 160px;
+  color: var(--subHeaderColor);
+}
+
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.textField /deep/ .v-input__slot{
+  border: solid 1px var(--inputBorderColor) !important;
+}

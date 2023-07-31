@@ -1,0 +1,48 @@
+.settingCard {
+  width: 100%;
+  height: 100%;
+  background-color: var(--settingCardBackgroundColor) !important;
+  color: var(--settingCardColor) !important;
+ }
+
+.settingDetailCard {
+  width: 100%;
+  background-color: var(--settingDetailCardBackgroundColor) !important;
+  color: var(--settingDetailCardColor) !important;
+}
+
+.buttonToggle {
+  width: 100%;
+  height: 56px;
+  background-color: var(--buttonToggleBackgroundColor) !important;
+}
+
+.toggleBtn {
+  width: 100% !important;
+  height: 56px;
+  font-size: 16px;
+  color: var(--toggleBtnColor) !important;
+  border: solid 1px var(--toggleBtnBorderColor);
+  opacity: 1 !important;
+}
+
+.h4 {
+  font-size: 15px;
+}
+.h5 {
+  font-size: 19px;
+}
+.buttonItem {
+  background-color: var(--buttonItemBackgroundColor) !important;
+  color: var(--buttonItemColor) !important;
+}
+.closeButton{
+  display: flex;
+  justify-content: right !important;
+}
+.settingDlgListTile{
+  .v-list__tile__title{
+    color: white;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,49 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+a {
+    pointer-events: none;
+    cursor: default;
+}
+
+.v-btn {
+  min-width: 0;
+  margin: 0;
+}
+
+.searchBtn {
+  height: 33px;
+}
+
+.TorqueDataSelector {
+  height: 34px;
+  width: 100%;
+}
+
+.subTitle {
+  margin-top: -10px;
+}
+
+.subTitle p{
+  color: var(--subTitleColor);
+  font-size: 13px;
+}
+
+.subTitle p.jobName{
+  font-weight: bold;
+}
+
+button.axisBtn {
+  margin: 0px;
+  height: 40px;
+  width: 71px;
+  border: solid 2px var(--btnAxisBorderColor);
+  border-radius: 20px;
+}
+
+.axisBtn:hover, .axisBtn:active {
+  background-color: var(--axisBtnHoverBackgroundColor) !important;
+  color: var(--axisBtnHoverColor) !important;
+  border: 0;
+}

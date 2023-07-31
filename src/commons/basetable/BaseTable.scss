@@ -1,0 +1,39 @@
+.base-table {
+  $self: #{&};
+  width: 100%;
+
+  >>> table{
+    background-color: #2B2B47 !important;
+  }
+
+  >>> thead {
+    background-color: #313150 !important;
+    th {
+      font-size: 16px;
+    }
+  }
+
+  &__tr-normal {
+    background-color: #2B2B47 !important;
+  }
+
+  &__tr-normal:hover {
+    background-color: #2B2B47 !important;
+  }
+
+  &__tr-highlight {
+    background-color: #4F5070 !important;
+  }
+
+  &__tr-highlight:hover {
+    background-color: #4F5070 !important;
+  }
+
+  &__tr-click {
+    cursor: pointer;
+  }
+
+  &__tr-not-click {
+    cursor: unset;
+  }
+}

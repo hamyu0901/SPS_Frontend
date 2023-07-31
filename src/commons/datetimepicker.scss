@@ -1,0 +1,17 @@
+.datepicker {
+  width: 100%;
+}
+.datepicker /deep/ .mx-calendar-content .cell:hover {
+    background-color: #1284e7 !important;
+    color: white !important;
+}
+.datepicker /deep/ .mx-panel-date td.last-month ,.datepicker /deep/ .mx-panel-date td.next-month {
+  color: #6E6E6E !important;
+}
+.datepicker /deep/ input.mx-input::-webkit-input-placeholder {
+  color: #545a73 !important;
+}
+
+.datepicker /deep/ .mx-input-append {
+  background-color: var(--dateTimePickerAppendBackgroundColor) !important;
+}

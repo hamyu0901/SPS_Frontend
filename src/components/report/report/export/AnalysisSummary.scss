@@ -1,0 +1,227 @@
+.summary_container{
+    $self: #{&};
+    width: 1910px;
+    margin: auto;
+    &__layout{
+        height: 100%;
+        border: 3px solid #000000;
+        padding: 50px 50px 50px 50px;
+        margin-top: 100px;
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+}
+.summary_progress{
+    justify-content: center;
+}
+.summary_progress_text{
+    color: #2DB67C;
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 60px;
+    height: 100%;
+    padding-left: 5px;
+}
+.summary_content_title{
+    text-align: left;
+    color: #2A375D;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0px 0px 30px 0px;
+}
+.chart_content_title{
+    text-align: left;
+    color: #2A375D;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.report_name_box{
+    height: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: black;
+    margin-bottom: 40px;
+}
+.content_layout{
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #f3f2f2;
+    background-color: #FCFCFC;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.content_title{
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.content_content{
+    width: 100%;
+}
+
+.summary_content{
+    text-align: center;
+    page-break-before: avoid;
+}
+
+.report_name{
+    border: 3px solid #2DB67C;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.prev_report_name{
+    border: 2px solid #5e7294;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    flex-basis: 30%;
+    max-width: 30%;
+    padding-top: 3px;
+    color: #333A58;
+}
+.selectedAlarmList{
+    margin-top: 20px;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.before{
+    page-break-before: always;
+}
+.after {
+    page-break-after: always;
+}
+.avoid {
+    page-break-after: avoid;
+}
+.content_main_report{
+    background-color: #333A58;
+    padding: 7px;
+    border-radius: 5px;
+}
+.content_report_name {
+    height: 25px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.content_main_report_opinion{
+    background-color: #333A58;
+    border: solid 6px #2DB67C;
+    padding: 7px;
+    border-radius: 5px;
+}
+.content_sub_report_opinion{
+    background-color: #333A58;
+    border: solid 3px #333A58;
+    padding: 7px;
+    border-radius: 5px;
+    max-width: 40%;
+    flex-basis: 40%;
+}
+.content_content_noDataAlarm{
+    background-color: #21263a;
+    width: 100%;
+    height: 330px;
+    border-radius: 3px;
+    box-shadow: inset;
+    div{
+        padding-top: 20px;
+        font-size: 17px;
+    }
+    span{
+        font-size: 18px;
+        line-height: 250px;
+    }
+}
+.content_flex{
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.alarm_table{
+    color: black;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    thead tr th {
+        background:#313150;
+        color:white;
+        height: 50px;
+        font-weight: bold;
+    }
+    tbody {
+        border-bottom: 1px solid #494e57;
+        tr td{
+            color: white;
+            height: 35px;
+            background-color: #2B2B47;
+        }
+    }
+}
+
+.atomizer-predict-modal {
+    $self: #{&};
+    &__contents {
+        height: 100%;
+        &-data {
+            height: 100%;
+            &__chart {
+                height: 100%;
+                &__box {
+                    height: 450px;
+                    >>>.listBox__card__box{
+                        font-size: 14px;
+                    }
+                    >>>.listBox__circleBox__subTitle{
+                        position: absolute;
+                        bottom: 10px;
+                        right: 5px;
+                        span{
+                            color: #cec9c9;
+                            padding-right: 5px;
+                            font-size: 12px;
+                        }
+
+                    }
+                }
+            }
+
+        }
+
+    }
+}
+.atomizer-board{
+    >>>.atomizer-board__info:hover{
+        box-shadow: none;
+    }
+}
+
+.main{
+    margin: 8px;
+    background-color: #2D2E53;
+    padding: 8px;
+    >>>.mix-chart-container{
+        border: 1.5px solid #85baa4;
+    }
+}
+.sub{
+    margin: 8px;
+    background-color: #2D2E53;
+    padding: 8px;
+    >>>.mix-chart-container{
+        border: 1.5px solid #70a0c8;
+    }
+}

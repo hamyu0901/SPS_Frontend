@@ -1,0 +1,44 @@
+    .dlgArea {
+        display: flex;
+        justify-content: space-between;
+        height: 730px;
+        width: 755px;
+        background-color: var(--dlgAreaBackgroundColor);
+    }
+    .condUI {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100px;
+        left: 100px;
+        margin-top: 20px;
+        margin-left: 30px;
+        align-content: stretch;
+    }
+    .causeDescUI {
+        margin-top: 50px;
+        margin-left: 46px;
+        width: 326px;
+        background-color: var(--causeDescUIBackgroundColor);
+    }
+    .actionDescUI {
+        margin-top: -428px;
+        margin-left: 388px;
+        width: 326px;
+        background-color: var(--actionDescUIBackgroundColor);
+    }
+    .userIDEditCtrl {
+        margin-top: -10px;
+        margin-left: 45px;
+        width: 100px;
+    }
+    .btnArea {
+        position: relative;
+        top: 0px;
+        left: -7px;
+        width: 753px;
+        height: 50px;
+        background-color: var(--btnAreaBackgroundColor);
+    }
+    .btnObject {
+        background-color: var(--btnObjectBackgroundColor) !important;
+    }

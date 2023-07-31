@@ -1,0 +1,97 @@
+.fileInsertBox{
+    background-color: rgb(255, 253, 251) !important;
+    >>>.v-card__title{
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        padding-bottom: 0px;
+    }
+}
+.f_btn{
+    text-align: right;
+    background: white;
+}
+.alarmlistTitle{
+    flex-basis: 93%;
+    max-width: 93%;
+}
+
+.filebox {
+    padding: 20px 20px 20px 20px;
+    width: 600px;
+    height: 100px;
+    background: white;
+}
+.filebox .upload-name {
+    padding: 20px 20px 20px 20px;
+    text-align: center !important;
+    width: 560px;
+    height: 70px;
+    color: rgba(109, 107, 106, 0.774);
+    display: inline-block;
+    font-size: 17px !important;
+    -webkit-appearance: none;
+    background-color: #f5f5f5;
+    border: 1px solid #ebebeb; border-bottom-color: #e2e2e2; border-radius: .25em;
+}
+.fileButtonText{
+    font-size: 11px;
+    text-align: center;
+}
+
+.zoneTab{
+    >>> .v-tabs__item{
+        color: white;
+    }
+}
+.btnContainer{
+    background-color: #2D2E53;
+    text-align: right;
+    padding-right: 25px;
+    justify-content: right;
+    >>>button{
+        margin: 5px 0px 0px 0px;
+        width: 30px;
+        height: 30px;
+    }
+    >>>p{
+        padding-right: 3px;
+        margin-bottom: 0px;
+        font-size: 12px;
+    }
+}
+.alartText{
+    text-align: center;
+    height: 100%;
+}
+.rowBtn{
+    width: 18px;
+    margin-top: 0px;
+    >>>.v-icon{
+        color: grey;
+        font-size: 30px;
+    }
+}
+// .upload-name::-webkit-file-upload-button{ // 파일 선택 버튼 custom
+//     visibility: hidden;
+// }
+// .upload-name::before {
+//     content: 'Select some files';
+//     display: inline-block;
+//     background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+//     border: 1px solid #999;
+//     border-radius: 3px;
+//     padding: 5px 8px;
+//     outline: none;
+//     white-space: nowrap;
+//     -webkit-user-select: none;
+//     cursor: pointer;
+//     text-shadow: 1px 1px #fff;
+//     font-weight: 700;
+//     font-size: 10pt;
+// }
+// .upload-name:hover::before {
+//     border-color: black;
+//   }
+//   .upload-name:active::before {
+//     background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+//   }

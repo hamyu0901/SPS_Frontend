@@ -1,0 +1,28 @@
+.dateAggregationDlgCard {
+  background-color: var(--dateAggreagationDlgCardBackgroundColor) !important;
+}
+
+.dateAggregationDlgSubCard {
+  background-color: var(--dateAggregationDlgSubCardBackgroundColor) !important;
+  border: solid 1px var(--cardItemBorderColor) !important;
+}
+
+.dateAggregationDlgSubCardTitle {
+  margin-bottom: 0;
+  background-color: var(--dateAggreagationDlgSubCardTitleBackgroundColor);
+  color: var(--dateAggregationDlgSubCardTitleColor);
+}
+
+.alarmInfos {
+  overflow-y: auto !important;
+}
+
+.subTitleContent {
+  width: 100%;
+  text-align: center;
+}
+
+.exitBtn {
+  background-color: var(--buttonBackgroundColor) !important; 
+  color: var(--buttonColor) !important;
+}

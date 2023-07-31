@@ -1,0 +1,26 @@
+@import "src/commons/table";
+.abNormalStandardSettingTableCard {
+  border: solid 1px var(--abNormalStandardSettingTableCardBorderColor) !important;
+}
+.buttonItem {
+  margin: 0;
+  background-color: var(--buttonBackgroundColor) !important;
+  color: var(--buttonColor);
+}
+
+.warningSetDlgCard {
+  background-color: var(--cardBackgroundColor) !important;
+}
+
+.tdText { 
+  color: var(--tdTextColor);
+}
+
+.warningTotalSetDlgInput {
+  height: 36px;
+  width: 150px;
+  background-color: var(--totalSetDlgInputBackgroundColor) !important;
+  color: var(--totalSetDlgInputColor);
+  border: solid 1px var(--totalSetDlgInputBorderColor);
+  text-align: center;
+}

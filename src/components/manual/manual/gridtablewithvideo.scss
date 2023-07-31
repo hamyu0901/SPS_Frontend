@@ -1,0 +1,9 @@
+@import "src/commons/table";
+.tdText { 
+  color: var(--tdTextColor);
+}
+
+.buttonItem {
+  background-color: var(--buttonBackgroundColor) !important;
+  color: var(--buttonColor);
+}

@@ -1,0 +1,43 @@
+.export-modal {
+  $self: #{&};
+  &__contents {
+    height: 100%;
+    &-search {
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      >>> .datepicker {
+        width: unset !important;
+        margin-right: 8px;
+      }
+      &-button {
+        margin-left: 8px;
+        &__container {
+          display: flex;
+          justify-items: center;
+          align-items: center;
+          img {
+            width: 25px;
+          }
+        }
+      }
+    }
+    >>> .ag-theme-alpine {
+      --ag-foreground-color: white;
+      --ag-background-color: #2a2f44;
+      --ag-header-foreground-color: white;
+      --ag-header-background-color: #21263a;
+      --ag-odd-row-background-color: #21263a;
+    }
+    >>> .ag-header-cell-label {
+      justify-content: center;
+    }
+    >>> .cell-item {
+      text-align: center;
+    }
+    >>> .warning {
+      background: #EA5B4F !important;
+      border: none;
+    }
+  }
+}

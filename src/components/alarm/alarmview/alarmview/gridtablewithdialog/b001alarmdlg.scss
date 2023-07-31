@@ -1,0 +1,13 @@
+.alarmDlg {
+  background-color: var(--alarmDlgBackgroundColor) !important;
+}
+.spreadSheet {
+  max-height: 627px;
+  overflow-y: auto;
+  overflow-x: unset;
+}
+
+.buttonItem {
+  background-color: var(--buttonItemBackgroundColor) !important;
+  color: var(--buttonItemColor);
+}

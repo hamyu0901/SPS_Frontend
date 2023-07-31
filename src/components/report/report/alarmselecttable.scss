@@ -1,0 +1,17 @@
+@import "src/commons/table";
+.gridTableCard {
+    border: solid 1px var(--gridTableCardBorderColor) !important;
+    display: block;
+    overflow: auto;
+    >>> tbody {
+        tr:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.pageText{
+    margin-bottom: 0px !important;
+    text-align: right;
+    padding-right: 7px;
+}

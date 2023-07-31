@@ -1,0 +1,79 @@
+@import "src/commons/table";
+.priorityListCard {
+  border: solid 1px var(--priorityListCardBorderColor) !important;
+  >>> .v-table tbody td {
+    font-size: 12px;
+    height: 25px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    text-align: center !important;
+  }
+  >>> .v-table tbody td .v-btn {
+    height: 24px !important;
+  }
+}
+// .priorityList {
+//     padding: 0 !important;
+//     height: 100%;
+//     background-color: var(--priorityListBackgroundColor) !important;
+// }
+.priorityListTitle {
+    height: 40px;
+    background-color:  var(--priorityListTitleBackgroundColor) !important;
+    text-align: center;
+    color: #d5a22b !important;
+}
+.priority-list-header{
+    font-size: 14px !important;
+}
+// .priorityListTile {
+//     padding: 0px !important;
+//     height: 40px !important;
+//     color: var(--priorityListColor) !important;
+// }
+// .tileContent{
+//     flex-basis: 15% !important;
+//     max-width: 15% !important;
+// }
+// .tileDatas {
+//     padding-top: 10px;
+//     height: 90%;
+// }
+
+// .tileDatasBtn {
+//     margin-top: -5px;
+//     width: 80px;
+//     height: 30px;
+//     color: var(--priorityListColor) !important;
+//     border: solid 2px var(--priorityListButtonBorderColor);
+//     border-radius: 15px;
+// }
+// .tileDatasBtn:hover {
+//     // border: solid 1px #3188ff;
+//     background-color: var(--priorityListActiveButtonBackgroundrColor) !important;
+//     color: var(--priorityListButtonHoverColor) !important;
+//     border: 0;
+// }
+
+.priority_page_content{
+    background-color: #21263a;
+}
+// .priority_page_name{
+//     text-align: right;
+// }
+.layout /deep/ .v-pagination__item {
+    background: var(--tableTBodyPaginationItem) !important;
+    min-width: 25px !important;
+}
+.layout /deep/ .v-pagination__navigation {
+    background: var(--tableTBodyPaginationItem) !important;
+}
+
+.tdText {
+    color: var(--tdTextColor);
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .checkboxBtn {
+    width: 150px !important;
+  }

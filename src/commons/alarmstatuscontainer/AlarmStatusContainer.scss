@@ -1,0 +1,14 @@
+.alarm-status-container {
+  $self: #{&};
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__button {
+    margin: 0;
+  }
+  &__title {
+    padding: 0 4px;
+    font-size: 18px;
+  }
+}

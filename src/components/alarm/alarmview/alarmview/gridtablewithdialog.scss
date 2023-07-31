@@ -1,0 +1,13 @@
+@import "src/commons/table";
+.gridTableWithDialogCard {
+  border: solid 1px var(--gridTableWithDialogCardBorderColor) !important;
+}
+.alarmViewData {
+  width: 100%;
+}
+.tdText { 
+  color: var(--tdTextColor);
+}
+.v-btn {
+  height: 20px;
+}

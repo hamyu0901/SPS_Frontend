@@ -1,0 +1,40 @@
+  .workTimeTableCard {
+
+  }
+  table.v-table thead tr {
+    height: 60px;
+    background-color: var(--theadBackgroundColor);
+    border-bottom-color: var(--theadBackgroundColor) !important;
+  }
+  table.v-table thead tr th {
+    font-size: 14px;
+  }
+  table.v-table tbody tr {
+    height: 40px; 
+  }
+  table.v-table tbody tr:nth-of-type(odd) {
+    background-color: var(--oddBackgroundColor);
+    border-bottom-color: var(--oddBackgroundColor);
+  }
+  table.v-table tbody tr:nth-of-type(even) {
+    background-color: var(--evenBackgroundColor);
+    border-bottom-color: var(--evenBackgroundColor);
+  }
+  table.v-table tbody tr:hover {
+    background-color: var(--hoverBackgroundColor) !important;
+  }
+  .totalCount {
+    vertical-align: middle;
+  }
+  .titleColor {
+    background-color: var(--titleColor) !important;
+  }
+  td p {
+      overflow: hidden; 
+      text-overflow: ellipsis;
+      white-space: nowrap; 
+      width: 100px;
+  }
+  .tdText { 
+    color: var(--tdTextColor);
+  }

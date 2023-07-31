@@ -1,0 +1,65 @@
+.maintenance_boothName{
+    max-width: 100px;
+    height: 45px;
+    font-size: 19px;
+    font-weight: bold;
+    background-color: #2D2E53;
+    border: solid 1px #fcfafa;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 45px;
+  }
+.maintenance_zoneList{
+    max-width: 250px !important;
+    border: 2px solid #bbbec1;
+    border-radius: 30px;
+    height: 45px;
+}
+.v-select-list {
+  .v-list {
+    background: #171A29 !important;
+  }
+}
+.maintenance_zoneList .v-input{
+    padding-top: 0px !important;
+    .v-input__control {
+        >.v-input__slot:before, >.v-input__slot:after {
+            display: none ;
+        }
+    }
+    .v-select__selection {
+         width: 100%;
+        justify-content: center;
+        font-size: 17px;
+    }
+    .v-input__slot .v-input__icon{
+        padding-right: 20px;
+    }
+}
+
+.lifeBtn{
+    pointer-events: none;
+    width: 30px !important;
+    height: 30px !important;
+    .v-icon{
+        font-size: 34px;
+        color: #363d58 !important;
+    }
+}
+.hardwarelifetable{
+    .v-datatable{
+        border: solid 1px rgb(38, 54, 92) !important;
+        th{
+            font-size: 14px;
+            background-color: #eff2f6;
+            color: #272c42 !important;
+            font-weight: bold !important;
+            >.v-icon{
+                display: none !important ;
+            }
+        }
+        td{
+            background-color: #272c42;
+        }
+    }
+}

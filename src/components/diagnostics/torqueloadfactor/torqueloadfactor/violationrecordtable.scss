@@ -1,0 +1,60 @@
+    .cardTitle {
+      background-color: #171A29;
+    }
+    .dialogContent {
+      background-color: #171A29;
+    }
+    .titleBtn {
+      margin: 0;
+      margin-top: -3px;
+      margin-right: -5px;
+      margin-bottom: -8px;
+      padding: 0;
+      border: solid 1px #0D947B;
+    }
+    .dialogContentSelector {
+      height: 34px;
+      width: 100%;
+    }
+    .dialogContentInputMessage {
+      width: 100%;
+    }
+    .dialogSearchBtn {
+      margin-top: -1px;
+    }
+    table.v-table thead tr {
+      height: 60px;
+      background-color: #21263a;
+      border-bottom-color: #21263a !important;
+    }
+    table.v-table thead tr th {
+      font-size: 14px;
+    }
+    table.v-table tbody tr {
+      height: 40px; 
+    }
+    table.v-table tbody tr:nth-of-type(odd) {
+      background-color: #2a2f44;
+      border-bottom-color: #2a2f44;
+    }
+    table.v-table tbody tr:nth-of-type(even) {
+      background-color: #21263a;
+      border-bottom-color: #21263a;
+    }
+    table.v-table tbody tr:hover {
+      background-color: #393B58 !important;
+    }
+    .contentBtn {
+      margin: 0;
+      width: 100%;
+      height: 30px;
+      color: #0D947B !important;
+      border: solid 1px #0D947B;
+      border-radius: 15px;
+    }
+    .totalCount {
+      vertical-align: middle;
+    }
+    .cardFooter {
+      height: 48px;
+    }

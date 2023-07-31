@@ -1,0 +1,60 @@
+.statistics-top {
+  $self: #{&};
+
+  height: 74px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #222A3E !important;
+  border-radius: 12px;
+  border-top: 10px solid #313C5E !important;
+  &__container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    &-prefix {
+      display: flex;
+      align-items: center;
+      min-width: 0;
+      max-width: fit-content;
+      > span {
+        margin-left: 8px;
+        color: #475481;
+        font-size: 24px;
+        font-weight: bold;
+      }
+    }
+    &-chip {
+      width: 80px;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 25px;
+      border-radius: 10px;
+      background-color: #E8534C;
+    }
+    &-title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    &-count {
+      padding: 10px;
+      color: #CECBCB;
+      font-size: 30px;
+      font-weight: 700;
+    }
+  }
+  .zone-count-text {
+    color: #80D749;
+  }
+  .robot-count-text {
+    color: #04CBE5;
+  }
+  .empty-text {
+    color: #81838a;
+  }
+}

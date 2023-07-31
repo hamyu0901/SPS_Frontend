@@ -1,0 +1,8 @@
+.selector {
+  $self: #{&};
+}
+.v-select-list {
+  >>> .v-list {
+    background: #171A29 !important;
+  }
+}

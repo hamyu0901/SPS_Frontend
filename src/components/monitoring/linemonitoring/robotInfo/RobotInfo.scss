@@ -1,0 +1,32 @@
+.robot-info{
+    $self: #{&};
+    &-title{
+        font-size: 18px;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    &__card{
+        background-color: #2B2B47 !important;
+        padding: 10px;
+        &__img{
+            margin: auto;
+            padding-left: 15px;
+        }
+        &__contents{
+            width: 100%;
+            height: 100%;
+            &-header {
+                margin: 5px 3px 10px 3px;
+                text-align: center;
+            }
+            &-item {
+                padding: 2px;
+                margin: 5px 3px 10px 3px;
+                background: #3B3B5B;
+                text-align: center;
+            }
+        }
+    }
+    
+}

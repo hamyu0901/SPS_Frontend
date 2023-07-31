@@ -1,0 +1,25 @@
+  .spreadSheetTable {
+    background-color: var(--spreadSheetTableBackgroundColor) !important;
+  }
+  table.v-table thead tr {
+    height: 45px;
+    background-color: var(--theadBackgroundColor);
+    border-bottom-color: var(--theadBorderBottomColor) !important;
+  }
+  table.v-table tbody tr:hover {
+    background-color: var(--hoverBackgroundColor) !important;
+  }
+  table.v-table tbody td {
+    margin: 0;
+    padding: 0;
+    height: 20px;
+  }
+  .lineNumber {
+    background-color: var(--lineNumberBackgroundColor) !important;
+  }
+  .codeArea {
+    background-color: var(--codeAreaBackgroundColor) !important;
+  }
+  .tdText { 
+    color: var(--tdTextColor);
+  }

@@ -1,0 +1,61 @@
+.predict-top {
+  $self: #{&};
+
+  background-color: #222a3e !important;
+  position: relative;
+  min-height: 72px;
+  max-height: 72px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__title {
+    font-size: 16px;
+    padding: 0 16px;
+    width: 100%;
+    &-value {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      > span {
+        padding-top: 4px;
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      &-count {
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 25px;
+      }
+    }
+  }
+
+  &__check {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0 16px 8px 16px;
+    display: flex;
+    align-items: baseline;
+    > span {
+      padding-left: 3px;
+      font-size: 10px;
+    }
+  }
+
+  .text-normal {
+    color: #39d9ff;
+  }
+  .text-check {
+    color: #f1443b
+  }
+  .text-title {
+    font-size: 30px;
+  }
+
+}

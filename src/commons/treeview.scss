@@ -1,0 +1,12 @@
+  .treeView {
+    width: inherit;
+    height: 905px;
+    background-color: var(--treeViewBackgroundColor);
+    overflow-y: auto;
+    overflow-x: unset;
+  }
+  .treeItem {
+    width: 100%;
+    color: var(--treeItemColor);
+    font-size: 13px;
+  }

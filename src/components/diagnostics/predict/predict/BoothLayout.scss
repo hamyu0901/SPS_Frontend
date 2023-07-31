@@ -1,0 +1,11 @@
+.predict-booth-layout {
+    $self: #{&};
+    &__title {
+        [class*='v-chip'] {
+            border: 2px solid #9797A1 !important;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 2px 16px;
+        }
+    }
+}

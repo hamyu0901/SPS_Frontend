@@ -1,0 +1,25 @@
+.v-btn {
+  min-width: 0;
+  margin: 0;
+}
+
+.settingButton {
+  height: 40px;
+}
+.buttonItem {
+  background-color: var(--buttonItemBackgroundColor) !important;
+  color: var(--buttonItemColor);
+}
+button.axisButton {
+  margin: 0px;
+  height: 40px;
+  width: 71px;
+  border: solid 2px var(--btnAxisBorderColor);
+  border-radius: 20px;
+}
+
+.axisButton:hover, .axisButton:active {
+  background-color: var(--axisBtnHoverBackgroundColor) !important;
+  color: var(--axisBtnHoverColor) !important;
+  border: 0;
+}

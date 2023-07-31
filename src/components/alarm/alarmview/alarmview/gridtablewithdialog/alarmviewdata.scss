@@ -1,0 +1,27 @@
+@import "src/commons/table";
+.cardArea {
+  height: 100%;
+  background-color: var(--cardAreaBackgroundColor) !important;
+  border: solid 1px var(--cardItemBorderColor) !important;
+}
+.cardTitle {
+  background-color: var(--cardTitleBackgroundColor) !important;
+  color: white;
+}
+.subTitleContent {
+  width: 100%;
+  text-align: center;
+}
+.alarmDesc {
+  height: 323px;
+  background-color: var(--alarmDescBackgroundColor);
+  color: var(--alarmDescColor);
+}
+
+.buttonItem {
+  background-color: var(--buttonItemBackgroundColor) !important;
+  color: var(--buttonItemColor);
+}
+.dialogBtn {
+  min-width: 80px;
+}

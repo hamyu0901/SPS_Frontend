@@ -1,0 +1,1877 @@
+{
+    "common": {
+        "condition": {
+            "boothid": "[알림] 부스 아이디를 선택 하시기 바랍니다.",
+            "zoneid": "[알림] 존 아이디를 선택 하시기 바랍니다.",
+            "robotid": "[알림] 로봇 아이디를 선택 하시기 바랍니다."
+        },
+        "loading": "로딩중...",
+        "window": {
+            "save": "저장하시겠습니까?",
+            "delete": "삭제하시겠습니까?",
+            "insert" : "등록하시겠습니까?",
+            "saved" : "저장되었습니다.",
+            "noFile" : "해당 파일이 없습니다."
+        },
+        "btn": {
+            "insert": "등록",
+            "close": "닫기"
+        },
+        "remedyItem": {
+            "title": {
+                "message": "메시지",
+                "subCode": "서브코드",
+                "cause": "원인",
+                "solution": "해결"
+            }
+        },
+        "chart": {
+            "title": {
+                "empty": "수집된 데이터가 없습니다."
+            }
+        },
+        "alarmInfoList": {
+            "header": {
+                "factory": "공정",
+                "alarmType": "알람 타입",
+                "subCode": "서브 코드",
+                "contents": "알람 내용",
+                "solution": "조치 사항"
+            }
+        },
+        "robotAlarmModal": {
+            "robotAlarmInfoTitle": "로봇 알람 정보",
+            "robotTorqueTrendChartTitle": "토크 데이터 차트",
+            "robotAccumTrendChartTitle": "적산 차트",
+            "robotAccumGapChartCardTitle": "적산 비교 차트",
+            "robotAccumGapChartTitle": "한달전 적산 평균-> 최근 5개 적산 평균",
+            "robotTemperatureTrendChartTitle": "온도 차트",
+            "robotTemperatureGapChartCardTitle": "온도 비교 차트",
+            "robotTemperatureGapChartTitle": "한달전 온도 평균 -> 최근 5개 온도 평균"
+        },
+        "atomizerAlarmModal": {
+            "atomizerAlarmInfoTitle": "도장기 알람 정보",
+            "atomizerChartTitle": "Command/Feedback 차트",
+            "atomizerHVChartTitle": "HV/HVC 차트",
+            "atomizerAlarmListTitle": "발생 알람 전 후 이력",
+            "atomizerListHeaderItems": {
+                "date": "날짜",
+                "type": "타입",
+                "code": "코드",
+                "job_name": "JOB",
+                "contents": "내용",
+                "level": "위험도"
+            }
+        },
+        "commonAlarmModal": {
+            "commonAlarmInfoTitle": "알람 상세 정보",
+            "commonAlarmChartTitle": "알람 발생 건 수",
+            "commonAlarmChartAxisYTitle": "ALARM COUNT(건)",
+            "commonAlarmChartItems": {
+                "alarmCountTitle": "알람 발생 건"
+            }
+        }
+    },
+    "tabtitle": {
+        "home": "홈",
+        "monitoring": "라인 모니터링",
+        "torquemonitoring": "예지 모니터링",
+        "review": "리뷰",
+        "diagnostics": "진단",
+        "realtime": "실시간",
+        "maintenance": "유지보수",
+        "alarm": "알람",
+        "posthistory": "이력",
+        "sparepart": "스페어파트",
+        "manual": "매뉴얼",
+        "backupview": "백업",
+        "reportview": "리포트",
+        "extra": "부가 기능"
+    },
+
+    "actionReport": {
+        "titleText": "제목",
+        "userIdText": "유저 ID",
+        "typeText": "분류",
+        "typeHintText": "조치사항 분류",
+        "actionTypeDatas": {
+            "generalAction": "일반 조치",
+            "robotAlarmAction": "로봇알람 조치",
+            "maintenanceAction": "유지보수 조치",
+            "predictAlarmAction": "예지알람 조치",
+            "faultReport": "고장 보고서"
+        },
+        "FaultReportActionContents": {
+            "processInfoText": "공정 정보",
+            "selectorBoothHintText": "부스 선택",
+            "selectorZoneHinttext": "존 선택",
+            "selectorRobotHintText": "로봇 선택",
+            "alarmCodeText": "알람 코드",
+            "failurePeriodText": "고장 기간",
+            "failureTimeText": "고장 시간(분)",
+            "contentsText": "내용",
+            "remedyText": "해결 방법",
+            "tagText": "태그"
+        },
+        "FaultReport": {
+            "processInfoText": "공정 정보",
+            "selectorBoothHintText": "부스 선택",
+            "selectorZoneHinttext": "존 선택",
+            "selectorRobotHintText": "로봇 선택",
+            "alarmCodeText": "알람 코드",
+            "failurePeriodText": "고장 기간",
+            "failureTimeText": "고장 시간(분)",
+            "contentsText": "내용",
+            "remedyText": "해결 방법",
+            "tagText": "태그",
+            "titleText": "제목",
+            "userIdText": "유저 ID",
+            "typeText": "분류",
+            "typeHintText": "조치사항 분류"
+        },
+        "GeneralMaintenanceActionContents": {
+            "contentsText": "내용",
+            "tagText": "태그"
+        },
+        "GeneralMaintenanceReport": {
+            "contentsText": "내용",
+            "tagText": "태그",
+            "titleText": "제목",
+            "userIdText": "유저 ID",
+            "typeText": "분류",
+            "typeHintText": "조치사항 분류"
+        },
+        "RobotPrecautionActionContents": {
+            "alarmCodeText": "알람 코드",
+            "contentsText": "내용",
+            "tagText": "태그"
+        },
+        "RobotPrecautionReport": {
+            "alarmCodeText": "알람 코드",
+            "contentsText": "내용",
+            "tagText": "태그",
+            "titleText": "제목",
+            "userIdText": "유저 ID",
+            "typeText": "분류",
+            "typeHintText": "조치사항 분류"
+        }
+    },
+
+    "selector": {
+        "booth": "부스 선택",
+        "zone": "존 선택",
+        "robot": "로봇 선택",
+        "job": "잡 파일 선택",
+        "model": "모델 선택",
+        "color": "컬러 선택",
+        "alarm": "알람 종류 선택"
+    },
+
+    "datepicker": {
+        "lang": {
+            "days": ["일","월","화","수","목","금","토"],
+            "months": ["1월","2월","3월","4월","5월","6월","7월","8월","9월","10월","11월","12월"]
+        }
+    },
+
+    "dateTypes": {
+        "day": "일",
+        "week": "주",
+        "month": "월"
+    },
+
+    "treeview": {
+        "title": "공정 정보",
+        "popmsg" : {
+            "processInfoError": "[알림] 공정 정보가 없습니다."
+        }
+    },
+
+    "pdfview": {
+        "popmsg" : {
+            "manualError": "[알림] 매뉴얼이 없습니다.",
+            "overSizeMessage": "[알림] PDF 매뉴얼 파일의 크기가 크기 때문에 다운로드 됩니다."
+        }
+    },
+
+    "comfirmDlg" : {
+        "comfirmDlgSaveTitle" : "저장하시겠습니까?",
+        "comfirmDlgDeleteTitle": "삭제하시겠습니까?",
+        "comfirmDlgUpdateTitle": "적용하시겠습니까?",
+        "comfirmDlgChangeTitle": "변경된 데이터가 있습니다. 저장하시겠습니까?",
+        "comfirmDlgJobUpdateTitle": "JOB 업데이트를 하시겠습니까?",
+        "comfirmDlgComfirmSaveText": "저장",
+        "comfirmDlgComfirmDeleteText": "삭제",
+        "comfirmDlgComfirmUpdateText": "적용",
+        "comfirmDlgComfirmJobUpdateText": "적용",
+        "comfirmDlgCloseText": "닫기",
+        "comfirmDlgComfirmUnCheck": {
+            "Title": "개별 작업 비교 불가",
+            "unCheckText": "ok",
+            "renderMessage": {
+                "processTitle": "공정 정보: ",
+                "conditionalTitle": " 번 째 조건 ",
+                "robotTypeTitle": " 로봇의 타입은 ",
+                "IsTitle": "입니다.",
+                "contentsTitle": "내용: ",
+                "dxControlText": "해당 기능은 DX 제어기에서만 동작할 수 있습니다.",
+                "releaseTitle": "개별 작업 비교 선택을 해제하시겠습니까?"
+            }
+        }
+    },
+
+    "multySelector": {
+        "title": "제외 알람 코드 선택"
+    },
+
+    "settingDlg" : {
+        "settingCardTitle": "환경 설정",
+        "saveText": "저장",
+        "closeText": "닫기",
+        "settingLanguageText": "다국어 설정",
+        "settingThemeText": "테마 설정",
+        "ui": {
+            "text": {
+                "save": "저장",
+                "close": "닫기"
+            }
+        },
+        "datas": {
+            "listItems": {
+                "language": "언어 설정",
+                "theme": "테마 설정",
+                "accum": "적산 경고 설정",
+                "range": "범위 경고 설정",
+                "applicatordata": "어플리케이터 정보 설정",
+                "process": "공정 설정",
+                "menu": "탭 기능 설정",
+                "alarm": "알람 설정"
+            },
+            "languageItems": {
+                "kr": "한국어",
+                "en": "영어",
+                "cn": "중국어"
+            },
+            "themeItems": {
+                "dark": "DARK",
+                "light": "LIGHT"
+            },
+            "historyAccumHeaders": {
+                "boothname": "Booth",
+                "zonename": "Zone",
+                "robotname": "Robot",
+                "axis": "Axis",
+                "jobname": "Job",
+                "maxsum": "Maximum",
+                "minsum": "Minimum",
+                "avgsum": "Average",
+                "avgcycle": "Average Cycle",
+                "maxwarning": "Maximum Warning",
+                "minwarning": "Minimum Warning",
+                "cyclewarning": "Warning Cycle"
+            },
+            "historyRangeHeaders": {
+                "boothname": "Booth",
+                "zonename": "Zone",
+                "robotname": "Robot",
+                "axis":"Axis",
+                "jobname":"Job",
+                "violationstep": "Violation Step Count"
+            },
+            "historyRangeDetailHeaders": {
+                "stepno": "Step",
+                "max": "Maximum",
+                "min": "Minimum",
+                "maxwarning":"Maximum Warning",
+                "minwarning":"Minimum Warning"
+            },
+            "reportItems": {
+                "title": "존 별 알람 설정",
+                "alarmLevel" : ["상","중","하"],
+                "zoneAlarmType" : ["시스템","도장기","존로봇","비전","기타"],
+                "robotAlarmType" : "로봇",
+                "addAlarm" : "알람 데이터를 등록해주세요",
+                "exportAlarm" : "Export 하시겠습니까?"
+            }
+        }
+    },
+
+    "warningSetView": {
+        "ui": {
+            "text": {
+                "maxRate": "최대 경고(+) %",
+                "minRate": "최소 경고(-) %",
+                "startDate": "시작 날짜",
+                "endDate": "종료 날짜"
+            }
+        }
+    },
+
+    "menuSetView": {
+        "ui": {
+            "text": {
+                "title": "탭 기능 설정",
+                "mainMenuTitle": "전체 기능 설정",
+                "diagnosticsMenuTitle": "진단 기능 설정"
+            }
+        }
+    },
+
+    "login": {
+        "admin": "관리자 계정 입니다.",
+        "basicFunction": "기본 기능만 제공 합니다.",
+        "loginerror": "아이디 혹은 패스워드를 다시 확인하세요.",
+        "resolution": {
+            "possible": "최적 해상도 1920 X 1080",
+            "impossible": " 는 최적화 된 해상도가 아닙니다. (최적화 1920 X 1080)"
+        }
+    },
+
+    "home": {
+        "boothMonitoring": "부스 모니터링",
+        "showDetailPage": "자세히 보기",
+        "robotStatus": {
+            "action": "동작",
+            "ready": "대기",
+            "alarm": "알람",
+            "offline": "오프라인",
+            "error": "통신에러"
+        },
+        "alarmColumn": {
+            "processInformation": "공정 정보",
+            "occurTime": "발생 시간",
+            "alarmCode": "알람 코드",
+            "alarmCase": "알람 이름",
+            "alarmDesc": "알람 내용"
+        },
+        "maintenanceColumn": {
+            "unit": "유닛",
+            "inspectionSite": "점검 부위",
+            "managementCategory": "관리 항목",
+            "status": "현황 (%)"
+        },
+        "popMsg": {
+            "statusInfo": "[알림] 부스 데이터가 없습니다.",
+            "alarmChart": "[알림] 알람 차트 데이터가 없습니다.",
+            "alarmList": "[알림] 알람 목록 데이터가 없습니다.",
+            "maintenanceList": "[알림] 유지보수 데이터가 없습니다.",
+            "predictList": "[알림] 예지알람 데이터가 없습니다."
+        },
+        "child": {
+            "alarmChart": {
+                "alarmChartTitle": "오늘 알람 발생 건 및 정지 시간",
+                "deadtime": "정지 시간 (분)",
+                "count": "발생 건",
+                "deadtimeLabel": "정지 시간",
+                "countLabel": "발생 건",
+                "hour": "시",
+                "defaultTextMessage": "발생 알람에 대한 정보가 없습니다"
+            },
+            "alarmListTable": {
+                "alarmListTableTitle": "오늘 알람 발생 목록"
+            },
+            "maintenanceInfoTable": {
+                "maintenanceInfoTableTitle": "유지보수 현황"
+            },
+            "processStatusTable": {
+                "processStatusTableTitle": "예지알람 발생 현황",
+                "normal": "정상",
+                "alarm": "경보",
+                "notSet": "미설정",
+                "p001": "토크 범위 경고",
+                "p002": "온도 제한 경고",
+                "p003": "토크 주간 평균 경고",
+                "p004": "토크 유사도 경고",
+                "p005": "토크 작업 적산 경고"
+            },
+            "alarmInfoDlg": {
+                "aggregateByDate": "일자 별 집계",
+                "alarmRatio": "공정 간 경보 발생 비율",
+                "alarmInfo": "알람 정보",
+                "alarmStopTime": "알람종류 별 정지 시간",
+                "confirm": "확인",
+                "noDesc": "내용이 없습니다."
+            }
+        },
+        "main": {
+            "axis": "축",
+            "count": "건",
+            "empty": "NO DATA",
+            "statisticsAlarmItems": {
+                "zoneAlarmStatisticsResult": {
+                    "title": "존 알람 발생 분석(위험도 중/상)",
+                    "totalCountTitle": "존 알람 발생 건",
+                    "codeTitle": "존 알람 발생 건 빈도 수",
+                    "chartTitle": "알람 타입 별 존 알람 발생 건"
+                },
+                "robotAlarmStatisticsResult": {
+                    "title": "로봇 알람 발생 분석",
+                    "totalCountTitle": "로봇 알람 발생 건",
+                    "codeTitle": "로봇 알람 발생 건 빈도 수",
+                    "chartTitle": "로봇 알람 발생 건"
+                }
+            },
+            "predictAnalysisItems": {
+                "predictAnalysisAccumResult": {
+                    "title": "적산 경고 분석",
+                    "totalCountTitle": "적산 경고 발생 건",
+                    "chartTitle": "축 별 적산 경고 발생 건"
+                },
+                "predictAnalysisTemperatureResult": {
+                    "title": "온도 경고 분석",
+                    "totalCountTitle": "온도 경고 발생 건",
+                    "chartTitle": "축 별 온도 경고 발생 건"
+                },
+                "predictAnalysisPMTorqueResult": {
+                    "title": "평균 경고 분석",
+                    "totalCountTitle": "평균 경고 발생 건",
+                    "chartTitle": "축 별 평균 경고 발생 건"
+                },
+                "predictAnalysisAtomizerResult": {
+                    "title": "도장기 경고 분석",
+                    "totalCountTitle": "도장기 경고 발생 건",
+                    "chartTitle": "로봇 별 도장기 경고 발생 건"
+                }
+            },
+            "statisticsTop": {
+                "title": "발생건"
+            },
+            "stackedBarChart": {
+                "emptyText": "발생 알람 없음"
+            },
+            "pieChart": {
+                "emptyText": "발생 알람 없음"
+            },
+            "barChart": {
+                "statistics": {
+                    "emptyText": "발생 알람 없음"
+                },
+                "predict": {
+                    "emptyText": {
+                        "accum": "적산 경고 발생 축 없음",
+                        "temperature": "온도 경고 발생 축 없음",
+                        "pm-torque": "평균 경고 발생 축 없음",
+                        "atomizer": "도장기 경고 발생 로봇 없음"
+                    }
+                }
+            },
+            "predictTotalCount": {
+                "emptyText": "이상 없음"
+            },
+            "predictTop": {
+                "checkType": {
+                    "normal": "이상 없음",
+                    "check": "확인 요망"
+                }
+            },
+            "zoneAlarmType": {
+                "system": "시스템",
+                "sprayers": "도장기",
+                "zone": "존로봇",
+                "vision": "비전"
+            },
+            "modal": {
+                "lineInfo": "라인 정보",
+                "remedy": "조치 사항",
+                "inspection": "점검",
+                "chart": {
+                    "empty": "차트 정보 없음"
+                },
+                "title": {
+                    "robot": "로봇 일림 발생 정보",
+                    "zone": "존 알람 발생 정보"
+                },
+                "table": {
+                    "header": {
+                        "date": "날짜",
+                        "type": "타입",
+                        "code": "코드",
+                        "subCode": "서브코드",
+                        "contents": "내용",
+                        "robot": "로봇",
+                        "level": "위험도"
+                    }
+                }
+            }
+        }
+    },
+
+    "monitoring": {
+        "allMonitoring": {
+            "selectBoothPage": "부스 화면 선택 ▽",
+            "selectZonePage": "존 목록 선택 ▽",
+            "selectRobotPage": "로봇 목록 선택 ▽",
+            "page": "화면",
+            "closeBtnText": "닫기",
+            "robotStatusTitle": "로봇 상태",
+            "robotStatus": {
+                "action": "동작",
+                "ready": "대기",
+                "alarm": "알람",
+                "offline": "오프라인",
+                "error": "통신에러"
+            },
+            "predictStatusTitle": "예지 알람 상태",
+            "predictStatusItems": {
+                "range": "범위",
+                "motor_temperature": "온도",
+                "accum": "적산"
+            },
+            "predictStatusTypes": {
+                "normal": "정상",
+                "alarm": "알람"
+            },
+            "popMsg": {
+                "boothList": "[알림] 부스 목록 데이터가 없습니다.",
+                "zoneList": "[알림] 존 목록 데이터가 없습니다.",
+                "zoneRobotList": "[알림] 로봇 목록 데이터가 없습니다.",
+                "zoneInfo": "[알림] 존 정보 데이터가 없습니다.",
+                "zoneData": "[알림] 존 데이터가 없습니다.",
+                "zoneConfig": "[알림] 존 설정 데이터가 없습니다."
+            }
+        },
+        "zoneMonitoring": {
+            "selectRobot": "로봇 선택",
+            "vinNumber": "차대번호",
+            "modelInfo": "모델정보",
+            "color": "색",
+            "option": "옵션",
+            "popMsg": {
+                "bodyUpdate": "[알림] 차량 트래킹 데이터가 없습니다."
+            }
+        },
+        "miniZone": {
+            "logMsg": {
+                "zoneConfig": "존 데이터가 없습니다.",
+                "zoneData": "PLC 데이터가 없습니다."
+            }
+        },
+        "child": {
+            "selectOptionDlg": {
+                "moveZoneText": "존 이동",
+                "movePredictText": "예지보전 이동"
+            },
+            "robotDetail": {
+                "moveZone": "존 이동",
+                "booth": "부스 화면",
+                "zone": "존 목록",
+                "robot": "로봇 목록",
+                "popMsg": {
+                    "zoneRobotList": "[알림] 로봇 목록 데이터가 없습니다.",
+                    "zoneData": "[알림] 로봇 상태 데이터가 없습니다."
+                },
+                "child": {
+                    "atomizerRealtimeChart": {
+                        "defaultTextMessage": "실시간 Applicator 정보가 없습니다.",
+                        "dataPointName": {
+                            "cmd": "Command",
+                            "feedback": "Feedback"
+                        }
+                    }
+                }
+            },
+            "currentRobotStateCount": {
+                "title": "현재 로봇 동작상태",
+                "robotStatus": {
+                    "action": "동작",
+                    "ready": "대기",
+                    "alarm": "알람",
+                    "offline": "오프라인",
+                    "error": "통신오류"
+                }
+            },
+            "pastRobotStateTime": {
+                "title": "지난 24시간 로봇동작상태(분)",
+                "noDataTitle": "로봇동작상태 정보가 없습니다."
+            },
+            "robotAlarm": {
+                "title": "알람 목록",
+                "col": {
+                    "occurTime": "발생 시간",
+                    "alarmName": "알람",
+                    "robotName": "로봇",
+                    "alarmCode": "알람 코드",
+                    "desc": "내용"
+                }
+            },
+            "robotInfo": {
+                "robotModel": "로봇 모델",
+                "rcModel": "제어기 모델",
+                "atomModel": "도장기 모델",
+                "installDate": "설치 날짜",
+                "ip": "로봇 IP 주소"
+            }
+        },
+        "line": {
+            "title" : {
+                "emptyTitle": "데이터가 없습니다.",
+                "carouselTitle": "실시간 알람 이력",
+                "alarmTableTitle": "Today Alarm List",
+                "alarmInfo" : "알람 세부 정보",
+                "cause" : "발생 원인",
+                "remedy" : "해결 방법"
+            },
+            "count": "건",
+            "cardCarousel": {
+                "emptyText": "발생한 알람이 없습니다.",
+                "modal": {
+                    "btn": {
+                        "occurAlarm": "현재 발생 알람",
+                        "nonOccurAlarm": "해제된 알람"
+                    }
+                }
+            },
+            "robotItem": {
+                "dialogCardItems": {
+                    "title": {
+                        "zone": "존 상세 이동",
+                        "predict": "예지 보전 이동",
+                        "maintenance": "유지 보수 이동"
+                    }
+                },
+                "robotInfo" : {
+                    "title" : "로봇 정보",
+                    "empty" : "정보 없음"
+                },
+                "modalTitle": "상세보기"
+            },
+            "zoneItem": {
+                "emptyTitle": "현재 발생한 알람이 없습니다."
+            }
+        },
+        "detail": {
+            "zoneAlarmItemsTitle": "존 알람 목록",
+            "productionItemsTitle": "생산 이력 목록",
+            "zoneAlarmHeaderItems": {
+                "text": {
+                    "typeName": "알람 종류",
+                    "levelName": "위험도",
+                    "contents": "알람 내용",
+                    "updateTime": "발생 시각"
+                }
+            },
+            "productionHeaderItems": {
+                "text": {
+                    "vinNo": "VIN_NO",
+                    "updateTime": "발생 시각",
+                    "parameter": "파라미터"
+                }
+            },
+            "robotDetailItem": {
+                "robotInfoTitleType": {
+                    "zoneName" : "존 이름",
+                    "robotName": "로봇 이름",
+                    "robotModelName": "모델 이름",
+                    "rcModelName": "제어기 모델",
+                    "robotIp": "로봇 IP 정보"
+                },
+                "robotModeType": {
+                    "teach": "티치",
+                    "play": "플레이",
+                    "remote": "리모트"
+                },
+                "robotMode": "로봇 모드",
+                "etc": "기타"
+            }
+        }
+    },
+
+    "torqueMonitoring": {
+        "torqueAllMonitoring": {
+            "functionTitle": "모니터링 종류",
+            "accumFunction": "토크 부하율 적산",
+            "violationTime": "위반 시간",
+            "violationType": "위반 타입",
+            "violationValue": "위반 값",
+            "cumulativeWarningValue": "누적 경고 값"
+        }
+    },
+
+    "diagnostics": {
+        "drawertitle": {
+            "predict": "예지 보전",
+            "torquedata": "토크 부하율 데이터",
+            "atomizerdata": "도장기 데이터",
+            "alarmstatistics": "알람 통계",
+            "torquerange": "토크 부하율 범위",
+            "torquesimilarity": "토크 부하율 유사도",
+            "torqueloadfactor": "토크 부하율 적산",
+            "torquetemperature": "모터 온도",
+            "torquerealtime": "실시간 토크 부하율",
+            "report": "데이터 리포트",
+            "atomizer": "도장기 데이터",
+            "statistics": "알람 통계"
+        },
+        "report":{
+
+        },
+        "predict": {
+            "predictCodeSumChartTitle": "최근 한달 간 발생한 예지 알람 개수",
+            "processInfo": "공정 정보",
+            "predictStatusHeaderDatas": {
+                "P001": "토크 범위 경고",
+                "P002": "온도 제한 경고",
+                "P003": "토크 주간 평균 경고",
+                "P004": "토크 유사도 경고",
+                "P005": "토크 작업 적산 경고"
+            },
+            "processInfoHeaderDatas": {
+                "startTime": "시작시간",
+                "endTime": "종료시간",
+                "code": "코드",
+                "content": "예지 알람 종류",
+                "jobName": "잡 이름",
+                "axis": "축",
+                "edit": "편집"
+            },
+            "violationInfos": {
+                "P001": "토크 범위 경고",
+                "P002": "온도 제한 경고",
+                "P003": "토크 주간 평균 경고",
+                "P004": "토크 유사도 경고",
+                "P005": "토크 작업 적산 경고",
+                "total": "전체 경고 합계"
+            },
+            "popMsg": {
+                "predictList": "[알림] 예지 알람 발생 현황 데이터가 없습니다.",
+                "predictListDetail": "[알림] 세부 공정 데이터가 없습니다.",
+                "predictChart": "[알림] 위반 정보가 없습니다.",
+                "predictDataDisable": "[알림] 해제 되었습니다.",
+                "predictTrend": "[알림] 최근 한달 발생 추이를 알 수 없습니다."
+            },
+            "child": {
+                "predictStatusTable": {
+                    "predictStatusTableTitle": "예지 알람 발생 현황",
+                    "release": "해제",
+                    "disable": "V",
+                    "predictStdInfos": {
+                        "normal": "정상",
+                        "alarm": "경보",
+                        "notSet": "미설정"
+                    },
+                    "popMsg": {
+                        "releaseMsg": "[알림] 알람이 해제되었습니다.",
+                        "normalMsg": "[알림] 이미 해제된 알람입니다.",
+                        "notSetMsg": "[알림] 설정되지 않은 알람입니다."
+                    }
+                },
+                "processInfoTable": {
+                    "processInfoTableTitle": "예지 알람 목록"
+                },
+                "predictCodeSumChart": {
+                    "defaultTextMessage": "최근 한달 간 발생한 예지 알람이 없습니다"
+                },
+                "violationChart": {
+                    "weeksAgo1": "1주전",
+                    "weeksAgo2": "2주전",
+                    "settingValue": "설정값",
+                    "violationValue": "위반값",
+                    "torqueRangeValue": "토크 부하율 값",
+                    "torqueAccumulateValue": "토크 부하율 적산 값",
+                    "torqueAvgValue":"토크 평균 값",
+                    "maxSettingValue": "최대 설정 값",
+                    "minSettingValue": "최소 설정 값",
+                    "torqueRangeWarningMaxValue": "토크 최대 경고 범위 설정 값",
+                    "torqueRangeWarningMinValue": "토크 최소 경고 범위 설정 값",
+                    "standardTorqueWeekAverageValue": "토크 주간 기준 평균 값",
+                    "addTorqueWeekAverageValue": "토크 주간 평균 증가 값",
+                    "tempSettingValue": "경고 설정 값",
+                    "tempValue": "측정 온도 값",
+                    "defaultTextMessage": {
+                        "p001": "선택된 예지 알람 목록의 토크 범위 경고 정보가 없습니다",
+                        "p002": "선택된 예지 알람 목록의 온도 제한 경고 정보가 없습니다",
+                        "p003": "선택된 예지 알람 목록의 토크 주간 평균 경고 정보가 없습니다",
+                        "p004": "",
+                        "p005": "선택된 예지 알람 목록의 토크 작업 적산 경고 정보가 없습니다"
+                    }
+                }
+            },
+            "main": {
+                "axis": "축",
+                "alarmStatusInfos": {
+                    "normal": "정상",
+                    "alarm": "경고",
+                    "default": "미설정"
+                },
+                "predictBoard": {
+                    "predictTableHeaderItems": {
+                        "robotName": "로봇",
+                        "accumAlarmStatus": "토크 적산 경고",
+                        "pmTorqueAlarmStatus": "토크 평균 경고",
+                        "temperatureAlarmStatus": "모터 온도 경고",
+                        "atomizerAlarmStatus": "도장기 상태 경고"
+                    }
+                },
+                "predictModal": {
+                    "emptyText": "데이터가 없습니다."
+                },
+                "predictLineChart": {
+                    "chart": "차트",
+                    "axisYTitle": {
+                        "torque": "Torque(%)",
+                        "temperature": "Temperature(℃)"
+                    },
+                    "axisY2Title": {
+                        "alarmCount": "ALARM COUNT(건)"
+                    },
+                    "config": "CONFIG",
+                    "value": "VALUE",
+                    "atomizerValueName": {
+                        "CMD-FEEDBACK-UPPER-AVG": "오차초과율",
+                        "CMD-FEEDBACK-UPPER-CONFIG": "오차초과율경고",
+                        "CMD-FEEDBACK-UNDER-AVG": "오차미달율",
+                        "CMD-FEEDBACK-UNDER-CONFIG": "오차미달율경고"
+                    }
+                }
+            }
+        },
+        "torquedata": {
+            "search": "검색",
+            "axisXOutputTitle": "X축 기준 단위",
+            "worktimetable": {
+                "jobname": "잡이름",
+                "starttime": "작업시작시간",
+                "endtime": "작업종료시간",
+                "worktime": "작업시간"
+            },
+            "settinginfotable": {
+                "robotname": "로봇 명",
+                "modelname": "제어기 모델",
+                "robotmodel": "로봇 모델",
+                "atomizermodel": "도장기 모델",
+                "ipaddress": "아이피 주소",
+                "installdate": "설치 날짜"
+            },
+            "loadfactorbyaxis": {
+                "title": "토크 부하율 데이터",
+                "1axis": "1축",
+                "2axis": "2축",
+                "3axis": "3축",
+                "4axis": "4축",
+                "5axis": "5축",
+                "6axis": "6축",
+                "7axis": "7축"
+            },
+            "child": {
+                "loadFactorByAxis": {
+                    "legend": "토크 부하율",
+                    "defaultTextMessage": "검색된 토크 부하율 정보가 없습니다"
+                }
+            },
+            "popMsg": {
+                "torqueDataGridTable": "[알림] 작업 내역이 없습니다.",
+                "settingInfoTable": "[알림] 로봇 상세 정보가 없습니다.",
+                "chartDatas": "[알림] 차트 정보가 없습니다.",
+                "checkDate": "[알림] 날짜를 확인하세요.",
+                "checkSearchData": "[알림] 검색 조건을 확인하세요."
+            }
+        },
+        "atomizerdata": {
+            "atomizerdatatable": {
+                "model": "모델",
+                "color": "색상",
+                "time_stamp": "작업 완료 시간",
+                "flow": "토출(cc)",
+                "gunon": "건 동작(ms)",
+                "hvolt": "고압(Kvolt)",
+                "robotmovingtime": "로봇 이동 시간(ms)",
+                "spraycycle": "스프레이 주기(ms)",
+                "conveyorofftime": "컨베이어 정지 시간(ms)"
+            },
+            "aotomizerTrendType": {
+                "flow": "토출량(cc)",
+                "hv": "고압(kVolt)",
+                "sa_s": "쉐이핑에어[s]",
+                "sa_v": "쉐이핑에어[v]",
+                "turbine_speed": "터빈속도"
+            },
+            "atomizerTrend" : {
+                "title": "도장기 데이터",
+                "axisXTitle": "X축 기준 단위",
+                "label": {
+                    "flowCommand": "토출량 커맨드",
+                    "flowFeedback": "토출량 피드백",
+                    "hvCommand": "고압 커맨드",
+                    "hvFeedback": "고압 피드백",
+                    "sa_sCommand": "쉐이핑에어[s] 커맨드",
+                    "sa_sFeedback": "쉐이핑에어[s] 피드백",
+                    "sa_vCommand": "쉐이핑에어[v] 커맨드",
+                    "sa_vFeedback": "쉐이핑에어[v] 피드백",
+                    "turbineSpeedCommand": "터빈속도 커맨드",
+                    "turbineSpeedFeedback": "터빈속도 피드백"
+                }
+            },
+            "child": {
+                "atomizerDataChart": {
+                    "defaultTextMessage": "도장기 데이터가 없습니다.",
+                    "dataPointName": {
+                        "cmd": "Command",
+                        "feedback": "Feedback"
+                    }
+                }
+            },
+            "popmsg": {
+                "atomizerDataGridTable": "[알림] 도장기 데이터가 없습니다.",
+                "checkDate": "[알림] 날짜를 확인하세요.",
+                "checkData": "[알림] 검색 조건 데이터를 확인하세요."
+            }
+        },
+        "alarmstatistics": {
+            "search": "search",
+            "alarmstatistics": {
+                "alarminfotable": {
+                    "date": "날짜",
+                    "alarmtypename": "알람 타입",
+                    "alarmcode": "알람 코드",
+                    "alarmname": "알람 내용",
+                    "zonename": "존",
+                    "jobname" : "Job",
+                    "robotname": "로봇",
+                    "level": "위험도",
+                    "sum" : "합계",
+                    "step" : "step"
+                }
+            },
+            "multiSelectorTitle": "제외 알람 코드 선택",
+            "alarmType": "알람 종류 선택",
+            "overOption": "이상",
+            "belowOption": "이하",
+            "level" : {
+                "high" : "상",
+                "middle" : "중",
+                "lower" : "하"
+            },
+            "alarmContents" : {
+                "flag" : {
+                    "zoneAlarmNameFlag" : "존 알람 발생명",
+                    "robotAlarmNameFlag" : "로봇 알람 발생명"
+                },
+                "title" : {
+                    "multiSelectorTitle" : "알람 위험도",
+                    "alarmListTitle" : "선택한 알람 목록",
+                    "zoneAlarmNameHeader" : {
+                        "list" : "리스트 추가",
+                        "alarmtypename" : "타입",
+                        "alarmname" : "내용",
+                        "zonename" : "존",
+                        "sum" : "수량",
+                        "level" : "위험도"
+                    },
+                    "robotAlarmNameHeader" : {
+                        "list" : "리스트 추가",
+                        "alarmcode" : "코드",
+                        "alarmtypename" : "타입",
+                        "alarmname" : "내용",
+                        "robotname" : "로봇",
+                        "sum" : "수량"
+                    }
+                }
+            },
+            "priorityContents": {
+                "maxAlarmDateFlag" : "최다 알람 발생일",
+                "maxAlarmLevelFlag" : "최고 위험도(상) 알람명",
+                "maxAlarmNameFlag": "발생 알람명",
+                "maxStopDateFlag": "최장 정지 발생일",
+                "maxStopAlarmFlag": "최장 정지 알람명"
+            },
+            "alarmStatisticsTrend": "존 알람 통계 트렌드",
+            "popMsg": {
+                "alarmStatisticsData": "[알림] 알람 데이터가 없습니다.",
+                "checkDate": "[알림] 날짜를 확인하세요.",
+                "alarmStatisticsCodeAlarm": "[알림] 코드 알람 데이터가 없습니다.",
+                "alarmStatisticsCodeStop": "[알림] 정지 알람 데이터가 없습니다.",
+                "alarmStatisticsAlarmEvent": "[알림] 알람 발생 데이터가 없습니다.",
+                "alarmStatisticsAlarmStop": "[알림] 알람 정지 데이터가 없습니다.",
+                "alarmStatisticsAlarmName": "[알림] 알람 이름 데이터가 없습니다.",
+                "alarmStatisticsAlarmCode": "[알림] 알람 코드 데이터가 없습니다.",
+                "alarmStatisticsDetailChart": "[알림] 세부 차트 데이터가 없습니다.",
+                "alarmStatisticsDataChart": "[알림] 차트 데이터가 없습니다."
+            },
+            "child": {
+                "alarmMixedChart": {
+                    "deadtime": "정지 시간 (분)",
+                    "count": "발생 건",
+                    "deadtimeLabel": "정지 시간",
+                    "countLabel": "발생 건수",
+                    "defaultTextMessage": "검색된 알람 통계 정보가 없습니다"
+                },
+                "codeAggregationDlg": {
+                    "totalCode": "코드 별 집계",
+                    "codeAlarmEvent": "코드 별 알람 발생",
+                    "codeStopTime": "코드 별 정지 시간",
+                    "alarmTypeEvent": "알람 종류 별 알람 발생",
+                    "alarmTypeStopTime": "알람 종류 별 정지 시간",
+                    "confirm": "확인",
+                    "codeAggregationChart": {
+                        "defaultTextMessage": "검색된 코드 별 집계 정보가 없습니다"
+                    }
+                },
+                "dateAggregationDlg": {
+                    "totalDate": "일자 별 집계",
+                    "processAlarmEventRatio": "공정 간 경보 발생 비율",
+                    "alarmInfo": "알람 정보",
+                    "alarmTypeStopTime": "알람 종류 별 발생 건수",
+                    "confirm": "확인",
+                    "deadtime": "정지 시간 (분)",
+                    "count": "발생 건",
+                    "alarmDescription" : {
+                        "alarmCode": "알람 코드 : ",
+                        "alarmName": "알람 이름 : ",
+                        "alarmDesc": "알람 내용 : ",
+                        "alarmMean": "의미 : ",
+                        "alarmNoData": "데이터 없음."
+                    },
+                    "dateAggregationPieChart" : {
+                        "defaultTextMessage": "공정 간 경보 발생 비율 정보가 없습니다"
+                    }
+                }
+            }
+        },
+        "torqueRange": {
+            "jobUpdate": "잡 업데이트",
+            "dayAnalysis": "일 분석",
+            "severalAnalysis": "주 분석",
+            "selectJobFile": "잡 파일 선택",
+            "torqueRange": "토크 범위",
+            "jobExecutionText": " 회 수행",
+            "warningValue": "경고 값",
+            "warningValueOffset": "경고 값 오프셋",
+            "warningValueAccept": "경고 값 적용",
+            "warningValueSave": "경고 값 저장",
+            "jobInfoTableHeaderDatas": {
+                "jobName": "잡 이름",
+                "startTime": "작업 시작 시간",
+                "endTime": "작업 종료 시간",
+                "cycleTime": "작업 시간"
+            },
+            "popMsg": {
+                "jobUpdate": "[알림] Job 업데이트가 완료 되었습니다.",
+                "jobNotUpdate": "[알림] Job 업데이트를 할 수 없습니다.",
+                "jobFile": "[알림] 토크 범위 데이터가 없습니다.",
+                "checkDate": "[알림] 날짜를 확인하세요.",
+                "trendData": "[알림] 토크 범위 트렌드 데이터가 없습니다.",
+                "warningFrom": "[알림] 경고 값이 없습니다.",
+                "warningTo": "[알림] 토크 범위 데이터가 저장 되었습니다.",
+                "checkSearchData": "[알림] 검색 조건을 확인하세요.",
+                "warnNoSave": "[알림] 경고 값을 저장할 수 없습니다."
+            },
+            "child": {
+                "torqueRangeChart": {
+                    "defaultTextMessage": "검색된 토크 부하율 범위 정보가 없습니다"
+                },
+                "settingInfoTable": {
+                    "popMsg": {
+                        "torqueData": "[알림] 토크 데이터가 없습니다.",
+                        "checkDate": "[알림] 날짜를 확인하세요."
+                    }
+                },
+                "torqueRangeTable": {
+                    "stepNumber": "스텝 넘버",
+                    "changeWarningValue": "세부 경고값 변경",
+                    "currentWarningMinValue": "현재 경고 최소 값",
+                    "currentWarningMaxValue": "현재 경고 최대 값",
+                    "changeWarningMinValue": "변경 경고 최소 값",
+                    "changeWarningMaxValue": "변경 경고 최대 값",
+                    "accept": "적용",
+                    "cancel": "취소",
+                    "popMsg": {
+                        "normalizedText": "적용 되었습니다.",
+                        "notNormalizedText": "입력이 잘못 되었습니다."
+                    }
+                }
+            },
+            "excel": {
+                "date": "날짜",
+                "booth": "부스",
+                "zone": "존",
+                "robot": "로봇",
+                "jobname": "잡",
+                "axis": "축",
+                "step": "스텝",
+                "torqueMin": "최소값",
+                "torqueMax": "최대값",
+                "torqueWarnMin": "경고 최소값",
+                "torqueWarnMax": "경고 최대값"
+            }
+        },
+        "torqueSimilarity": {
+            "searchDate1": "검색 기간 1",
+            "searchDate2": "검색 기간 2",
+            "searchText": "검색",
+            "detailSearchText": "상세 검색",
+            "searchDate1Time": "시간 입력",
+            "searchDate2Time": "시간 입력",
+            "selectJobFile": "잡 파일 선택",
+            "chartTitle": "토크 유사도",
+            "compareJobsTitle": "개별 작업 비교",
+            "workInfoTableHeaderData": {
+                "jobFile": "잡 파일",
+                "startTime": "작업 시작 시간",
+                "endTime": "작업 종료 시간",
+                "cycleTime": "작업 시간"
+            },
+            "popMsg": {
+                "jobListEmpty": "[알림] 시의 잡 파일 목록이 없습니다.",
+                "search1NoFilterData": "[알림] 검색기간 1 조건에 맞는 데이터가 없습니다.",
+                "search2NoFilterData": "[알림] 검색기간 2 조건에 맞는 데이터가 없습니다.",
+                "firstJobListEmpty": "[알림] 검색기간 1 조건에 해당하는 잡 파일 목록이 없습니다.",
+                "secondJobListEmpty": "[알림] 검색기간 2 조건에 해당하는 잡 파일 목록이 없습니다.",
+                "noFilterData": "[알림] 조건에 맞는 데이터가 없습니다.",
+                "checkSearchData": "[알림] 검색 조건을 확인하세요."
+            },
+            "excel": {
+                "booth": "부스",
+                "zone": "존",
+                "robot": "로봇",
+                "jobname": "잡",
+                "axis": "축",
+                "loadfactor": "부하율 데이터",
+                "second": "초",
+                "step": "스텝"
+            },
+            "child": {
+                "torqueSimilarityChart": {
+                    "defaultTextMessage": "검색된 토크 유사도 정보가 없습니다"
+                }
+            }
+        },
+        "torqueLoadFactor": {
+            "jobUpdate": "잡 업데이트",
+            "selectJobFile": "잡 파일 선택",
+            "selectAxis": "축 선택",
+            "exception": "예외 작업 보기",
+            "abnormalStandardSettingTableHeaderDatas": {
+                "category": "항목",
+                "standard": "기준",
+                "abnormalMeasuredValue": "이상 측정 값",
+                "abnormalMeasuredDate": "이상 측정 날짜",
+                "currentWorkingValue": "최근 작업 값",
+                "update": "모두 변경",
+                "disable": "모두 해제",
+                "value": "설정 값"
+            },
+            "violationRecordTableHeaderDatas": {
+                "timestamp": "시간",
+                "acmtype": "위반 항목",
+                "vltvalue": "설정 값",
+                "cfgvalue": "위반 값"
+            },
+            "workListTableHeaderDatas": {
+                "timestamp": "시간",
+                "sum": "적산 값",
+                "avg": "평균 값",
+                "cycle": "작업 시간 (초)"
+            },
+            "popMsg": {
+                "jobUpdate": "[알림] Job 업데이트가 완료 되었습니다.",
+                "jobNotUpdate": "[알림] Job 업데이트를 할 수 없습니다.",
+                "checkSearchData": "[알림] 검색 조건을 확인하세요.",
+                "abnormalRefData": "[알림] 이상 기준 설정 데이터가 없습니다.",
+                "currentData": "[알림] 작업 리스트 데이터가 없습니다.",
+                "violationrecordData": "[알림] 위반 기록 데이터가 없습니다.",
+                "trendData": "[알림] 토크 부하율 데이터가 없습니다."
+            },
+            "child": {
+                "abnormalStandardSettingTable": {
+                    "setAbnormalStandard": "적산 경고 값 목록",
+                    "initData": "경고 값 설정",
+                    "setAllWarningData": "경고 값 전체 설정",
+                    "setStandardData": "경고 값 설정",
+                    "accept": "적용",
+                    "allModify": "전체 변경",
+                    "close": "닫기",
+                    "typeDatas": {
+                        "acmmax": "누적 최대",
+                        "acmmmv": "누적 최소",
+                        "summxv": "적산 최대",
+                        "summmv": "적산 최소",
+                        "cycle": "작업 시간"
+                    },
+                    "initDataTable": {
+                        "update": "변경",
+                        "disable": "해제"
+                    },
+                    "setAllDataTable": {
+                        "booth": "부스",
+                        "zone": "존",
+                        "robot": "로봇",
+                        "job": "잡",
+                        "axis": "축",
+                        "maxsum": "최대 값",
+                        "minsum": "최소 값",
+                        "avgcycle": "평균 작업 시간(s)",
+                        "avgvalue": "평균 값",
+                        "updatemaxsum": "최대 경고값",
+                        "updateminsum": "최소 경고값",
+                        "updatecycle": "작업 시간",
+                        "modify": "변경",
+                        "cantmodify": "변경 할 수 없습니다.",
+                        "canmodify": "변경 되었습니다.",
+                        "dataavailable": "데이터가 없습니다.",
+                        "onlynumber": "숫자만 가능 합니다."
+                    },
+                    "warningData": {
+                        "setAllAvgWarningData": "평균값 기준 전체 변경",
+                        "setAllAvgCycleData": "평균 작업 시간 기준 전체 변경",
+                        "setAllWarningDataAccept": "적용"
+                    },
+                    "popMsg": {
+                        "initStdBtnClicked": "[알림] 검색 정보를 먼저 입력해 주세요."
+                    }
+                },
+                "violationRecordTable": {
+                    "violationRecord": "위반 기록",
+                    "searchViolationRecord": "위반 기록 검색",
+                    "searchCondition": "검색 조건",
+                    "finish": "종료"
+                },
+                "workListTable": {
+                    "workTitle": "작업 리스트"
+                },
+                "loadFactorByAxis": {
+                    "sumChartTitle": "토크 부하율 적산",
+                    "yAxisTitle": "토크 부하율(%)",
+                    "xAxisTitle": "날짜(YYYY-MM-DD HH:MM)",
+                    "torqueAccumLabel": "토크 부하율 적산 값",
+                    "torqueWarningMaxLabel": "토크 최대 경고 범위 설정 값",
+                    "torqueWarningMinLabel": "토크 최소 경고 범위 설정 값",
+                    "defaultTextMessage": "검색된 토크 부하율 정보가 없습니다",
+                    "accumAvgText" : "적산 평균",
+                    "showAlert" : "경고만 보기",
+                    "dailyAccumAvgText" : "일일 적산 평균"
+                },
+                "initDataSettingDlg": {
+                    "items": {
+                        "acmmax": "누적 최대",
+                        "acmmmv": "누적 최소",
+                        "summxv": "적산 최대",
+                        "summmv": "적산 최소",
+                        "cycle": "작업 시간"
+                    },
+                    "popMsg": {
+                        "accept": "[알림] 적용 완료",
+                        "checkInputData": "[알림] 입력 값을 확인 하세요."
+                    }
+                }
+            }
+        },
+        "torqueTemperature" : {
+            "chartTitle": "모터 온도",
+            "settingDlgTitle": "경고 값 설정",
+            "outputTypeName": "출력 타입",
+            "accept": "저장",
+            "close": "닫기",
+            "datasByAxis": {
+                "1axis": "1축",
+                "2axis": "2축",
+                "3axis": "3축",
+                "4axis": "4축",
+                "5axis": "5축",
+                "6axis": "6축",
+                "7axis": "7축",
+                "8axis": "8축"
+            },
+            "window" : {
+                "select" :  "항목을 체크해주세요"
+            },
+            "popMsg": {
+                "checkSearchData": "[알림] 검색 조건을 확인하세요.",
+                "noTorqueTemperatureData": "[알림] 토크 온도 데이터가 없습니다.",
+                "noReferenceTempData": "[알림] 검색된 로봇/축에 대한 기준 온도가 설정되지 않았습니다."
+            },
+            "child": {
+                "outputTypes": {
+                    "outputTypes": {
+                        "hour": "시간",
+                        "day": "일",
+                        "week": "주",
+                        "month": "월"
+                    }
+                },
+                "temperatureCharts": {
+                    "max": "최고 온도",
+                    "average": "평균 온도",
+                    "standard": "기준 온도",
+                    "defaultTextMessage": "검색된 모터 온도 정보가 없습니다"
+                },
+                "tempSettingDlg": {
+                    "items": {
+                        "label": "기준 온도(°C)"
+                    }
+                }
+            }
+        },
+        "atomizer": {
+            "title": {
+                "chart": "도장기 데이터 차트",
+                "table": "도장기 유효 알람 목록"
+            },
+            "atomizerAlarmListHeaderItems": {
+                "update_time": "날짜",
+                "code": "알람 코드",
+                "name": "알람 내용",
+                "job_name": "잡",
+                "step_no": "스탭",
+                "level": "위험도"
+            },
+            "alertText": "검색 조건을 확인하세요."
+        },
+        "statistics": {
+            "statisticsChartTitle": "알람 통계 차트",
+            "statisticsChartAxisYTitle": "ALARM COUNT(건)",
+            "zoneAlarmTableTitle": "존 알람 목록",
+            "robotAlarmTableTitle": "로봇 알람 목록",
+            "entireAlarmTableTitle": "전체 알람 목록",
+            "atomizerAlarmDlgTitle": "도장기 알람 상세",
+            "robotAlarmDlgTitle": "로봇 알람 상세",
+            "statisticsChartItems": {
+                "zoneAlarmCountTitle": "존 알람 발생 건",
+                "robotAlarmCountTitle": "로봇 알람 발생 건"
+            }
+        }
+    },
+    "report" : {
+        "main" : {
+            "btn": {
+                "move" : "이동",
+                "setReport" : "리포트 조회",
+                "add" : "추가"
+            },
+            "reportListTable" : {
+                "header" : "리포트 조회",
+                "report_name" : "리포트 이름",
+                "report_time" : "리포트 기간",
+                "update_time" : "등록일",
+                "delete" : "리포트 삭제",
+                "auto" : "자동 리포트"
+            },
+            "reportTitle" : {
+                "alert" : "상세 점검 요망",
+                "default": "이상 없음"
+            }
+        },
+        "common": {
+            "window": {
+                "selectReport": "리포트를 선택해주세요",
+                "confirmDate" : "날짜를 확인해주세요",
+                "addReport" : "리포트를 추가해주세요",
+                "noData" : "해당 데이터가 없습니다."
+            },
+            "btn": {
+                "save" : "저장"
+            }
+        },
+        "hardware": {
+            "title": {
+                "prevReport": "이전 리포트",
+                "hardware": "하드웨어 종합 분석",
+                "alarm": "알람 분석",
+                "atomizer": "도장기 분석",
+                "analysis": "분석",
+                "reportName": "리포트 이름",
+                "wargingValue": "경고 기준값",
+                "dataAvg": "데이터 평균",
+                "alertCounting": "경고 카운팅",
+                "opinion" : "종합 의견",
+                "avgData" : "평균 데이터"
+            },
+            "btn" : {
+                "confirmAlert" : "경고값 확인"
+            },
+            "tableHeader": {
+                "title": "종합 위험도 평가",
+                "header": {
+                    "robot": "로봇",
+                    "axis": "축",
+                    "accum": "토크 적산",
+                    "temperature": "모터 온도",
+                    "accumAvg": "토크 평균",
+                    "motorLife": "모터 수명",
+                    "accumDailyAvg" : "적산 일별 평균",
+                    "settingJob": "설정잡"
+                }
+            }
+        },
+        "alarm": {
+            "title": {
+                "selectedAlarmList": "선택한 알람 리스트"
+            }
+        }
+    },
+    "realtime": {
+        "searchErrorText": "로봇을 선택해주세요.",
+        "legends": {
+            "warning": "경고 값",
+            "violation": "위반 값",
+            "forwardWarning": "Upper Alarm",
+            "forwardViolation": "Upper Warning",
+            "reverseWarning": "Lower Alarm",
+            "reverseViolation": "Lower Warning"
+        },
+        "tabItems": {
+            "title": {
+                "realTimeTorque": "실시간 토크 부하율"
+            }
+        },
+        "popMsg": {
+            "selectedError": "[알림] 로봇이 선택되지 않았습니다. 로봇을 선택하세요."
+        },
+        "child": {
+            "realTimeTorque": {
+                "chartTitle": "실시간 토크 부하율",
+                "currRobotController": "제어기: ",
+                "currJobName": "현재 잡파일: ",
+                "warningSetButtonTitle": "경고 값 설정",
+                "multiSelectorPlaceHolder": "Data Points 선택",
+                "allAxisButtonTitle": "모두 보기",
+                "datasByAxis": {
+                    "1axis": "1 축",
+                    "2axis": "2 축",
+                    "3axis": "3 축",
+                    "4axis": "4 축",
+                    "5axis": "5 축",
+                    "6axis": "6 축",
+                    "7axis": "7 축"
+                },
+                "popMsg": {
+                    "saveWarningValues": "[알림] 경고·위반 값이 설정되었습니다."
+                },
+                "child": {
+                    "warningSettingDlg": {
+                        "dlgTitle": "경고 값 설정",
+                        "saveText": "저장",
+                        "closeText": "닫기",
+                        "popMsg": {
+                            "inputError": "[알림] 입력 값을 확인하세요."
+                        }
+                    }
+                }
+            },
+            "realTimeLogList": {
+                "logItemInfo": {
+                    "warning": "{robotName} 로봇에서 {timeStamp} 에 알람 값을 벗어났습니다. 토크 부하율 값은 {warning} 입니다.",
+                    "violation": "{robotName} 로봇에서 {timeStamp} 에 경고 값을 벗어났습니다. 토크 부하율 값은 {violation} 입니다."
+                }
+            }
+        }
+    },
+
+    "maintenance": {
+        "treeViewTitle": "점검 대상 목록",
+        "checkListTableTitle": "점검 목록",
+        "checkListSelectorHint": "점검 항목",
+        "checkListInputHint": "점검 내용",
+        "detailCheckListTableTitle": "[선택 된] 점검 항목",
+        "close": "닫기",
+        "save": "유지보수 점검 저장",
+        "addMaintItem": "점검 항목 추가",
+        "maintenanceCheckSelectorDatas": {
+            "unit": "유닛",
+            "maintPoint": "점검 부위"
+        },
+        "maintenanceTitle": "하드웨어 수명 분석",
+        "maintenanceTabNames": {
+            "hardwareLifeMaintenanceTabName" : "하드웨어 수명 점검",
+            "robotMaintenanceTabName": "로봇 점검",
+            "valveCountMaintenanceTabName": "벨브 카운트"
+        },
+        "maintenanceCheckListTableHeaderDatas": {
+            "maintName": "항목",
+            "unit": "유닛",
+            "maintPoint": "부위",
+            "progress": "현황(%)",
+            "maintDesc": "설명",
+            "maintCycle": "주기(월)",
+            "etc": "기타",
+            "details": "매뉴얼"
+        },
+        "valveCountTableHeaderDatas": {
+            "valveName": "항목",
+            "progress": "현황(%)",
+            "valveMaintCount": "점검 기준",
+            "currentValveCount": "현재 카운트",
+            "details": "매뉴얼"
+        },
+        "detailMaintenanceCheckListTableHeaderDatas": {
+            "booth": "부스",
+            "zone": "존",
+            "robot": "로봇",
+            "lastCheck": "마지막 점검 날짜",
+            "lastComment": "마지막 점검 결과",
+            "actionType": "점검 유무",
+            "history": "이력"
+        },
+        "getSelectedCheckData": "점검 대상",
+        "popMsg": {
+            "inspectionList": "[알림] 점검 항목 데이터가 없습니다.",
+            "robotInspectionList": "[알림] 로봇 점검 항목 데이터가 없습니다.",
+            "valveInspectionList": "[알림] 벨브 카운트 점검 항목 데이터가 없습니다.",
+            "inspectionDetailList": "[알림] 세부 점검 항목 데이터가 없습니다.",
+            "save": "[알림] 저장 되었습니다.",
+            "topItemClick": "[알림] 상단의 아이템을 클릭해 주세요.",
+            "checkSearchData": "[알림] 검색 조건을 확인하세요."
+        },
+        "child": {
+            "detailMaintenanceCheckListTable": {
+                "view": "보기"
+            },
+            "maintenanceCheckListTable": {
+                "view": "보기"
+            }
+        }
+    },
+
+    "alarm": {
+        "listDatas" : {
+            "alarmView": "알람 발생 이력",
+            "predictAlarm": "예지 보전 경고 발생 이력",
+            "alarmInfos": "알람 매뉴얼 조회",
+            "alarmManual": "알람 매뉴얼 추가"
+        },
+        "child" : {
+            "predictAlarm": {
+                "ui": {
+                    "alarmType": "경고 타입 선택",
+                    "closeBtnText": "닫기",
+                    "date": {
+                        "start": "시작 일 선택",
+                        "end": "종료 일 선택"
+                    }
+                },
+                "datas": {
+                    "predictTypes": {
+                        "p001": "토크 범위 경고",
+                        "p002": "모터 온도 경고",
+                        "p005": "토크 적산 경고"
+                    }
+                }
+            },
+            "alarmInfos": {
+                "inputPlaceHolder": "알람 코드 입력",
+                "noManualText": "매뉴얼 파일 없음",
+                "alarmSearchPhrase": "알람 코드를 입력해 주세요.",
+                "alarmNonePhrase": "검색된 코드가 없습니다.",
+                "alarmTitle": "알람",
+                "robotAlarmTitleInfos": {
+                    "alarmcode": "알람 코드",
+                    "subcode": "서브 코드",
+                    "alarmtype": "알람 종류",
+                    "alarmname": "알람 이름",
+                    "contents": "알람 내용",
+                    "meaning": "알람 의미",
+                    "causecount": "원인 개수"
+                },
+                "robotAlarmDetailTitleInfos": {
+                    "cause": "발생 원인",
+                    "remedy": "해결 방법"
+                },
+                "plcAlarmTitleInfos": {
+                    "alarm_code": "알람 코드",
+                    "alarm_type": "알람 종류",
+                    "message": "알람 내용"
+                }
+            },
+            "alarmManual": {
+                "inputPlaceHolder": "알람 코드 입력",
+                "searchErrorText": "알람 코드를 확인하세요.",
+                "noManualText": "매뉴얼이 없습니다.",
+                "alarmTitleInfos": {
+                    "alarm_code": "알람 코드",
+                    "alarmname": "알람 이름",
+                    "alarm_type": "알람 종류"
+                },
+                "alarmBtnTitles": {
+                    "search": "찾아보기",
+                    "save": "저장",
+                    "delete": "삭제",
+                    "show": "보기"
+                },
+                "popMsg": {
+                    "inputFileErrorMsg": "파일 크기(10MB 이하)를 확인해주세요."
+                }
+            }
+        }
+    },
+
+    "alarmView": {
+        "prevDate": "이전 일 선택",
+        "currDate": "최근 일 선택",
+        "booth": "부스 선택",
+        "zone": "존 선택",
+        "robot": "로봇 선택",
+        "alarmType": "알람 종류",
+        "alarmStatus": "알람 상태",
+        "selectAlarmCode": "제외 알람 코드 선택",
+        "useAlarmCode": "알람코드검색",
+        "alarmCode": "알람 코드",
+        "infoTableHeaderData": {
+            "booth": "부스",
+            "zone": "존",
+            "robot": "로봇",
+            "alarmCode": "알람 코드",
+            "alarm": "알람",
+            "occurTime": "발생 시간",
+            "manual": "매뉴얼"
+        },
+        "popMsg": {
+            "alarmData": "[알림] 조건 데이터가 맞지 않습니다.",
+            "noSearchDatas": "[알림] 검색된 데이터가 없습니다."
+        },
+        "child": {
+            "GridTableWithDialog": {
+                "title": "알람 목록",
+                "close": "닫기",
+                "popMsg": {
+                    "alarmDataChart": "[알림] 차트 내용을 가져오지 못했습니다.",
+                    "alarmDataInfo": "[알림] 알람 내용을 가져오지 못했습니다.",
+                    "alarmManual": "[알림] 해당 하는 매뉴얼이 존재 하지 않습니다.",
+                    "reqBoothId": "[알림] 부스 내용을 가져오지 못했습니다.",
+                    "reqZoneId": "[알림] 존 내용을 가져오지 못했습니다.",
+                    "alarmStop": "[알림] 알람 정지 내용을 가져오지 못했습니다.",
+                    "alarmCompareTime": "[알림] 조건 데이터가 맞지 않습니다.",
+                    "alarmCompareFile": "[알림] 조건 데이터가 맞지 않습니다."
+                }
+            },
+            "alarmViewData": {
+                "title": "알람",
+                "close": "닫기",
+                "booth": "부스",
+                "zone": "존",
+                "robot": "로봇",
+                "alarmPieChart": "공정 간 경보 발생 비율",
+                "alarmDescTitle": "알람 내용",
+                "alarmMixedChart": "알람 정지 시간 (해제된 알람)",
+                "actionReportTitle": "조치 사항 보고서",
+                "save": "저장",
+                "none": "없음",
+                "alarmDescription": {
+                    "alarmCode": "알람 코드",
+                    "alarmName": "알람 이름",
+                    "alarmContents": "알람 내용",
+                    "cause": "원인",
+                    "contents": "컨텐츠",
+                    "meaning": "의미",
+                    "remedy": "해결책",
+                    "subcode": "서브 코드",
+                    "subcodeinfo": "서브 코드 정보",
+                    "processinfo": "공정 정보",
+                    "occurtime": "발생 시간",
+                    "endtime": "종료 시간",
+                    "jobname": "잡 이름",
+                    "lineno":  "라인 번호",
+                    "stepno":  "스탭 번호"
+                },
+                "deadtime": "dead time (분)",
+                "count": "count (횟수)",
+                "emptyDesc": "내용이 없습니다.",
+                "popMsg": {
+                    "getSaveActionContentDatas": "[알림] 분류를 선택해 주세요.",
+                    "getComfirmFlag": "[알림] 데이터를 확인해 주세요."
+                }
+            },
+            "B001AlarmDlg": {
+                "workFile": "작업 파일",
+                "deleteWorkFile": "삭제된 작업 파일",
+                "addWorkFile": "추가된 작업 파일"
+            },
+            "B002AlarmDlg": {
+                "beforeModify": "수정 전",
+                "afterModify": "수정 후"
+            },
+            "actionList": {
+                "title": "조치 사항 리스트",
+                "add": "추가"
+            },
+            "alarmViewDataMixedChart": {
+                "defaultTextMessage": "검색된 알람 정지 시간(해제된 알람) 정보가 없습니다"
+            },
+            "alarmViewDataPieChart": {
+                "defaultTextMessage": "공정 간 경보 발생 비율 정보가 없습니다"
+            }
+        }
+    },
+
+    "postHistory": {
+        "prevDate": "이전 일 선택",
+        "currDate": "최근 일 선택",
+        "booth": "부스 선택",
+        "zone": "존 선택",
+        "robot": "로봇 선택",
+        "alarmCode": "알람 종류 선택",
+        "codeSearch": "코드 검색 입력",
+        "searchHintText": "검색 조건 선택",
+        "inputHintText": "조건 검색 입력",
+        "selectTypeHintText": "타입 종류 선택",
+        "actionReportTitle": "조치 사항 보고서",
+        "saveText": "저장",
+        "closeText": "닫기",
+        "infoTableHeaderData": {
+            "occurDate": "발생 날짜",
+            "occurTime": "발생 시간",
+            "actionTime": "조치 시각",
+            "booth": "부스",
+            "zone": "존",
+            "robot": "로봇",
+            "alarmDesc": "알람 내용",
+            "actionDesc": "조치 내용",
+            "alarmCode": "알람 코드",
+            "deadTime": "데드 타임",
+            "delete": "삭제"
+        },
+        "searchTypes": {
+            "alarmcode": "알람 코드",
+            "typename": "조치 타입",
+            "title": "조치 제목",
+            "tag": "조치 태그",
+            "userid": "작성자"
+        },
+        "createBtnClick": "[알림] 부스 / 존 / 로봇 / 알람종류 가 선택되지 않았습니다.",
+        "popMsg": {
+            "dataList": "[알림] 조건 데이터가 맞지 않습니다.",
+            "checkDataList": "[알림] 데이터를 다시 한번 확인하세요.",
+            "checkTagDatas": "[알림] 중복된 태그를 사용하실 수 없습니다."
+        },
+        "child": {
+            "HistoryList": {
+                "title": "조치 이력 리스트",
+                "postReportTitle": "조치 사항 보고서",
+                "comfirmText": "확인",
+                "closeText": "닫기",
+                "acceptText": "적용",
+                "deleteText": "삭제",
+                "writer": "작성자",
+                "date": "작성 날짜",
+                "popMsg": {
+                    "checkDataList": "[알림] 데이터를 다시 한번 확인하세요.",
+                    "checkTagDatas": "[알림] 중복된 태그를 사용하실 수 없습니다.",
+                    "deleteDataList": "[알림] 자신이 작성한 조치 사항만 삭제하실 수 있습니다.",
+                    "acceptDataList": "[알림] 자신이 작성한 조치 사항만 수정하실 수 있습니다."
+                }
+            },
+            "GridTableWithDialog": {
+                "title": "이력 보기",
+                "close": "닫기",
+                "popMsg": {
+                    "deleteDate": "[알림] 삭제 되었습니다."
+                }
+            },
+            "PostHistoryData": {
+                "title": "이력",
+                "close": "닫기",
+                "date": "날짜",
+                "occurTime": "발생 시각",
+                "actionTime": "조치 시각",
+                "dt": "DT",
+                "booth": "부스",
+                "zone": "존",
+                "robot": "로봇",
+                "alarmCode": "알람 코드",
+                "causeDesc": "원인 내용",
+                "actionDesc": "조치 내용",
+                "userid": "유저 ID",
+                "create": "생성",
+                "modify": "변경",
+                "popMsg": {
+                    "createData": "[알림] 생성이 완료 되었습니다.",
+                    "modifyData": "[알림] 변경이 완료 되었습니다."
+                }
+             }
+        }
+    },
+
+    "manual": {
+        "infoTableHeaderData": {
+            "manualName": "매뉴얼 이름",
+            "fileName": "파일 이름",
+            "fileFormat": "파일 포맷"
+        },
+        "child": {
+            "GridTableWithPdf": {
+                "close": "닫기",
+                "robotManual": "로봇 매뉴얼",
+                "maintenanceManual": "유지보수 매뉴얼",
+                "troubleShootingManual": "트러블슈팅 매뉴얼"
+            },
+            "GridTableWithVideo": {
+                "close": "닫기",
+                "videoManual": "영상 매뉴얼"
+            }
+        }
+    },
+
+    "backupview": {
+        "timestamp": "시간",
+        "booth": "부스",
+        "zone": "존",
+        "robot": "로봇",
+        "save": "저장",
+        "popMsg": {
+            "backupData": "[알림] 조건에 맞는 백업 데이터가 없습니다."
+        },
+        "child": {
+            "backupDataTable": {
+                "title": "백업",
+                "close": "닫기"
+            },
+            "backupDetail": {
+                "fileDownload": "파일 개별 다운로드"
+            }
+        },
+        "search": "검색",
+        "backupdatatable": {
+            "title": "백업",
+            "time": "시간",
+            "booth": "부스",
+            "zone": "존",
+            "robot": "로봇",
+            "detail": "자세히",
+            "save": "저장",
+            "backupdetail": {
+                "backuphistory": {
+                    "title": "히스토리",
+                    "filename": "파일명",
+                    "datetime": "시간"
+                },
+                "downloadtitle": "잡파일 다운로드",
+                "downloadlink": "파일 다운로드",
+                "close": "닫기"
+            }
+        }
+    },
+    "extra": {
+        "drawerTitle": {
+            "manual": "매뉴얼",
+            "production": "생산 이력",
+            "vin-no-production-history": "VIN NO",
+            "backup": "백업"
+        },
+        "child": {
+            "production": {
+                "title": "생산 이력",
+                "chart-title": "생산 이력 차트",
+                "result-title": "생산 이력 결과",
+                "msg": {
+                    "noData": "생산 데이터가 없습니다"
+                }
+            },
+            "vin-no-production-history": {
+              "dateTitle": "검색 날짜",
+              "searchTitle": "VIN NO",
+              "chartTitle": "생산 데이터 차트",
+              "summaryTitle": "생산 데이터 합계 정보",
+              "contentsTitle": "생산 데이터 정보",
+              "emptyTitle": "생산 데이터 정보가 없습니다",
+              "alertText": "검색 조건을 확인하세요."
+            },
+            "backup": {
+                "title": "백업 목록",
+                "empty": "백업 이력이 없습니다",
+                "tableHeader": {
+                    "date": "백업 날짜",
+                    "fileName": "파일명",
+                    "download": "다운로드"
+                }
+            }
+        }
+    }
+}

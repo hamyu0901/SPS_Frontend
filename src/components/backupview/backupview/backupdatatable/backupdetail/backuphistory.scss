@@ -1,0 +1,10 @@
+@import "src/commons/table";
+td p {
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+  width: 100px;
+}
+.tdText { 
+  color: var(--tdTextColor);
+}

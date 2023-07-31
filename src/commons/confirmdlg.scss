@@ -1,0 +1,12 @@
+    .comfirmDlgBackgroundColor {
+      background-color: var(--comfirmDlgBackgroundColor) !important;
+    }
+    .comfirmDlgTitle {
+      background-color: var(--comfirmDlgTitleBackgroundColr);
+    }
+
+    .dialogBtn {
+      min-width: 80px;
+      background-color: var(--comfirmDlgButtonBackgroundColor) !important;
+      color: white;
+    }

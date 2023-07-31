@@ -1,0 +1,50 @@
+.atomizer-alarm-modal {
+  $self: #{&};
+
+  &__contents {
+    &-infos {
+      height: 100%;
+      margin-bottom: 24px;
+    }
+    &-chart {
+      &-entire {
+        padding-right: 11px;
+        >>> .alarm-partial-card__contents {
+          display: flex;
+          flex-direction: column;
+        }
+        &__items {
+          &-btn-toggle {
+            background-color: #2B2B47 !important;
+          }
+        }
+      }
+      &-hv-hvc {
+        padding-right: 11px;
+      }
+      margin-bottom: 24px;
+    }
+    &-list {
+      >>> .alarm-partial-card-title {
+        // 이상해서 일단 보류
+        //justify-content: center;
+        //align-items: center;
+        background-color: #313150 !important;
+      }
+
+      >>> .alarm-partial-card__contents {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+      }
+
+      &__items {
+        background-color: #313150 !important;
+        &-btn-toggle {
+          margin: 0 24px;
+          background-color: #313150 !important;
+        }
+      }
+    }
+  }
+}

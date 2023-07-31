@@ -1,0 +1,15 @@
+    .inputMessage {
+      width: inherit;
+      height: 34px;
+      background-color: var(--inputMessageBackgroundColor);
+      color: var(--inputMessageColor);
+      font-size: 15px;
+      text-align: center;
+      border: 1px solid var(--inputMessageBorderColor) !important;
+      border-radius: 3px;
+    }
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button {
+      margin: 0;
+      -webkit-appearance: none; 
+    }

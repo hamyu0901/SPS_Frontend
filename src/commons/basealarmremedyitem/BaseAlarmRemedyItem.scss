@@ -1,0 +1,28 @@
+.base-alarm-remedy-item {
+  $self: #{&};
+  background-color: #45456C !important;
+  &__contents {
+    &-item {
+      display: flex;
+      flex-direction: column;
+      &-key {
+        font-size: 18px;
+        font-weight: bold;
+        color: #6D78AD !important;
+        &:after {
+          content: ':'
+        }
+      }
+      &-title {
+        font-size: 16px;
+        padding-left: 10px;
+        color: #FFFFFF !important;
+      }
+      &-sub-title {
+        font-size: 14px;
+        padding-left: 10px;
+        color: #CDC9C9 !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+    .selector {
+      padding-left: 8px;
+      width: inherit;
+      height: inherit;
+      background: url('../images/selector_arrow.png') no-repeat 95% 50%; 
+      font-size: 15px;
+      border-radius: 3px;
+    }
+    select:required:invalid {
+      color: var(--invalidSelectorColor) !important;
+    }
+    select:disabled {
+      color: var(--disabledSelectorColor) !important;
+    }
+    option {
+      color: var(--optionColor) !important;
+    }
+    p:hover {
+      background-color: #005bac;
+    }
+    .changeJobName{
+      color: orange !important;
+      font-weight: bold;
+    }

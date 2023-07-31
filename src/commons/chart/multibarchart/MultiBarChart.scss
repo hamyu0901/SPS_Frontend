@@ -1,0 +1,14 @@
+.multi-bar-chart-container {
+  $self: #{&};
+  display: flex;
+  width: 100%;
+  min-height: 280px;
+  height: 100%;
+  &-empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 280px;
+    font-size: 18px;
+  }
+}

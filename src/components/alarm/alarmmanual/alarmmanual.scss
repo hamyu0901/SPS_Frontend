@@ -1,0 +1,24 @@
+.v-btn {
+  min-width: 0;
+  margin: 0;
+}
+.flexText {
+  text-align: center;
+}
+.fileUpload {
+  height: 100%;
+  width: 100%;
+}
+.manualBtn {
+  height: 50px;
+  width: 100%;
+  color: white;
+}
+.tdText { 
+    color: var(--tdTextColor);
+}
+
+.buttonItem {
+  background-color: var(--buttonBackgroundColor) !important;
+  color: var(--buttonColor);
+}

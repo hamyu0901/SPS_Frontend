@@ -1,0 +1,36 @@
+.subHeader {
+  margin-bottom: -5px;
+  margin-left: -13px;
+  width: 100px;
+}
+.specificHeader {
+  margin-bottom: -5px;
+  margin-left: -13px;
+  width: 160px;
+}
+.textField {
+  padding-left: 8px;
+  height: 48px;
+  width: 100%;
+  color: var(--textFieldColor) !important;  
+  background-color: var(--textFieldBackgroundColor);
+  font-size: 15px;
+  border-radius: 3px;
+  border: solid 1px var(--textFieldBorderColor) !important;
+}
+.textContentField {
+  padding-left: 8px;
+  height: 100px;
+  width: 100%;
+  color: var(--textContentFieldColor) !important;
+  background-color: var(--textContentFieldBackgroundColor);
+  font-size: 15px;
+  border-radius: 3px;
+  border: solid 1px var(--textContentFieldBorderColor) !important;
+}
+.failurePeriod {
+  padding-right: 92px;
+}
+.dateTimePicker {
+  height: 48px;
+}

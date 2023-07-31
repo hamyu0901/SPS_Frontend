@@ -1,0 +1,48 @@
+.settingContainer{
+  background: #2D2E53 !important;
+}
+.settingTree{
+  max-width: 50%;
+  flex-basis: 50%;
+  >>>.v-treeview-node--active{
+    background-color: #26D38B !important;
+  }
+}
+.settingBox{
+  margin: auto;
+}
+.settingtext{
+  margin: auto;
+  >>>p {
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 18px;
+  }
+}
+.settinginput{
+  width: 100px;
+  >.v-input{
+    font-size: 20px;
+    padding-top: 0px;
+    >>> input{
+      text-align: center;
+    }
+    >>>.v-input__control{
+      height: 40px;
+    }
+    >>>.v-input__slot:before, >>> .v-input__slot:after {
+      display: none;
+    }
+  }
+}
+.settingBtn {
+  margin: 0px;
+  height: 40px;
+  width: 120px;
+  border: solid 2px var(--btnAxisBorderColor);
+  border-radius: 20px;
+}
+.saveBtnBox{
+  padding-right: 10px;
+  justify-content: right;
+}

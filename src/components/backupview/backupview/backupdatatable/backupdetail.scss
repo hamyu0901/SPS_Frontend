@@ -1,0 +1,34 @@
+.backUpDetailCard {
+  background-color: var(--backUpDetailCardBackgroundColor) !important;
+}
+
+.backUpSubCard {
+  background-color: var(--backUpSubCardBackgroundColor) !important;
+}
+
+.backUpSubCardTitle {
+  background-color: var(--backUpSubCardTitleBackgroundColor);
+  color: var(--backUpSubCardTitleColor);
+}
+
+.jobFileContentArea {
+  height: 543px;
+  background-color: var(--jobFileContentAreaBackgroundColor); 
+  color: #111111;
+  overflow: scroll !important;
+}
+.titleColor {
+  background-color: var(--titleColorBackgroundColor) !important;
+  color: var(--jobTextColor);
+}
+
+.buttonItem {
+  background-color: var(--buttonItemBackgroundColor);
+  color: var(--buttonItemColor);
+}
+.closeBtn {
+  min-width: 80px;
+}
+.cardTitleColor {
+  color: var(--cardTitleColor);
+}

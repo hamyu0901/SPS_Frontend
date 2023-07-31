@@ -1,0 +1,7 @@
+@import "src/commons/table";
+.processInfoTableCard { 
+  border: solid 1px var(--processInfoTableCardBorderColor) !important;
+}
+.tdText { 
+  color: var(--tdTextColor);
+}

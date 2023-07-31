@@ -1,0 +1,20 @@
+@import "src/commons/table";
+.predictAlarmTableCard {
+  border: solid 1px var(--gridTableWithDialogCardBorderColor) !important;
+}
+.alarmViewData {
+  width: 100%;
+}
+.tdText { 
+  color: var(--tdTextColor);
+}
+.v-btn {
+  height: 20px;
+}
+
+.subTitle {
+  margin: 0;
+  margin-top: -10px;
+  color: var(--subTitleColor);
+  font-size: 13px;
+}

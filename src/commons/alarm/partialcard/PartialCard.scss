@@ -1,0 +1,17 @@
+.alarm-partial-card {
+  $self: #{&};
+  width: 100%;
+  height: 100%;
+  background-color: #2C2A45 !important;
+  &-title {
+    font-size: 18px;
+    font-weight: 700;
+    max-height: 44px !important;
+    padding: 8px 24px;
+  }
+  &__contents {
+    padding: 0 24px;
+    width: 100%;
+    height: calc(100% - 44px);
+  }
+}

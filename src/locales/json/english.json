@@ -1,0 +1,1878 @@
+{
+    "common": {
+        "condition": {
+            "boothid": "[Notice] Select Booth",
+            "zoneid": "[Notice] Select Zone",
+            "robotid": "[Notice] Select Robot"
+        },
+        "loading": "Loading...",
+        "window": {
+            "save": "Save?",
+            "delete": "Delete?",
+            "insert" : "Would you like to register?",
+            "saved" : "Saved.",
+            "noFile" : "The file does not exist."
+        },
+        "btn": {
+            "insert": "Insert",
+            "close": "Close"
+        },
+        "remedyItem": {
+            "title": {
+                "message": "Message",
+                "subCode": "Sub Code",
+                "cause": "Cause",
+                "solution": "Solution"
+            }
+        },
+        "chart": {
+            "title": {
+                "empty": "No Data"
+            }
+        },
+        "alarmInfoList": {
+            "header": {
+                "factory": "Factory",
+                "alarmType": "Alarm Type",
+                "subCode": "Sub Code",
+                "contents": "Alarm Contents",
+                "solution": "Solution"
+            }
+        },
+        "robotAlarmModal": {
+            "robotAlarmInfoTitle": "ROBOT ALARM INFORMATION",
+            "robotTorqueTrendChartTitle": "TORQUE DATA CHART",
+            "robotAccumTrendChartTitle": "ACCUM CHART",
+            "robotAccumGapChartCardTitle": "ACCUM GAP CHART",
+            "robotAccumGapChartTitle": "Average accumulation from a month ago -> Average of the last 5 accumulations",
+            "robotTemperatureTrendChartTitle": "TEMPERATURE CHART",
+            "robotTemperatureGapChartCardTitle": "TEMPERATURE GAP CHART",
+            "robotTemperatureGapChartTitle": "Average temperature from a month ago -> Average temperature of the last 5"
+        },
+        "atomizerAlarmModal": {
+            "atomizerAlarmInfoTitle": "ATOMIZER ALARM INFORMATION",
+            "atomizerChartTitle": "Command/Feedback CHART",
+            "atomizerHVChartTitle": "HV/HVC CHART",
+            "atomizerAlarmListTitle": "History before and after the occurrence alarm",
+            "atomizerListHeaderItems": {
+                "date": "DATE",
+                "type": "TYPE",
+                "code": "CODE",
+                "job_name": "JOB",
+                "contents": "CONTENTS",
+                "level": "LEVEL"
+            }
+        },
+        "commonAlarmModal": {
+            "commonAlarmInfoTitle": "ALARM INFORMATION",
+            "commonAlarmChartTitle": "Number of alarm occurrences",
+            "commonAlarmChartAxisYTitle": "ALARM COUNT",
+            "commonAlarmChartItems": {
+                "alarmCountTitle": "ALARM COUNT"
+            }
+        }
+    },
+
+    "tabtitle": {
+        "home": "HOME",
+        "monitoring": "LINE MONITORING",
+        "torquemonitoring": "PREDICT MONITORING",
+        "review": "REVIEW",
+        "diagnostics": "DIAGNOSTICS",
+        "realtime": "REALTIME",
+        "maintenance": "MAINTENANCE",
+        "alarm": "ALARM",
+        "posthistory": "POST-HISTORY",
+        "sparepart": "SPARE-PART",
+        "manual": "MANUAL",
+        "backupview": "BACKUPVIEW",
+        "reportview": "REPORT",
+        "extra": "Add-on"
+    },
+
+    "actionReport": {
+        "titleText": "Title",
+        "userIdText": "User ID",
+        "typeText": "Type",
+        "typeHintText": "Action Item Type",
+        "actionTypeDatas": {
+            "generalAction": "General Action",
+            "robotAlarmAction": "Robot Alarm Action",
+            "maintenanceAction": "Maintenance Action",
+            "predictAlarmAction": "Predict Alarm Action",
+            "faultReport": "Fault Report"
+        },
+        "FaultReportActionContents": {
+            "processInfoText": "Process Info",
+            "selectorBoothHintText": "BOOTH",
+            "selectorZoneHinttext": "ZONE",
+            "selectorRobotHintText": "ROBOT",
+            "alarmCodeText": "Alarm Code",
+            "failurePeriodText": "Failure Period",
+            "failureTimeText": "Failure Time(Min)",
+            "contentsText": "Contents",
+            "remedyText": "Remedy",
+            "tagText": "Tag"
+        },
+        "FaultReport": {
+            "processInfoText": "Process Info",
+            "selectorBoothHintText": "BOOTH",
+            "selectorZoneHinttext": "ZONE",
+            "selectorRobotHintText": "ROBOT",
+            "alarmCodeText": "Alarm Code",
+            "failurePeriodText": "Failure Period",
+            "failureTimeText": "Failure Time(Min)",
+            "contentsText": "Contents",
+            "remedyText": "Remedy",
+            "tagText": "Tag",
+            "titleText": "Title",
+            "userIdText": "User ID",
+            "typeText": "Type",
+            "typeHintText": "Action Item Type"
+        },
+        "GeneralMaintenanceActionContents": {
+            "contentsText": "Contents",
+            "tagText": "Tag"
+        },
+        "GeneralMaintenanceReport": {
+            "contentsText": "Contents",
+            "tagText": "Tag",
+            "titleText": "Title",
+            "userIdText": "User ID",
+            "typeText": "Type",
+            "typeHintText": "Action Item Type"
+        },
+        "RobotPrecautionActionContents": {
+            "alarmCodeText": "Alarm Code",
+            "contentsText": "Contents",
+            "tagText": "Tag"
+        },
+        "RobotPrecautionReport": {
+            "alarmCodeText": "Alarm Code",
+            "contentsText": "Contents",
+            "tagText": "Tag",
+            "titleText": "Title",
+            "userIdText": "User ID",
+            "typeText": "Type",
+            "typeHintText": "Action Item Type"
+        }
+    },
+
+    "selector": {
+        "booth": "BOOTH",
+        "zone": "ZONE",
+        "robot": "ROBOT",
+        "job": "JOB FILE",
+        "model": "MODEL",
+        "color": "COLOR",
+        "alarm": "ALARM TYPE"
+    },
+
+    "datepicker": {
+        "lang": {
+            "days": ["SUN","MON","TUE","WED","THU","FRI","SAT"],
+            "months": ["January","February","March","April","May","June","July","August","September","October","November","December"]
+        }
+    },
+
+    "dateTypes": {
+        "day": "D",
+        "week": "W",
+        "month": "M"
+    },
+
+    "treeview": {
+        "title": "Process Information",
+        "popmsg" : {
+            "processInfoError": "[Notice] No process information."
+        }
+    },
+
+    "pdfview": {
+        "popmsg" : {
+            "manualError": "[Notice] No manual available",
+            "overSizeMessage": "[Notice] It will download this PDF manual file because it is large."
+        }
+    },
+
+    "comfirmDlg" : {
+        "comfirmDlgSaveTitle" : "Do you want to save it?",
+        "comfirmDlgDeleteTitle": "Are you sure you want to delete it?",
+        "comfirmDlgUpdateTitle": "Do you want to apply?",
+        "comfirmDlgChangeTitle": "Data has been changed. Do you want to save it?",
+        "comfirmDlgJobUpdateTitle": "Do you want to update JOB?",
+        "comfirmDlgComfirmSaveText": "Save",
+        "comfirmDlgComfirmDeleteText": "Delete",
+        "comfirmDlgComfirmUpdateText": "Accept",
+        "comfirmDlgComfirmJobUpdateText": "Accept",
+        "comfirmDlgCloseText": "Close",
+        "comfirmDlgComfirmUnCheck": {
+            "Title": "Unable to compare individual tasks",
+            "unCheckText": "ok",
+            "renderMessage": {
+                "processTitle": "About the process: ",
+                "conditionalTitle": " th condition ",
+                "robotTypeTitle": " The type of robot is ",
+                "IsTitle": ".",
+                "contentsTitle": "Contents: ",
+                "dxControlText": "This function can only be operated on the DX controller. ",
+                "releaseTitle": "Are you sure you want to deselect Individual Task Comparison?"
+            }
+        }
+    },
+
+    "multySelector": {
+        "title": "Select Exclusion Alarm Code"
+    },
+
+    "settingDlg" : {
+        "settingCardTitle": "Setting Preferences",
+        "saveText": "Save",
+        "closeText": "Close",
+        "settingLanguageText": "Multilingual Settings",
+        "settingThemeText": "Theme Settings",
+        "ui": {
+            "text": {
+                "save": "Save",
+                "close": "Close"
+            }
+        },
+        "datas": {
+            "listItems": {
+                "language": "Language Settings",
+                "theme": "Theme Settings",
+                "accum": "Accumulation Settings",
+                "range": "Range Settings",
+                "applicatordata": "Applicator Data Settings",
+                "process": "Process Settings",
+                "menu": "Feature Settings",
+                "alarm": "Alarm Settings"
+            },
+            "languageItems": {
+                "kr": "Korean",
+                "en": "English",
+                "cn": "Chinese"
+            },
+            "themeItems": {
+                "dark": "DARK",
+                "light": "LIGHT"
+            },
+            "historyAccumHeaders": {
+                "boothname": "Booth",
+                "zonename": "Zone",
+                "robotname": "Robot",
+                "axis": "Axis",
+                "jobname": "Job",
+                "maxsum": "Maximum",
+                "minsum": "Minimum",
+                "avgsum": "Average",
+                "avgcycle": "Average Cycle",
+                "maxwarning": "Maximum Warning",
+                "minwarning": "Minimum Warning",
+                "cyclewarning": "Warning Cycle"
+            },
+            "historyRangeHeaders": {
+                "boothname": "Booth",
+                "zonename": "Zone",
+                "robotname": "Robot",
+                "axis":"Axis",
+                "jobname":"Job",
+                "violationstep": "Violation Step Count"
+            },
+            "historyRangeDetailHeaders": {
+                "stepno": "Step",
+                "max": "Maximum",
+                "min": "Minimum",
+                "maxwarning":"Maximum Warning",
+                "minwarning":"Minimum Warning"
+            },
+            "reportItems": {
+                "title": "Alarm settings by zone",
+                "alarmLevel" : ["high","middle","lower"],
+                "zoneAlarmType" : ["System","Atomizer","ZoneRobot","Vision","Etc"],
+                "robotAlarmType" : "robot",
+                "addAlarm" : "Please import Alarm list",
+                "exportAlarm" : "Export to Excel?"
+            }
+        }
+    },
+
+    "warningSetView": {
+        "ui": {
+            "text": {
+                "maxRate": "Maximum Rate(+) %",
+                "minRate": "Minimum Rate(-) %",
+                "startDate": "Start Date",
+                "endDate": "End Date"
+            }
+        }
+    },
+
+    "menuSetView": {
+        "ui": {
+            "text": {
+                "title": "Tab Feature Settings",
+                "mainMenuTitle": "Main Feature Settings",
+                "diagnosticsMenuTitle": "Diagnostic Feature Settings"
+            }
+        }
+    },
+
+    "login": {
+        "admin": "This is Admin account.",
+        "basicFunction": "This account provide basic function.",
+        "loginerror": "Please check your ID or Password again.",
+        "resolution": {
+            "possible": "Resolution optimization 1920 X 1080",
+            "impossible": " is not an optimized resolution. (optimization 1920 X 1080)"
+        }
+    },
+
+    "home": {
+        "boothMonitoring": "Booth Monitoring",
+        "showDetailPage": "Show Detail",
+        "robotStatus": {
+            "action": "Action",
+            "ready": "Ready",
+            "alarm": "Alarm",
+            "offline": "Offline",
+            "error": "Error"
+        },
+        "alarmColumn": {
+            "processInformation": "Process Info",
+            "occurTime": "Occurence Time",
+            "alarmCode": "Alarm Code",
+            "alarmCase": "Alarm Name",
+            "alarmDesc": "Alarm Description"
+        },
+        "maintenanceColumn": {
+            "unit": "Unit",
+            "inspectionSite": "Inspection Area",
+            "managementCategory": "Management Category",
+            "status": "Status (%)"
+        },
+        "popMsg": {
+            "statusInfo": "[Notice] No Booth data available.",
+            "alarmChart": "[Notice] No Alarm Chart data available.",
+            "alarmList": "[Notice] No Alarm List data available.",
+            "maintenanceList": "[Notice] No Maintenance data available.",
+            "predictList": "[Notice] No Predict Alarm data available."
+        },
+        "child": {
+            "alarmChart": {
+                "alarmChartTitle": "Today's Alarm Event Count and Dead Time",
+                "deadtime": "Dead Time (min)",
+                "count": "Count",
+                "deadtimeLabel": "Dead Time",
+                "countLabel": "Count",
+                "hour": "h",
+                "defaultTextMessage": "There is no information about the alarm that occurred"
+            },
+            "alarmListTable": {
+                "alarmListTableTitle": "Today's Alarm Event List"
+            },
+            "maintenanceInfoTable": {
+                "maintenanceInfoTableTitle": "Maintenance Status"
+            },
+            "processStatusTable": {
+                "processStatusTableTitle": "Predict Alarm Event Status",
+                "normal": "Normal",
+                "alarm": "Warning",
+                "notSet": "Not Set",
+                "p001": "Torque Range Warning",
+                "p002": "Temperature Limit Warning",
+                "p003": "Torque Week Average Warning",
+                "p004": "Torque Similar Warning",
+                "p005": "Torque Operation Cumulative Warning"
+            },
+            "alarmInfoDlg": {
+                "aggregateByDate": "Aggregation by date",
+                "alarmRatio": "Process alarm ratio",
+                "alarmInfo": "Alarm info",
+                "alarmStopTime": "Alarm stop time",
+                "confirm": "OK",
+                "noDesc": "No description."
+            }
+        },
+        "main": {
+            "axis": "axis",
+            "count": "cases",
+            "empty": "NO DATA",
+            "statisticsAlarmItems": {
+                "zoneAlarmStatisticsResult": {
+                    "title": "Zone Alarm Occurrence Analysis(Medium/High Risk)",
+                    "totalCountTitle": "Zone Alarm Occurred",
+                    "codeTitle": "Zone Alarm Occurring Frequency",
+                    "chartTitle": "Zone by Alarm Type"
+                },
+                "robotAlarmStatisticsResult": {
+                    "title": "Robot Alarm Occurrence Analysis",
+                    "totalCountTitle": "Robot Alarm Occurred",
+                    "codeTitle": "Robot Alarm Occurring Frequency",
+                    "chartTitle": "Robot Alarm Occurred"
+                }
+            },
+            "predictAnalysisItems": {
+                "predictAnalysisAccumResult": {
+                    "title": "Analysis of Accumulation Alarm",
+                    "totalCountTitle": "Accumulation Alarm",
+                    "chartTitle": "Accumulation Alarm By Axis"
+                },
+                "predictAnalysisTemperatureResult": {
+                    "title": "Analysis of Temperature Alarm",
+                    "totalCountTitle": "Temperature Alarm",
+                    "chartTitle": "Temperature Alarm By Axis"
+                },
+                "predictAnalysisPMTorqueResult": {
+                    "title": "Analysis of Average Alarm",
+                    "totalCountTitle": "Average Alarm",
+                    "chartTitle": "Average Alarm By Axis"
+                },
+                "predictAnalysisAtomizerResult": {
+                    "title": "Analysis of Atomizer Alarm",
+                    "totalCountTitle": "Atomizer Alarm",
+                    "chartTitle": "Atomizer Alarm By Robot"
+                }
+            },
+            "statisticsTop": {
+                "title": ""
+            },
+            "stackedBarChart": {
+                "emptyText": "No Alarms"
+            },
+            "pieChart": {
+                "emptyText": "No Alarms"
+            },
+            "barChart": {
+                "statistics": {
+                    "emptyText": "No Alarms"
+                },
+                "predict": {
+                    "emptyText": {
+                        "accum": "No Accumulation Alarm By Axis",
+                        "temperature": "No Temperature Alarm By Axis",
+                        "pm-torque": "No Average Alarm By Axis",
+                        "atomizer": "No Atomizer Alarm By Robot"
+                    }
+                }
+            },
+            "predictTotalCount": {
+                "emptyText": "No Alarms"
+            },
+            "predictTop": {
+                "checkType": {
+                    "normal": "Normal",
+                    "check": "Check"
+                }
+            },
+            "zoneAlarmType": {
+                "system": "SYSTEM",
+                "sprayers": "ATOMIZER",
+                "zone": "ZONE-ROBOT",
+                "vision": "VISION"
+            },
+            "modal": {
+                "lineInfo": "Line Info",
+                "remedy": "Action Points",
+                "inspection": "Inspection",
+                "chart": {
+                    "empty": "No Chart Info"
+                },
+                "title": {
+                    "robot": "Robot Alarm Occur Info",
+                    "zone": "Zone Alarm Occur Info"
+                },                "table": {
+                    "header": {
+                        "date": "Date",
+                        "type": "Type",
+                        "code": "Code",
+                        "subCode": "SubCode",
+                        "contents": "Contents",
+                        "robot": "Robot",
+                        "level": "Level"                    }
+                }
+            }
+        }
+    },
+
+    "monitoring": {
+        "allMonitoring": {
+            "selectBoothPage": "Select booth page▽",
+            "selectZonePage": "Select zone page▽",
+            "selectRobotPage": "Select robot page▽",
+            "page": "Page",
+            "closeBtnText": "Close",
+            "robotStatusTitle": "ROBOT STATUS",
+            "robotStatus": {
+                "action": "Action",
+                "ready": "Ready",
+                "alarm": "Alarm",
+                "offline": "Offline",
+                "error": "Error"
+            },
+            "predictStatusTitle": "PREDICT ALARM STATUS",
+            "predictStatusItems": {
+                "range": "Range",
+                "motor_temperature": "Temperature",
+                "accum": "Accumulation"
+            },
+            "predictStatusTypes": {
+                "normal": "Normal",
+                "alarm": "Alarm"
+            },
+            "popMsg": {
+                "boothList": "[Notice] No Booth data available.",
+                "zoneList": "[Notice] No Zone data available.",
+                "zoneRobotList": "[Notice] No Robot data available",
+                "zoneInfo": "[Notice] No Zone information data available.",
+                "zoneData": "[Notice] No Zone data available.",
+                "zoneConfig": "[Notice] No Zone configration data available."
+            }
+        },
+        "zoneMonitoring": {
+            "selectRobot": "Select robot",
+            "vinNumber": "Vin",
+            "modelInfo": "Model",
+            "color": "Clr",
+            "option": "Opt",
+            "popMsg": {
+                "bodyUpdate": "[Notice] No Body tracking data available."
+            }
+        },
+        "miniZone": {
+            "logMsg": {
+                "zoneConfig": "No Zone data available.",
+                "zoneData": "No PLC data available."
+            }
+        },
+        "child": {
+            "selectOptionDlg": {
+                "moveZoneText": "Move Zone",
+                "movePredictText": "Move Predict"
+            },
+            "robotDetail": {
+                "moveZone": "Move Zone",
+                "booth": "Booth Page",
+                "zone": "Zone List",
+                "robot": "Robot List",
+                "popMsg": {
+                    "zoneRobotList": "[Notice] No Robot list data available.",
+                    "zoneData": "[Notice] No Robot status data available."
+                },
+                "child": {
+                    "atomizerRealtimeChart": {
+                        "defaultTextMessage": "No real-time applicator information.",
+                        "dataPointName": {
+                            "cmd": "Command",
+                            "feedback": "Feedback"
+                        }
+                    }
+                }
+            },
+            "currentRobotStateCount": {
+                "title": "Current Robot Status",
+                "robotStatus": {
+                    "action": "Action",
+                    "ready": "Ready",
+                    "alarm": "Alarm",
+                    "offline": "Offline",
+                    "error": "Error"
+                }
+            },
+            "pastRobotStateTime": {
+                "title": "Last 24-hour Robot operating state(min)",
+                "noDataTitle": "No robot operating status information."
+            },
+            "robotAlarm": {
+                "title": "Alarm List",
+                "col": {
+                    "occurTime": "Occurrence Time",
+                    "alarmName": "Alarm Name",
+                    "robotName": "Robot",
+                    "alarmCode": "Alarm Code",
+                    "desc": "Description"
+                }
+            },
+            "robotInfo": {
+                "robotModel": "Robot Model",
+                "rcModel": "RC Model",
+                "atomModel": "Atomizer Model",
+                "installDate": "Setup Date",
+                "ip": "Robot IP Address"
+            }
+        },
+        "line": {
+            "title" : {
+                "emptyTitle": "No Data",
+                "carouselTitle": "Real-time Alarm History",
+                "alarmTableTitle": "Today Alarm List",
+                "alarmInfo" : "Alarm Details",
+                "cause" : "Causes of occurrence",
+                "remedy" : "Workaround"
+            },
+            "count": "cases",
+            "cardCarousel": {
+                "emptyText": "There are no alarms raised.",
+                "modal": {
+                    "btn": {
+                        "occurAlarm": "Current Occur Alarm",
+                        "nonOccurAlarm": " Alarm turned off"
+                    }
+                }
+            },
+            "robotItem": {
+                "dialogCardItems": {
+                    "title": {
+                        "zone": "Move Zone Details",
+                        "predict": "Move Diagnostics Predict",
+                        "maintenance": "Move Maintenance"
+                    }
+                },
+                "robotInfo" : {
+                    "title" : "Robot Info",
+                    "empty" : "Not Info"
+                },
+                "modalTitle": "View details"
+            },
+            "zoneItem": {
+                "emptyTitle": "No alarms are currently raised.."
+            }
+        },
+        "detail": {
+            "zoneAlarmItemsTitle": "Zone Alarm List",
+            "productionItemsTitle": "Production History List",
+            "zoneAlarmHeaderItems": {
+                "text": {
+                    "typeName": "Alarm type",
+                    "levelName": "Level",
+                    "contents": "Contents",
+                    "updateTime": "Update Time"
+                }
+            },
+            "productionHeaderItems": {
+                "text": {
+                    "vinNo": "VIN_NO",
+                    "updateTime": "Update Time",
+                    "parameter": "PARAMETER"
+                }
+            },
+            "robotDetailItem": {
+                "robotInfoTitleType": {
+                    "zoneName" : "Zone Name",
+                    "robotName": "NAME",
+                    "robotModelName": "MODEL",
+                    "rcModelName": "CONTROLLER",
+                    "robotIp": "ROBOT IP"
+                },
+                "robotModeType": {
+                    "teach": "TEACH",
+                    "play": "PLAY",
+                    "remote": "REMOTE"
+                },
+                "robotMode": "MODE",
+                "etc": "ETC"
+            }
+        }
+    },
+
+    "torqueMonitoring": {
+        "torqueAllMonitoring": {
+            "functionTitle": "Monitoring Type",
+            "accumFunction": "Torque LoadFactor Accum",
+            "violationTime": "Violation Time",
+            "violationType": "Violation Type",
+            "violationValue": "Violation Value",
+            "cumulativeWarningValue": "Cumulative Warning Value"
+        }
+    },
+
+    "diagnostics": {
+        "drawertitle": {
+            "predict": "Predictive Maintenance",
+            "torquedata": "Torque Data",
+            "atomizerdata": "Atomizer Data",
+            "alarmstatistics": "Alarm Statistics",
+            "torquerange": "Torque Range Analysis",
+            "torquesimilarity": "Torque Similarity Analysis",
+            "torqueloadfactor": "Torque Accumulation",
+            "torquetemperature": "Motor Temperature",
+            "torquerealtime": "Torque Real Time Data",
+            "report": "Data Report",
+            "atomizer": "Atomizer Data",
+            "statistics": "Alarm Statistics"
+        },
+        "report":{
+
+        },
+        "predict": {
+            "predictCodeSumChartTitle": "Number of predicted alarms in the last month",
+            "processInfo": "Process Info",
+            "predictStatusHeaderDatas": {
+                "P001": "Torque Range Warning",
+                "P002": "Temperature Limit Warning",
+                "P003": "Torque Week Average Warning",
+                "P004": "Torque Similar Warning",
+                "P005": "Torque Operation Cumulative Warning"
+            },
+            "processInfoHeaderDatas": {
+                "startTime": "Start Time",
+                "endTime": "End Time",
+                "code": "Code",
+                "content": "Content",
+                "jobName": "Job Name",
+                "axis": "Axis",
+                "edit": "Edit"
+            },
+            "violationInfos": {
+                "P001": "Torque Range Warning",
+                "P002": "Temperature Limit Warning",
+                "P003": "Torque Week Average Warning",
+                "P004": "Torque Similar Warning",
+                "P005": "Torque Operation Cumulative Warning",
+                "total": "Total Warning"
+            },
+            "popMsg": {
+                "predictList": "[Notice] There is no predict-alarm data.",
+                "predictListDetail": "[Notice] There is no detail process data.",
+                "predictChart": "[Notice] There is no violation information.",
+                "predictDataDisable": "[Notice] Released.",
+                "predictTrend": "[Notice] There is no current event trend data."
+            },
+            "child": {
+                "predictStatusTable": {
+                    "predictStatusTableTitle": "Predict Alarm Occurence Status",
+                    "release": "Release",
+                    "disable": "V",
+                    "predictStdInfos": {
+                        "normal": "Normal",
+                        "alarm": "Alarm",
+                        "notSet": "Not Set"
+                    },
+                    "popMsg": {
+                        "releaseMsg": "[Notice] Alarm has been cleared.",
+                        "normalMsg": "[Notice] Alarm has already been cleared.",
+                        "notSetMsg": "[Notice] Alarm is not set."
+                    }
+                },
+                "processInfoTable": {
+                    "processInfoTableTitle": "Predict Alarm List"
+                },
+                "predictCodeSumChart": {
+                    "defaultTextMessage": "No foresight alarms have occurred in the last month."
+                },
+                "violationChart": {
+                    "weeksAgo1": "1 weeks ago",
+                    "weeksAgo2": "2 weeks ago",
+                    "settingValue": "Setting value",
+                    "violationValue": "violation value",
+                    "torqueAvgValue":"Torque Average Value",
+                    "maxSettingValue": "Max Setting Value",
+                    "minSettingValue": "Min Setting Value",
+                    "torqueRangeValue": "Torque Load factor Value",
+                    "torqueAccumulateValue": "Torque Load Factor Accumulate Value",
+                    "torqueRangeWarningMaxValue": "Torque Warning Max Value",
+                    "torqueRangeWarningMinValue": "Torque Warning Min Value",
+                    "standardTorqueWeekAverageValue": "Torque weekly average value",
+                    "addTorqueWeekAverageValue": "Torque weekly average increase value",
+                    "tempSettingValue": "Violation Setting Value",
+                    "tempValue": "Temperature Value",
+                    "defaultTextMessage": {
+                        "p001": "No torque range warning information in the selected forecast alarm list",
+                        "p002": "No temperature limit warning information in the selected forecast alarm list",
+                        "p003": "No torque weekly average alert information in the selected forecast alarm list",
+                        "p004": "",
+                        "p005": "No torque operation accumulation warning information in the selected forecast alarm list"
+                    }
+                }
+            },
+            "main": {
+                "axis": "axis",
+                "alarmStatusInfos": {
+                    "normal": "NORMAL",
+                    "alarm": "ALARM",
+                    "default": "Not set"
+                },
+                "predictBoard": {
+                    "predictTableHeaderItems": {
+                        "robotName": "ROBOT",
+                        "accumAlarmStatus": "Torque Accumulation Alarm",
+                        "pmTorqueAlarmStatus": "Torque Average Alarm",
+                        "temperatureAlarmStatus": "Motor Temperature Alarm",
+                        "atomizerAlarmStatus": "Atomizer Status Alarm"
+                    }
+                },
+                "predictModal": {
+                    "emptyText": "The data is not available."
+                },
+                "predictLineChart": {
+                    "chart": "Chart",
+                    "axisYTitle": {
+                        "torque": "Torque(%)",
+                        "temperature": "Temperature(℃)"
+                    },
+                    "axisY2Title": {
+                        "alarmCount": "ALARM COUNT(count)"
+                    },
+                    "config": "CONFIG",
+                    "value": "VALUE",
+                    "atomizerValueName": {
+                        "CMD-FEEDBACK-UPPER-AVG": "Error Rate Excess",
+                        "CMD-FEEDBACK-UPPER-CONFIG": "Error Rate Excess Warning",
+                        "CMD-FEEDBACK-UNDER-AVG": "Error Rate Less",
+                        "CMD-FEEDBACK-UNDER-CONFIG": "Error Rate Less Warning"
+                    }
+                }
+            }
+        },
+        "torquedata": {
+            "search": "Search",
+            "axisXOutputTitle": "X-axis reference unit",
+            "worktimetable": {
+                "jobname": "Job Name",
+                "starttime": "Start Time",
+                "endtime": "End Time",
+                "worktime": "Cycle"
+            },
+            "settinginfotable": {
+                "robotname": "Robot Name",
+                "modelname": "RC Name",
+                "robotmodel": "Robot Model",
+                "atomizermodel": "Atomizer Model",
+                "ipaddress": "IP Address",
+                "installdate": "Setup Date"
+            },
+            "loadfactorbyaxis": {
+                "title": "Torque Data",
+                "1axis": "1 Axis",
+                "2axis": "2 Axis",
+                "3axis": "3 Axis",
+                "4axis": "4 Axis",
+                "5axis": "5 Axis",
+                "6axis": "6 Axis",
+                "7axis": "7 Axis"
+            },
+            "child": {
+                "loadFactorByAxis": {
+                    "legend": "Torque Load factor",
+                    "defaultTextMessage": "No torque load factor information retrieved"
+                }
+            },
+            "popMsg": {
+                "torqueDataGridTable": "[Notice] No job history.",
+                "settingInfoTable": "[Notice] No robot details.",
+                "chartDatas": "[Notice] No Chart information.",
+                "checkDate": "[Notice] Please check date.",
+                "checkSearchData": "[Notice] Please check your check data."
+            }
+        },
+        "atomizerdata": {
+            "atomizerdatatable": {
+                "model": "Model",
+                "color": "Color",
+                "time_stamp": "Time Stamp",
+                "flow": "Flow(cc)",
+                "gunon": "Gun On Time(ms)",
+                "hvolt": "High Voltage(Kvolt)",
+                "robotmovingtime": "Robot Moving Time(ms)",
+                "spraycycle": "Spray Cycle(ms)",
+                "conveyorofftime": "Conveyor Off Time(ms)"
+            },
+            "aotomizerTrendType": {
+                "flow": "Flow(cc)",
+                "hv": "High Voltage(kVolt)",
+                "sa_s": "Shaping Air[s]",
+                "sa_v": "Shaping Air[v]",
+                "turbine_speed": "Turbine Speed"
+            },
+            "atomizerTrend" : {
+                "title": "Atomizer Data",
+                "axisXTitle": "X-axis reference unit",
+                "label" : {
+                    "flowCommand": "flow command",
+                    "flowFeedback": "flow feedback",
+                    "hvCommand": "hv command",
+                    "hvFeedback": "hv feedback",
+                    "sa_sCommand": "sa[s] command",
+                    "sa_sFeedback": "sa[s] feedback",
+                    "sa_vCommand": "sa[v] command",
+                    "sa_vFeedback": "sa[v] feedback",
+                    "turbineSpeedCommand": "turbine speed command",
+                    "turbineSpeedFeedback": "turbine speed feedback"
+                }
+            },
+            "child": {
+                "atomizerDataChart": {
+                    "defaultTextMessage": "There is no atomizer data.",
+                    "dataPointName": {
+                        "cmd": "Command",
+                        "feedback": "Feedback"
+                    }
+                }
+            },
+            "popmsg": {
+                "atomizerDataGridTable": "[Notice] No Atomizer data avaliable.",
+                "checkDate": "[Notice] Please check date.",
+                "checkData": "[Notice] Check your search standard data."
+            }
+        },
+        "alarmstatistics": {
+            "search": "search",
+            "alarmstatistics": {
+                "alarminfotable": {
+                    "date": "Date",
+                    "alarmtypename": "Alarm Type",
+                    "alarmcode": "Alarm Code",
+                    "alarmname": "Alarm Comment",
+                    "zonename": "Zone",
+                    "jobname" : "Job name",
+                    "robotname": "Robot",
+                    "level": "danger level",
+                    "sum" : "sum",
+                    "step" : "step"
+                }
+            },
+            "multiSelectorTitle": "Select Exclusion Alarm Code",
+            "alarmType": "Alarm Type",
+            "overOption": "Over",
+            "belowOption": "Below",
+            "level" : {
+                "high" : "high",
+                "middle" : "middle",
+                "lower" : "lower"
+            },
+            "alarmContents" : {
+                "flag" : {
+                    "zoneAlarmNameFlag" : "Zone alarm occurrence name",
+                    "robotAlarmNameFlag" : "Robot alarm occurrence name"
+                },
+                "title" : {
+                    "multiSelectorTitle" : "Alarm Level",
+                    "alarmListTitle" : "Selected alarm list",
+                    "zoneAlarmNameHeader" : {
+                        "list" : "Add List",
+                        "alarmtypename" : "Alarm Type",
+                        "alarmname" : "Alarm Contents",
+                        "zonename" : "Zone",
+                        "sum" : "Sum",
+                        "level" : "Level"
+                    },
+                    "robotAlarmNameHeader" : {
+                        "list" : "Add List",
+                        "alarmcode" : "Alarm Code",
+                        "alarmtypename" : "Alarm Type",
+                        "alarmname" : "Alarm Contents",
+                        "robotname" : "Robot",
+                        "sum" : "Sum"
+                    }
+                }
+            },
+            "priorityContents": {
+                "maxAlarmDateFlag": "Maximum Alarm Occurrence Date",
+                "maxAlarmLevelFlag" : "Highest risk(high) alarm name",
+                "maxAlarmNameFlag": "Alarm Occurrence Name",
+                "maxStopDateFlag": "Longest Alarm Stop Date",
+                "maxStopAlarmFlag": "Longest Alarm Stop Name"
+            },
+            "alarmStatisticsTrend": "Zone Alarm Statistics Trend",
+            "popMsg": {
+                "alarmStatisticsData": "[Notice] No Alarm data available.",
+                "checkDate": "[Notice] Please check date.",
+                "alarmStatisticsCodeAlarm": "[Notice] No Code Alarm data available.",
+                "alarmStatisticsCodeStop": "[Notice] No Stop Alarm data available.",
+                "alarmStatisticsAlarmEvent": "[Notice] No Occurence Alarm data available.",
+                "alarmStatisticsAlarmStop": "[Notice] No Stop Alarm data available.",
+                "alarmStatisticsAlarmName": "[Notice] No Alarm Name data available.",
+                "alarmStatisticsAlarmCode": "[Notice] No Code Alarm data available.",
+                "alarmStatisticsDetailChart": "[Notice] No Detail Chart data available.",
+                "alarmStatisticsDataChart": "[Notice] No Chart data available."
+            },
+            "child": {
+                "alarmMixedChart": {
+                    "deadtime": "Dead Time (min)",
+                    "count": "Count",
+                    "deadtimeLabel": "Deadtime",
+                    "countLabel": "Count",
+                    "defaultTextMessage": "No alarm statistics information retrieved"
+                },
+                "codeAggregationDlg": {
+                    "totalCode": "Count by code",
+                    "codeAlarmEvent": "Code-specific alarms",
+                    "codeStopTime": "Stop time by code",
+                    "alarmTypeEvent": "Alarm generation by alarm type",
+                    "alarmTypeStopTime": "Stop time by alarm type",
+                    "confirm": "OK",
+                    "codeAggregationChart": {
+                        "defaultTextMessage": "No aggregate information by code retrieved"
+                    }
+                },
+                "dateAggregationDlg": {
+                    "totalDate": "Aggregate by date",
+                    "processAlarmEventRatio": "Rate of occurrence of inter-process alarms",
+                    "alarmInfo": "Alarm Info",
+                    "alarmTypeStopTime": "Number of occurrences by alarm type",
+                    "confirm": "OK",
+                    "deadtime": "Dead Time (min)",
+                    "count": "Count",
+                    "alarmDescription" : {
+                        "alarmCode": "Alarm Code : ",
+                        "alarmName": "Alarm Name : ",
+                        "alarmDesc": "Alarm Description : ",
+                        "alarmMean": "Alarm Mean : ",
+                        "alarmNoData": "No Data"
+                    },
+                    "dateAggregationPieChart" : {
+                        "defaultTextMessage": "No inter-process alarm rate information retrieved"
+                    }
+                }
+            }
+        },
+        "torqueRange": {
+            "jobUpdate": "JOB UPDATE",
+            "dayAnalysis": "Day Analysis",
+            "severalAnalysis": "Several Analysis",
+            "selectJobFile": "Select Job File",
+            "torqueRange": "Torque Range",
+            "jobExecutionText": " time Execution",
+            "warningValue": "Warning Value",
+            "warningValueOffset": "Warning Value Offset",
+            "warningValueAccept": "Warning Value Accept",
+            "warningValueSave": "Warning Value Save",
+            "jobInfoTableHeaderDatas": {
+                "jobName": "Job Name",
+                "startTime": "Start Time",
+                "endTime": "End Time",
+                "cycleTime": "Cycle"
+            },
+            "popMsg": {
+                "jobUpdate": "[Notice] Job update is complete.",
+                "jobNotUpdate": "[Notice] Unable to Job Update.",
+                "jobFile": "[Notice] No Torque Range data available.",
+                "checkDate": "[Notice] Please check date.",
+                "trendData": "[Notice] No Torque Range Trend data avaiable.",
+                "warningFrom": "[Notice] No Warning Value available.",
+                "warningTo": "[Notice] Torque range data has been saved.",
+                "checkSearchData": "[Notice] Please check your search standard.",
+                "warnNoSave": "[Notice] Unable to save warning value."
+            },
+            "child": {
+                "torqueRangeChart": {
+                    "defaultTextMessage": "No torque load rate range information retrieved"
+                },
+                "settingInfoTable": {
+                    "popMsg": {
+                        "torqueData": "[Notice] No Torque data available.",
+                        "checkDate": "[Notice] Please check date."
+                    }
+                },
+                "torqueRangeTable": {
+                    "stepNumber": "Step Number",
+                    "changeWarningValue": "Change Detail Warning Value",
+                    "currentWarningMinValue": "Current Warning Minimum Value",
+                    "currentWarningMaxValue": "Current Warning Maximum Value",
+                    "changeWarningMinValue": "Change Warning Minimum Value",
+                    "changeWarningMaxValue": "Change Warning Maximum Value",
+                    "accept": "Accept",
+                    "cancel": "Cancel",
+                    "popMsg": {
+                        "normalizedText": "Input value has been applied",
+                        "notNormalizedText": "The input value was entered incorrectly."
+                    }
+                }
+            },
+            "excel": {
+                "date": "Date",
+                "booth": "Booth",
+                "zone": "Zone",
+                "robot": "Robot",
+                "jobname": "Job",
+                "axis": "Axis",
+                "step": "Step",
+                "torqueMin": "Min value",
+                "torqueMax": "Max value",
+                "torqueWarnMin": "Warning Min Value",
+                "torqueWarnMax": "Warning Max Value"
+            }
+        },
+        "torqueSimilarity": {
+            "searchDate1": "Search date 1",
+            "searchDate2": "Search date 2",
+            "searchText": "Search",
+            "detailSearchText": "Detail Search",
+            "searchDate1Time": "Input hour",
+            "searchDate2Time": "Input hour",
+            "selectJobFile": "Select Job File",
+            "chartTitle": "Torque Similarity",
+            "compareJobsTitle": "Compare Jobs",
+            "workInfoTableHeaderData": {
+                "jobFile": "Job File",
+                "startTime": "Start Time",
+                "endTime": "End Time",
+                "cycleTime": "Cycle"
+            },
+            "popMsg": {
+                "jobListEmpty": "[Notice] hour is empty.",
+                "search1NoFilterData": "[Notice] No data available for the [Search 1] filter condition.",
+                "search2NoFilterData": "[Notice] No data available for the [Search 2] filter condition.",
+                "firstJobListEmpty": "[Notice] There is no Job File list for the [Search 1] condition.",
+                "secondJobListEmpty": "[Notice] There is no Job File list for the [Search 2] condition.",
+                "noFilterData": "[Notice] No data available for the filter condition.",
+                "checkSearchData": "[Notice] Please check your search standard."
+            },
+            "excel": {
+                "booth": "Booth",
+                "zone": "Zone",
+                "robot": "Robot",
+                "jobname": "Job",
+                "axis": "Axis",
+                "loadfactor": "Load factor Data",
+                "second": "Second",
+                "step": "Step"
+            },
+            "child": {
+                "torqueSimilarityChart": {
+                    "defaultTextMessage": "No torque similarity information retrieved"
+                }
+            }
+        },
+        "torqueLoadFactor": {
+            "jobUpdate": "JOB UPDATE",
+            "selectJobFile": "Select Job File",
+            "selectAxis": "Select Axis",
+            "exception": "exception task view",
+            "abnormalStandardSettingTableHeaderDatas": {
+                "category": "Category",
+                "standard": "Standard",
+                "abnormalMeasuredValue": "Abnormal Measured Value",
+                "abnormalMeasuredDate": "Abnormal Measured Date",
+                "currentWorkingValue": "Current Working Value",
+                "update": "All Update",
+                "disable": "All Disable",
+                "value": "Value"
+            },
+            "violationRecordTableHeaderDatas": {
+                "timestamp": "Time Stamp",
+                "acmtype": "Violation Category",
+                "vltvalue": "Setting Value",
+                "cfgvalue": "Violation Value"
+            },
+            "workListTableHeaderDatas": {
+                "timestamp": "Time Stamp",
+                "sum": "Cumulative Value",
+                "avg": "Average Value",
+                "cycle": "Cycle (sec)"
+            },
+            "popMsg": {
+                "jobUpdate": "[Notice] Job update is complete.",
+                "jobNotUpdate": "[Notice] Unable to Job Update.",
+                "checkSearchData": "[Notice] Please check your search standard.",
+                "abnormalRefData": "[Notice] No Abnormal Standard data available.",
+                "currentData": "[Notice] No Work list data available.",
+                "violationrecordData": "[Notice] No Violation record data available.",
+                "trendData": "[Notice] No Torque load factor data."
+            },
+            "child": {
+                "abnormalStandardSettingTable": {
+                    "setAbnormalStandard": "Accumulated Warning Value List",
+                    "initData": "Setting Warning Value",
+                    "setAllWarningData": "Setting All Warning Value",
+                    "setStandardData": "Setting Warning Value",
+                    "accept": "Accept",
+                    "allModify": "All Modify",
+                    "close": "Close",
+                    "typeDatas": {
+                        "acmmax": "Cumulative maximum",
+                        "acmmmv": "Cumulative minimum",
+                        "summxv": "Cumulative maximum",
+                        "summmv": "Cumulative minimum",
+                        "cycle": "Cycle"
+                    },
+                    "initDataTable": {
+                        "update": "Update",
+                        "disable": "Disable"
+                    },
+                    "setAllDataTable": {
+                        "booth": "Booth",
+                        "zone": "Zone",
+                        "robot": "Robot",
+                        "job": "Job",
+                        "axis": "Axis",
+                        "maxsum": "Max Sum",
+                        "minsum": "Min Sum",
+                        "avgcycle": "Average Cycle(s)",
+                        "avgvalue": "Average Value",
+                        "updatemaxsum": "Maximum warning value",
+                        "updateminsum": "Minimum warning value",
+                        "updatecycle": "Cycle",
+                        "modify": "Modify",
+                        "cantmodify": "This can't be modified",
+                        "canmodify": "This has been modified",
+                        "dataavailable": "No Data available",
+                        "onlynumber": "Please only number"
+                    },
+                    "warningData": {
+                        "setAllAvgWarningData": "All change based on average value",
+                        "setAllAvgCycleData": "All change based on average working time",
+                        "setAllWarningDataAccept": "Accept"
+                    },
+                    "popMsg": {
+                        "initStdBtnClicked": "[Notice] Please enter search information first."
+                    }
+                },
+                "violationRecordTable": {
+                    "violationRecord": "Violation Record",
+                    "searchViolationRecord": "Search violation Record",
+                    "searchCondition": "Search Condition",
+                    "finish": "Done"
+                },
+                "workListTable": {
+                    "workTitle": "Work List"
+                },
+                "loadFactorByAxis": {
+                    "sumChartTitle": "Torque Load factor Cumulation",
+                    "yAxisTitle": "Torque Load factor(%)",
+                    "xAxisTitle": "Time(YYYY-MM-DD HH:MM)",
+                    "torqueAccumLabel": "Torque Cumulative Value",
+                    "torqueWarningMaxLabel": "Max Setting Value",
+                    "torqueWarningMinLabel": "Min Setting Value",
+                    "defaultTextMessage": "No torque load factor information retrieved",
+                    "accumAvgText" : "Integrated average",
+                    "showAlert" : "Show Alert Only",
+                    "dailyAccumAvgText" : "Daily Accum Avg"
+                },
+                "initDataSettingDlg": {
+                    "items": {
+                        "acmmax": "Cumulative maximum",
+                        "acmmmv": "Cumulative minimum",
+                        "summxv": "Cumulative maximum",
+                        "summmv": "Cumulative minimum",
+                        "cycle": "Cycle"
+                    },
+                    "popMsg": {
+                        "accept": "[Notice] Completed",
+                        "checkInputData": "[Notice] Please check the input value."
+                    }
+                }
+            }
+        },
+        "torqueTemperature" : {
+            "chartTitle": "Motor Temperature",
+            "settingDlgTitle": "Setting Warning Value",
+            "outputTypeName": "Output Type",
+            "accept": "save",
+            "close": "close",
+            "datasByAxis": {
+                "1axis": "1 Axis",
+                "2axis": "2 Axis",
+                "3axis": "3 Axis",
+                "4axis": "4 Axis",
+                "5axis": "5 Axis",
+                "6axis": "6 Axis",
+                "7axis": "7 Axis",
+                "8axis": "8 Axis"
+            },
+            "window" : {
+                "select" : "Please check the Checkbox"
+            },
+            "popMsg": {
+                "checkSearchData": "[Notice] Please check your search data.",
+                "noTorqueTemperatureData": "[Notice] No torque temperature data.",
+                "noReferenceTempData": "[Notice] The reference temperature for the detected robot/axis is not set."
+            },
+            "child": {
+                "outputTypes": {
+                    "outputTypes": {
+                        "hour": "Hour",
+                        "day": "Day",
+                        "week": "Week",
+                        "month": "Month"
+                    }
+                },
+                "temperatureCharts": {
+                    "max": "highest temperature",
+                    "average": "average temperature",
+                    "standard": "standard temperature",
+                    "defaultTextMessage": "No motor temperature information retrieved"
+                },
+                "tempSettingDlg": {
+                    "items": {
+                        "label": "Temperature(°C)"
+                    }
+                }
+            }
+        },
+        "atomizer": {
+            "title": {
+                "chart": "Atomizer Data Chart",
+                "table": "Atomizer Valid Alarm List"
+            },
+            "atomizerAlarmListHeaderItems": {
+                "update_time": "Date",
+                "code": "Alarm Code",
+                "name": "Alarm Contents",
+                "job_name": "JOB",
+                "step_no": "Step No",
+                "level": "Level"
+            },
+            "alertText": "Check the search conditions."
+        },
+        "statistics": {
+            "statisticsChartTitle": "Alarm Statistics Chart",
+            "statisticsChartAxisYTitle": "ALARM COUNT",
+            "zoneAlarmTableTitle": "Zone Alarm List",
+            "robotAlarmTableTitle": "Robot Alarm List",
+            "entireAlarmTableTitle": "Entire Alarm List",
+            "atomizerAlarmDlgTitle": "ATOMIZER ALARM",
+            "robotAlarmDlgTitle": "ROBOT ALARM",
+            "statisticsChartItems": {
+                "zoneAlarmCountTitle": "ZONE ALARM COUNT",
+                "robotAlarmCountTitle": "ROBOT ALARM COUNT"
+            }
+        }
+    },
+    "report" : {
+        "main" : {
+            "btn" : {
+                "move" : "move",
+                "setReport" : "Report Lookup",
+                "add" : "Add"
+            },
+            "reportListTable" : {
+                "header" : "Report Lookup",
+                "report_name" : "List",
+                "report_time" : "Report Period",
+                "update_time" : "Registration Date",
+                "delete" : "Delete",
+                "auto" : "Auto Report"
+            },
+            "reportTitle" : {
+                "alert" : "need to check",
+                "default": "good condition"
+            }
+        },
+        "common": {
+            "window": {
+                "selectReport": "Please select the report",
+                "confirmDate" : "Please check the date",
+                "addReport" : "Please add the report",
+                "noData" : "No Data.",
+                "wargingValue": "warning threshold"
+            },
+            "btn": {
+                "save" : "save"
+            }
+        },
+        "hardware": {
+            "title": {
+                "prevReport": "Previous report",
+                "hardware": "Hardware Analysis",
+                "atomizer": "Atomizer Analysis",
+                "alarm": "Alarm Analysis",
+                "analysis": "Analysis",
+                "reportName": "Report Name",
+                "wargingValue": "Reference value",
+                "dataAvg": "Data Avg",
+                "alertCounting": "number of warnings",
+                "opinion" : "Comprehensive opinion",
+                "avgData" : "Avg Data"
+            },
+            "btn" : {
+                "confirmAlert" : "Check the warning"
+            },
+            "tableHeader": {
+                "title": "Comprehensive risk assessment",
+                "header": {
+                    "robot": "robot",
+                    "axis": "axis",
+                    "accum": "Torque Integration",
+                    "temperature": "Motor Temp",
+                    "accumAvg": "Torque Avg",
+                    "motorLife": "Motor Life",
+                    "accumDailyAvg" : "Accum Daily Avg",
+                    "settingJob": "Setting Job"
+                }
+            }
+        },
+        "alarm": {
+            "title": {
+                "selectedAlarmList": "Selected Alarm List"
+            }
+        }
+    },
+
+    "realtime": {
+        "searchErrorText": "Please select a robot.",
+        "legends": {
+            "warning": "Waring Value",
+            "violation": "Violation Value",
+            "forwardWarning": "Upper Alarm",
+            "forwardViolation": "Upper Warning",
+            "reverseWarning": "Lower Alarm",
+            "reverseViolation": "Lower Warning"
+        },
+        "tabItems": {
+            "title": {
+                "realTimeTorque": "Torque Load Factor"
+            }
+        },
+        "popMsg": {
+            "selectedError": "[Notice] No robot selected. Select a robot."
+        },
+        "child": {
+            "realTimeTorque": {
+                "chartTitle": "Real Time Torque Load Factor",
+                "currRobotController": "Robot Controller: ",
+                "currJobName": "Current Job File: ",
+                "warningSetButtonTitle": "Waring Setting",
+                "multiSelectorPlaceHolder": "Data Points Selection",
+                "allAxisButtonTitle": "All Axis",
+                "datasByAxis": {
+                    "1axis": "1 Axis",
+                    "2axis": "2 Axis",
+                    "3axis": "3 Axis",
+                    "4axis": "4 Axis",
+                    "5axis": "5 Axis",
+                    "6axis": "6 Axis",
+                    "7axis": "7 Axis"
+                },
+                "popMsg": {
+                    "saveWarningValues": "[Notice] Warning and violation values have been set."
+                },
+                "child": {
+                    "warningSettingDlg": {
+                        "dlgTitle": "Waring Setting",
+                        "saveText": "Save",
+                        "closeText": "Close",
+                        "popMsg": {
+                            "inputError": "[Notice] Please check the input value."
+                        }
+                    }
+                }
+            },
+            "realTimeLogList": {
+                "logItemInfo": {
+                    "warning": "The robot {robotName} is outside the warning value at {timeStamp}. The torque load factor value is {warning}",
+                    "violation": "The robot {robotName} is outside the violation value at {timeStamp}. The torque load factor value is {violation}"
+                }
+            }
+        }
+    },
+
+    "maintenance": {
+        "treeViewTitle": "Maintenance Target List",
+        "checkListTableTitle": "Maintenance Category",
+        "checkListSelectorHint": "Maintenance Category",
+        "checkListInputHint": "Maintenance Desc",
+        "detailCheckListTableTitle": "[Selected] Maintenance Category",
+        "close": "CLose",
+        "save": "Maintenance Check",
+        "addMaintItem": "Maintenance Item Add",
+        "maintenanceCheckSelectorDatas": {
+            "unit": "Unit",
+            "maintPoint": "Maintenance Area"
+        },
+        "maintenanceTitle": "Hardware Lifetime Analysis",
+        "maintenanceTabNames": {
+            "hardwareLifeMaintenanceTabName" : "Hardware Maintenance",
+            "robotMaintenanceTabName": "Robot Maintenance",
+            "valveCountMaintenanceTabName": "Valve Count"
+        },
+        "maintenanceCheckListTableHeaderDatas": {
+            "maintName": "Maintenance Name",
+            "unit": "Unit",
+            "maintPoint": "Maintenance Area",
+            "progress": "Status(%)",
+            "maintDesc": "Desc",
+            "maintCycle": "Period(Month)",
+            "etc": "ETC",
+            "details": "Manual"
+        },
+        "valveCountTableHeaderDatas": {
+            "valveName": "Valve Name",
+            "progress": "Status(%)",
+            "valveMaintCount": "Maintenance Standard",
+            "currentValveCount": "Current Valve Count",
+            "details": "Manual"
+        },
+        "detailMaintenanceCheckListTableHeaderDatas": {
+            "booth": "Booth",
+            "zone": "Zone",
+            "robot": "Robot",
+            "lastCheck": "Last Check Date",
+            "lastComment": "Last Check Result",
+            "actionType": "Check Maintenance",
+            "history": "History"
+        },
+        "getSelectedCheckData": "Maintenance Target",
+        "popMsg": {
+            "inspectionList": "[Notice] No check Maintenance data.",
+            "robotInspectionList": "[Notice] No check Robot Maintenance data.",
+            "valveInspectionList": "[Notice] No check Valve Count Maintenance data.",
+            "inspectionDetailList": "[Notice] No check Maintenance detail data.",
+            "save": "[Notice] Saved.",
+            "topItemClick": "[Notice] Please click the top item.",
+            "checkSearchData": "[Notice] Please Check Search Data."
+        },
+        "child": {
+            "detailMaintenanceCheckListTable": {
+                "view": "view"
+            },
+            "maintenanceCheckListTable": {
+                "view": "view"
+            }
+        }
+    },
+
+    "alarm": {
+        "listDatas" : {
+            "alarmView": "Alarm Occurrence History",
+            "predictAlarm": "Prediction Warning Occurrence History",
+            "alarmInfos": "Search Alarm Manual",
+            "alarmManual": "Add Alarm Manual"
+        },
+        "child" : {
+            "predictAlarm": {
+                "ui": {
+                    "alarmType": "Select Alert Type",
+                    "closeBtnText": "Close",
+                    "date": {
+                        "start": "Select Start Date",
+                        "end": "Select End Date"
+                    }
+                },
+                "datas": {
+                    "predictTypes": {
+                        "p001": "Torque Range Warning",
+                        "p002": "Motor Temperature Warning",
+                        "p005": "Torque Accumulation Warning"
+                    }
+                }
+            },
+            "alarmInfos": {
+                "inputPlaceHolder": "Input Alarm Code",
+                "noManualText": "No Manual File",
+                "alarmSearchPhrase": "Search alarm code.",
+                "alarmNonePhrase": "There is no searched code.",
+                "alarmTitle": "Alarm",
+                "robotAlarmTitleInfos": {
+                    "alarmcode": "Alarm Code",
+                    "subcode": "Sub Code",
+                    "alarmtype": "Alarm Type",
+                    "alarmname": "Alarm Name",
+                    "contents": "Alarm Content",
+                    "meaning": "Alarm Meaning",
+                    "causecount": "Number of Causes"
+                },
+                "robotAlarmDetailTitleInfos": {
+                    "cause": "Alarm Cause",
+                    "remedy": "Alarm Remedy"
+                },
+                "plcAlarmTitleInfos": {
+                    "alarm_code": "Alarm Code",
+                    "alarm_type": "Alarm Type",
+                    "message": "Alarm Content"
+                }
+            },
+            "alarmManual": {
+                "inputPlaceHolder": "Input Alarm Code",
+                "searchErrorText": "Please check the alarm code.",
+                "noManualText": "No Manual File.",
+                "alarmTitleInfos": {
+                    "alarm_code": "Alarm Code",
+                    "alarmname": "Alarm Name",
+                    "alarm_type": "Alarm Type"
+                },
+                "alarmBtnTitles": {
+                    "search": "Search",
+                    "save": "Save",
+                    "delete": "Delete",
+                    "show": "Show"
+                },
+                "popMsg": {
+                    "inputFileErrorMsg": "Please check the file size (less than 10 MB)."
+                }
+            }
+        }
+    },
+
+    "alarmView": {
+        "prevDate": "Select Previous Date",
+        "currDate": "Select Current Date",
+        "booth": "Select Booth",
+        "zone": "Select Zone",
+        "robot": "Select Robot",
+        "alarmType": "Alarm Type",
+        "alarmStatus": "Alarm Status",
+        "selectAlarmCode": "Alarm code to remove",
+        "useAlarmCode": "Search Alarm Code",
+        "alarmCode": "Alarm Code",
+        "infoTableHeaderData": {
+            "booth": "Booth",
+            "zone": "Zone",
+            "robot": "Robot",
+            "alarmCode": "Alarm Code",
+            "alarm": "Alarm",
+            "occurTime": "Occurence Time",
+            "manual": "Manual"
+        },
+        "popMsg": {
+            "alarmData": "[Notice] Condition data is incorrect.",
+            "noSearchDatas": "[Notice] No data has been retrieved."
+        },
+        "child": {
+            "GridTableWithDialog": {
+                "title": "Alarm List",
+                "close": "Close",
+                "popMsg": {
+                    "alarmDataChart": "[Notice] Failed to get chart contents.",
+                    "alarmDataInfo": "[Notice] Failed to get alarm content.",
+                    "alarmManual": "[Notice] The corresponding manual does not exist.",
+                    "reqBoothId": "[Notice] Failed to get booth description.",
+                    "reqZoneId": "[Notice] Failed to get zone description.",
+                    "alarmStop": "[Notice] Failed to get alarm stop.",
+                    "alarmCompareTime": "[Notice] Condition data is incorrect.",
+                    "alarmCompareFile": "[Notice] Condition data is incorrect."
+                }
+            },
+            "alarmViewData": {
+                "title": "Alarm",
+                "close": "Close",
+                "booth": "Booth",
+                "zone": "Zone",
+                "robot": "Robot",
+                "alarmPieChart": "Rate of occurrence of inter-process alarms",
+                "alarmDescTitle": "Alarm Description",
+                "alarmMixedChart": "Maximum Alarm Stop Time (Released Alarm)",
+                "actionReportTitle": "Action Report",
+                "save": "Save",
+                "none": "None",
+                "alarmDescription": {
+                    "alarmCode": "Alarm Code",
+                    "alarmName": "Alarm Name",
+                    "alarmContents": "Alarm Description",
+                    "cause": "Cause",
+                    "contents": "Contents",
+                    "meaning": "Mean",
+                    "remedy": "Remedy solution",
+                    "subcode": "Sub Code",
+                    "subcodeinfo": "Sub Code Info",
+                    "processinfo": "Process Info",
+                    "occurtime": "OccurTime",
+                    "endtime": "EndTime",
+                    "jobname": "JOB Name",
+                    "lineno":  "Line No",
+                    "stepno":  "Step No"
+                },
+                "deadtime": "Dead Time (min)",
+                "count": "Count",
+                "emptyDesc": "No Description.",
+                "popMsg": {
+                    "getSaveActionContentDatas": "[Notice] Please select a category.",
+                    "getComfirmFlag": "[Notice] Please check your data."
+                }
+            },
+            "B001AlarmDlg": {
+                "workFile": "Job File",
+                "deleteWorkFile": "Deleted Job File",
+                "addWorkFile": "Added Job File"
+            },
+            "B002AlarmDlg": {
+                "beforeModify": "Before Modify",
+                "afterModify": "After Modify"
+            },
+            "actionList": {
+                "title": "Action List",
+                "add": "Add"
+            },
+            "alarmViewDataMixedChart": {
+                "defaultTextMessage": "No alarm stop time (released alarm) information detected"
+            },
+            "alarmViewDataPieChart": {
+                "defaultTextMessage": "No inter-process alarm rate information retrieved"
+            }
+        }
+    },
+
+    "postHistory": {
+        "prevDate": "Select Previous Date",
+        "currDate": "Select Current Date",
+        "booth": "Select Booth",
+        "zone": "Select Zone",
+        "robot": "Select Robot",
+        "alarmCode": "Select Alarm Type",
+        "codeSearch": "Input Code",
+        "searchHintText": "Select Search Condition",
+        "inputHintText": "Enter Search Condition",
+        "selectTypeHintText": "Select Action Type",
+        "actionReportTitle": "Action Item Report",
+        "saveText": "Save",
+        "closeText": "Close",
+        "infoTableHeaderData": {
+            "occurDate": "Occurence Date",
+            "occurTime": "Occurence Time",
+            "actionTime": "Action Time",
+            "booth": "Booth",
+            "zone": "Zone",
+            "robot": "Robot",
+            "alarmDesc": "Alarm Description",
+            "actionDesc": "Action Description",
+            "alarmCode": "Alarm Code",
+            "deadTime": "Dead Time",
+            "delete": "Delete"
+        },
+        "searchTypes": {
+            "alarmcode": "Alarm Code",
+            "typename": "Action Type",
+            "title": "Action Title",
+            "tag": "Action tag",
+            "userid": "Writer"
+        },
+        "createBtnClick": "[Notice] Booth / Zone / Robot / Alarm Type is not selected.",
+        "popMsg": {
+            "dataList": "[Notice] Condition data is incorrect.",
+            "checkDataList": "[Notice] Check the data again.",
+            "checkTagDatas": "[Notice] Duplicate tags not available."
+        },
+        "child": {
+            "HistoryList": {
+                "title": "Action History List",
+                "postReportTitle": "Action Item Report",
+                "comfirmText": "Comfirm",
+                "closeText": "Close",
+                "acceptText": "Accept",
+                "deleteText": "Delete",
+                "writer": "Writer",
+                "date": "Date",
+                "popMsg": {
+                    "checkDataList": "[Notice] Check the data again.",
+                    "checkTagDatas": "[Notice] Duplicate tags not available.",
+                    "deleteDataList": "[Notice] You can delete only the actions you have prepared.",
+                    "acceptDataList": "[Notice] You can accept only the actions you have prepared."
+                }
+            },
+            "GridTableWithDialog": {
+                "title": "View history",
+                "close": "Close",
+                "popMsg": {
+                    "deleteDate": "[Notice] Delected."
+                }
+            },
+            "PostHistoryData": {
+                "title": "History",
+                "close": "Close",
+                "date": "Date",
+                "occurTime": "Occurence Time",
+                "actionTime": "Action Time",
+                "dt": "DT",
+                "booth": "Booth",
+                "zone": "Zone",
+                "robot": "Robot",
+                "alarmCode": "Alarm Code",
+                "causeDesc": "Cause Desc",
+                "actionDesc": "Action Desc",
+                "userid": "User ID",
+                "create": "Create",
+                "modify": "Modify",
+                "popMsg": {
+                    "createData": "[Notice] The creation is complete.",
+                    "modifyData": "[Notice] This change is complete."
+                }
+             }
+        }
+    },
+
+    "manual": {
+        "infoTableHeaderData": {
+            "manualName": "Manual Name",
+            "fileName": "File Name",
+            "fileFormat": "File Format"
+        },
+        "child": {
+            "GridTableWithPdf": {
+                "close": "Close",
+                "robotManual": "Robot Manual",
+                "maintenanceManual": "Maintenance Manual",
+                "troubleShootingManual": "Troubleshooting Manual"
+            },
+            "GridTableWithVideo": {
+                "close": "close",
+                "videoManual": "Video Manual"
+            }
+        }
+    },
+
+    "backupview": {
+        "timestamp": "Time Stamp",
+        "booth": "Booth",
+        "zone": "Zone",
+        "robot": "Robot",
+        "save": "Save",
+        "popMsg": {
+            "backupData": "[Notice] There is no backup data that meets the conditions."
+        },
+        "child": {
+            "backupDataTable": {
+                "title": "Backup",
+                "close": "Close"
+            },
+            "backupDetail": {
+                "fileDownload": "Download individual files"
+            }
+        },
+        "search": "SEARCH",
+        "backupdatatable": {
+            "title": "BACKUP VIEW",
+            "time": "TIME",
+            "booth": "BOOTH",
+            "zone": "ZONE",
+            "robot": "ROBOT",
+            "detail": "DETAIL",
+            "save": "SAVE",
+            "backupdetail": {
+                "backuphistory": {
+                    "title": "Backup History",
+                    "filename": "File Name",
+                    "datetime": "DateTime"
+                },
+                "downloadtitle": "JOB File Download",
+                "downloadlink": "File Download",
+                "close": "CLOSE"
+            }
+        }
+    },
+    "extra": {
+        "drawerTitle": {
+            "manual": "Manual",
+            "production": "Production History",
+            "vin-no-production-history": "VIN NO",
+            "backup": "BackUp"
+        },
+        "child": {
+            "production": {
+                "title": "Production History",
+                "chart-title": "Production History Chart",
+                "result-title": "Production History Result",
+                "msg": {
+                    "noData": "No Production History Data"
+                }
+            },
+            "vin-no-production-history": {
+                "dateTitle": "Search Date",
+                "searchTitle": "VIN NO",
+                "chartTitle": "Production Data Chart",
+                "summaryTitle": "Total Production Data Information",
+                "contentsTitle": "Production Data Information",
+                "emptyTitle": "No Production Data Information",
+                "alertText": "Check the search conditions."
+            },
+            "backup": {
+                "title": "BackUp List",
+                "empty": "No Backup History",
+                "tableHeader": {
+                    "date": "Date",
+                    "fileName": "File Name",
+                    "download": "Download"
+                }
+            }
+        }
+    }
+}

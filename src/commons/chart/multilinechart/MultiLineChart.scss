@@ -1,0 +1,18 @@
+.multi-line-chart-container {
+  $self: #{&};
+  display: flex;
+  width: 100%;
+  min-height: 280px;
+  height: 100%;
+  margin: 0 0 8px 0;
+  &:last-child {
+    margin: 0;
+  }
+  &-empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 280px;
+    font-size: 18px;
+  }
+}

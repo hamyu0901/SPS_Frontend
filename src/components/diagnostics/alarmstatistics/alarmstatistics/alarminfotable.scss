@@ -1,0 +1,33 @@
+    table.v-table thead tr {
+      height: 60px;
+      background-color: #21263a;
+      color: #bdc2dc;
+      border-bottom-color: #21263a !important;
+    }
+
+    table.v-table thead tr th {
+      font-size: 14px;
+    }
+
+    table.v-table tbody tr {
+      height: 44px; 
+      color: #bdc2dc;
+    }
+
+    table.v-table tbody tr:nth-of-type(odd) {
+      background-color: #2a2f44;
+      border-bottom-color: #2a2f44;
+    }
+
+    table.v-table tbody tr:nth-of-type(even) {
+      background-color: #21263a;
+      border-bottom-color: #21263a;
+    }
+
+    table.v-table tbody tr:hover {
+      background-color: #3c5d99 !important;
+    }
+
+    .totalCount {
+      vertical-align: middle;
+    }

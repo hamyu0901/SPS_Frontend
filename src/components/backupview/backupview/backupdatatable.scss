@@ -1,0 +1,13 @@
+@import "src/commons/table";
+td p {
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    width: 100px;
+}
+.closeBtn {
+    background-color: var(--closeBtnBackgroundColor) !important;
+}
+.tdText { 
+  color: var(--tdTextColor);
+}
